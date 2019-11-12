@@ -7,11 +7,11 @@ body{
 	width:100%;
 	margin:0;
 	padding:0;
-	background-color:black;
+	background-color:white;
 }
 header{
 	width:100%;
-	background-color:black;
+	background-color:white;
 }
 
 
@@ -20,16 +20,15 @@ header{
 	width:100%;
 	height:auto;
 	display:block;
-	position:fixed;
+	position:absolute;
 }
 .menu img{
-	width:200px;
+	width:20%;
 	height:auto;
-	margin-left:10px;
-	margin-right:auto;
+	margin-left:40%;
 	margin-top:auto;
 	display:block;
-	position:fixed;
+	position:absolute;
 	z-index:5;
 }
 .menu a.active{
@@ -61,9 +60,10 @@ header{
 
 /* navigation bar */
 nav{
-	margin-left:8%; 
-	position:absolute;
-	float:none;
+	width:90%;
+	position:relative;
+	margin-left:5%;
+	padding-top:8%;
 }
 nav ul{
 	position:relative;
@@ -94,7 +94,6 @@ nav ul li a{
 }
 nav li{
 	display: inline-block;
-	border-right: 1px solid black;	
 }
 nav li a{
 	color: white;
@@ -113,8 +112,10 @@ nav li a:hover{
 /* video */
 video{
 	width:100%;
-	height:100%;
+	height:auto;
+	z-index:-100;
 	overflow:hidden;
+	position:absolute;
 }
 
 /* hero text*/
@@ -124,7 +125,7 @@ video{
 	top:50%;
 	left:50%;
 	transform:translate(-50%, -50%);
-	color:white;
+	color:black;
 }
 .hero-text h1{
 	font-size:60px;
@@ -216,3 +217,132 @@ td {
 	padding: 0px;
 }
 
+/*arrow*/
+.arrow{
+	float:right;
+	position:relative;
+	bottom:-10%;
+}
+
+/*form*/
+form input[type=text], select, textarea {
+  width:100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color:black;
+}
+form input[type=email]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color:black;
+}
+form input[type=date]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color:black;
+}
+form input[type=number]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color:black;
+}
+form button[type=submit] {
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+form button[type=submit]:hover {
+  background-color:grey;
+}
+form {
+	background-color:#e3e4e6;
+    width:100%;
+	padding:40px;
+}
+form .column {
+	background-color:#e3e4e6;
+    position:relative;
+    left:0%;
+	width:100%;
+	margin-top: 6px;
+	padding: 20px;
+	color:black;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+form label{
+	color:black;
+	float:left;
+	font-size:20px;
+	font-family:FreightSansProBook-Regular;
+}
+
+@media screen and (max-width: 1300px) {
+  .column, button[type=submit] {
+    width:100%;
+    margin-top:0;
+  }
+}
+
+
+
+
+/*footer*/
+footer{
+	background-color:black;
+	color:white;
+	font-size: 0.8em;
+	font-family:italic;
+	display:none;
+}
+footer p{
+	background-color:black;
+	color:white;
+	font-size: 1.3em;
+	font-family:italic;
+	text-align: center;
+}
+footer .footer-1{
+	margin-right:2%;
+}
+footer .footer-2{
+	margin-right:2%;
+}
+footer .footer-3{
+	margin-right:2%;
+}
+footer i{
+	color:white;
+	font-size: 1.2em;
+	font-family:italic;
+	text-align:center;
+	margin-right:2%;
+}
+.socialmedia{
+    width:2%;
+    height:2%;
+}
+.contact{
+    width:2%;
+    height:2%; 	
+}
