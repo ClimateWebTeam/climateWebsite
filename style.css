@@ -34,7 +34,7 @@ header{
 .menu a.active{
 	border:3px solid black;
 	background-color:black;
-	color:black;
+	color:white;
 	display:inline-block;
 	float:right;
 	font-size:20px;
@@ -51,7 +51,7 @@ header{
 .menu a.active:hover{
 	border:3px solid black;
 	background-color:black;
-	color:black;
+	color:white;
 	font-size:20px;
 	text-decoration:none;
 	position:relative;
@@ -221,7 +221,7 @@ td {
 .arrow{
 	float:right;
 	position:relative;
-	bottom:-10%;
+	bottom:10%;
 }
 
 /*form*/
@@ -275,6 +275,7 @@ form {
 	background-color:#e3e4e6;
     width:100%;
 	padding:40px;
+	display:none;
 }
 form .column {
 	background-color:#e3e4e6;
