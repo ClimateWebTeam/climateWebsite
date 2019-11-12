@@ -7,11 +7,11 @@ body{
 	width:100%;
 	margin:0;
 	padding:0;
-	background-color:black;
+	background-color:white;
 }
 header{
 	width:100%;
-	background-color:black;
+	background-color:white;
 }
 
 
@@ -20,16 +20,15 @@ header{
 	width:100%;
 	height:auto;
 	display:block;
-	position:fixed;
+	position:absolute;
 }
 .menu img{
-	width:250px;
+	width:20%;
 	height:auto;
-	margin-left:auto;
-	margin-right:auto;
+	margin-left:40%;
 	margin-top:auto;
 	display:block;
-	position:fixed;
+	position:absolute;
 	z-index:5;
 }
 .menu a.active{
@@ -61,10 +60,10 @@ header{
 
 /* navigation bar */
 nav{
- 
-	position:absolute;
-	float:none;
-	padding-top:10%;
+	width:90%;
+	position:relative;
+	margin-left:5%;
+	padding-top:8%;
 }
 nav ul{
 	position:relative;
@@ -95,7 +94,6 @@ nav ul li a{
 }
 nav li{
 	display: inline-block;
-	border-right: 1px solid black;	
 }
 nav li a{
 	color: white;
@@ -115,7 +113,7 @@ nav li a:hover{
 video{
 	width:100%;
 	height:auto;
-	overflow:hidden;
+	/* overflow:hidden; */
 }
 
 /* hero text*/
@@ -135,4 +133,11 @@ video{
 .hero-text p{
 	font-size:35px;
 	text-align:center;
+}
+
+/*arrow*/
+.arrow{
+	float:right;
+	position:relative;
+	padding-bottom:100%;
 }
