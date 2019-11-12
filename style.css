@@ -115,7 +115,7 @@ video{
 	height:auto;
 	z-index:-100;
 	overflow:hidden;
-	position:absolute;
+	position:relative;
 }
 
 /* hero text*/
@@ -233,7 +233,6 @@ footer{
 	color:white;
 	font-size: 0.8em;
 	font-family:italic;
-	display:none;
 }
 footer p{
 	background-color:black;
