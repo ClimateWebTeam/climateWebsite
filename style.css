@@ -140,7 +140,7 @@ video{
 /*hero Images*/
 .imgbg{
 	/* linear gradient is used to darken the image*/
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("AboutUsBackground.jpg");
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("AboutUsBackground.jpg");
 	background-size:cover;
 	background-attachment:fixed;
 	background-position:center;
