@@ -113,7 +113,9 @@ nav li a:hover{
 video{
 	width:100%;
 	height:auto;
-	/* overflow:hidden; */
+	z-index:-100;
+	overflow:hidden;
+	position:absolute;
 }
 
 /* hero text*/
