@@ -79,6 +79,7 @@ nav a{
 	margin:0 10px;
 	line-height:70px;
 	overflow:hidden;
+	font-size: 30px;
 }
 nav ul li{
 	display:inline;
