@@ -249,32 +249,27 @@ form button[type=submit]:hover {
   background-color:grey;
 }
 form {
-	background-color:#e3e4e6;
-    width:100%;
-	padding:40px;
-	display:none;
-}
-form .column {
-	background-color:#e3e4e6;
-    position:relative;
-    left:0%;
-	width:100%;
-	margin-top: 6px;
-	padding: 20px;
-	color:black;
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-@media screen and (max-width: 1300px) {
-  .column, button[type=submit] {
-    width:100%;
-    margin-top:0;
-  }
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	box-sizing: border-box;
+	background: hsl(200,70%,90%);
+	box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+	padding: 20px 50px;
+	border: 20vw solid rgba(0,0,0,0.5);
+	border-bottom: 80vh solid rgba(0,0,0,0.52);
+	transition: 0.2s ease;
+	z-index: -1;
+	opacity: 0;
+} 
+body.form-active form {
+	opacity: 1;
+	z-index: 10;
 }
 
 
