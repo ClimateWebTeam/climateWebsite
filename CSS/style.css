@@ -31,32 +31,7 @@ header{
 	position:absolute;
 	z-index:5;
 }
-.menu a.active{
-	border:3px solid black;
-	background-color:black;
-	color:white;
-	display:inline-block;
-	float:right;
-	font-size:20px;
-	text-decoration:none;
-	margin-left:10px;
-	margin-right:auto;
-	margin-top:auto;
-	line-height:50px;
-	overflow:hidden;
-	padding:5px 40px;
-	position:relative;
-	z-index:5;
-}
-.menu a.active:hover{
-	border:3px solid black;
-	background-color:black;
-	color:white;
-	font-size:20px;
-	text-decoration:none;
-	position:relative;
-	cursor: pointer;
-}
+
 
 /* navigation bar */
 nav{
@@ -79,6 +54,7 @@ nav a{
 	margin:0 10px;
 	line-height:70px;
 	overflow:hidden;
+	font-size: 30px;
 }
 nav ul li{
 	display:inline;
@@ -225,15 +201,33 @@ td {
 }
 
 /*form*/
-form input[type=text], select, textarea {
-  width:100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-  color:black;
+#sign-up{
+	border:3px solid black;
+	background-color:black;
+	color:white;
+	display:inline-block;
+	float:right;
+	font-size:20px;
+	text-decoration:none;
+	margin-left:10px;
+	margin-right:auto;
+	margin-top:auto;
+	line-height:50px;
+	overflow:hidden;
+	padding:5px 40px;
+	position:relative;
+	z-index:5;
 }
+#sign-up:hover{
+	border:3px solid black;
+	background-color:black;
+	color:white;
+	font-size:20px;
+	text-decoration:none;
+	position:relative;
+	cursor: pointer;
+}
+
 form input[type=email]{
   width: 100%;
   padding: 12px;
@@ -243,24 +237,7 @@ form input[type=email]{
   resize: vertical;
   color:black;
 }
-form input[type=date]{
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-  color:black;
-}
-form input[type=number]{
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-  color:black;
-}
+
 form button[type=submit] {
   background-color: white;
   color: black;
@@ -272,37 +249,27 @@ form button[type=submit]:hover {
   background-color:grey;
 }
 form {
-	background-color:#e3e4e6;
-    width:100%;
-	padding:40px;
-	
-}
-form .column {
-	background-color:#e3e4e6;
-    position:relative;
-    left:0%;
-	width:100%;
-	margin-top: 6px;
-	padding: 20px;
-	color:black;
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-form label{
-	color:black;
-	float:left;
-	font-size:20px;
-	font-family:FreightSansProBook-Regular;
-}
-
-@media screen and (max-width: 1300px) {
-  .column, button[type=submit] {
-    width:100%;
-    margin-top:0;
-  }
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	box-sizing: border-box;
+	background: hsl(200,70%,90%);
+	box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+	padding: 20px 50px;
+	border: 20vw solid rgba(0,0,0,0.5);
+	border-bottom: 80vh solid rgba(0,0,0,0.52);
+	transition: 0.2s ease;
+	z-index: -1;
+	opacity: 0;
+} 
+body.form-active form {
+	opacity: 1;
+	z-index: 10;
 }
 
 
