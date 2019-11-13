@@ -39,7 +39,13 @@ app.post('/formdata', [
 	//Checks to see if 'name' element of the form is empty
 
 	check('name')
-	.not().isEmpty()
+	.not().isEmpty().withMessage('Name cannot be empty')
+	.isLength({
+		min: 3
+	}).withMessage('Name must be at least 3 characters')
+	.isAlpha().withMessage('Name cannot contain numbers or special characters')
+
+
 
 ], (request, response) => {
 	

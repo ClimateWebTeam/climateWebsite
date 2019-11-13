@@ -25,6 +25,10 @@ function sendData(e){
 		
 		let error = document.querySelector('.error');
 		
+		//Reset errors ater every refresh
+		
+		error.innerHTML = "";
+		
 		//document.querySelector('.errorContainer').style.display = "block";
 		
 		data.errors.forEach(function(err){
