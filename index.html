@@ -3,7 +3,7 @@
 <head>	
 	<meta charset="UTF-8">
 	<title> CMP </title>
-	<link type="text/css" rel = "stylesheet" href = "style.css">
+	<link type="text/css" rel = "stylesheet" href = "CSS/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">	   
 </head>  
 
@@ -13,7 +13,6 @@
 
 	<div class="menu">	
 		<a href="index.html" class="logo"><img src="logo.png" alt="Logo"></a>
-		<a href="" class="active" >SIGN-UP</a>
 					
 			<nav>	
 				<ul>
@@ -38,7 +37,7 @@
 	  Your browser does not support the video tag.
 	</video>
 	
-
+	<a href="AboutUs.html"><img class="arrow" src="arrow_forward.png" alt="forwardArrow"/></a>
 
 	<div class="hero-text">
 
@@ -50,17 +49,35 @@
 
 </div>
 
-<a href="AboutUs.html"><img class="arrow" src="arrow_forward.png" alt="forwardArrow"/>
+
+<script src = "JS/wp.js"></script>
 
 
-<form>
-	<input type = "text" placeholder = "Name">Name Goes Here</input>
-	
-	<button type = "submit"></button>
+<button id="sign-up" onclick="toggleForm();"> SIGN-UP </button>
 
-</form>
+<section>
+
+	<form>
+		<div>
+			<ul class = "error"></ul>
+		</div>
+		<div class = "label">
+		<label for = "">Name</label>
+		</div>
+		<div class = "input">
+			<input type = "text" placeholder = "Name" name = "name">
+		</div>
+		<div class = "label">
+		<label for = "">Email</label>
+		</div>
+		<div class = "input">
+			<input type = "email" placeholder = "Email" name = "email">
+		</div>
+		<button class = "submit">Submit</button>
+	</form>
 
 
+</section>
 
 <footer>
 
@@ -72,9 +89,10 @@
 	<a- class = "footer-3">Last updated November 2019 </a>
 
 	<a href="mailto:someone@example.com"><img src="baseline_email_white_48dp.png" alt="email" class="contact"></a>
-	<a href="  "><img src="baseline_phone_white_48dp.png" alt="number" class="contact"></a>
-	<a href="  "><img src="iconfinder_-03_3057696.png" alt="instagram" class="socialmedia"></a>
-	<a href="  "><img src="iconfinder_-04_3057625.png" alt="facebook" class="socialmedia"></a>  </p> 
+	<a href=" 0123456789 "><img src="baseline_phone_white_48dp.png" alt="number" class="contact"></a>
+	<a href=" https://www.instagram.com/unfccc/?hl=en "><img src="iconfinder_-03_3057696.png" alt="instagram" class="socialmedia"></a>
+	<a href=" https://www.facebook.com/UNclimatechange/ "><img src="iconfinder_-04_3057625.png" alt="facebook" class="socialmedia"></a>  
+</p> 
 
 </footer>
 
