@@ -155,7 +155,13 @@ video{
 	 position: relative;
 	 top:50%;
 }
-
+.herotext h1{
+	font-size:60px;
+	text-align:center;
+	line-height:50px;
+	position:relative;
+	top:10%;
+}
 /* article{
 	width: 70%;
 	position: relative;
@@ -216,6 +222,13 @@ td {
 	margin: 0px;
 	padding: 0px;
 }
+
+
+
+
+
+
+
 
 /*arrow*/
 .arrow{
