@@ -45,8 +45,11 @@ app.post('/formdata', [
 	}).withMessage('Name must be at least 3 characters')
 	.isAlpha().withMessage('Name cannot contain numbers or special characters')
 
+	//Includes generic error message
 
-
+	check('email', 'Email is not valid')
+	.isEmail()
+	
 ], (request, response) => {
 	
 	//Creates a response to serve with the validation with info about any errors
