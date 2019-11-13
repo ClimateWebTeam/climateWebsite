@@ -23,6 +23,14 @@ function sendData(e){
 	.then(response => response.json())
 	.then(data => {
 		
+		let error = document.querySelector('.error');
+		
+		//document.querySelector('.errorContainer').style.display = "block";
+		
+		data.errors.forEach(function(err){
+			error.innerHTML += `<li>${err.msg}</li>`
+		});
+		
 		console.log(data);
 		
 	})
