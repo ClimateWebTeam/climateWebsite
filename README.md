@@ -1,10 +1,14 @@
 #Climate Change Website for the CCC report
 
+To get this project working you will need NodeJS installed then navigate to working DIR of project and run "node index.js" then navigate to localhost:3000 in the browser to see the server
+
 How to update the Repo from the command line:
 
 Before you do any work on the project open the Command Line (Windows key + Search cmd) run the following command to update your local version on your computer:
 
 $ git pull
+
+To save your changes complete the following commands:
 
 $ git add .
 
