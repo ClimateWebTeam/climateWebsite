@@ -3,6 +3,7 @@ const app = express();
 const port = 3000;
 const path = require('path');
 const bodyParser = require('body-parser');
+const { check, validationResult } = require('express-validator');
 
 let urlencoded = bodyParser.urlencoded({extended: false});
 
@@ -17,9 +18,28 @@ app.get('/', (request, response) => {
 	
 });
 
-app.post('/formdata', (request, response) => {
+app.post('/formdata', [
+
+	check('name')
+	.not().isEmpty()
+
+], (request, response) => {
 	
-	console.log(request.body);
+	const errors = validationResult(request)
+	
+	of (!errors.isEmpty()){
+		return response.status(422).json({
+			errors: errors.array()
+		})
+	}
+	
+	response.status(202).json({
+		success: 'Okay'
+	})
+	
+	console.log(request.body.name);
+	
+	
 	
 })
 
