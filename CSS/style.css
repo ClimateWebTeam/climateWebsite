@@ -202,52 +202,16 @@ td {
 
 /*form*/
 #sign-up{
-	border:3px solid black;
-	background-color:black;
-	color:white;
-	display:inline-block;
-	float:right;
-	font-size:20px;
-	text-decoration:none;
-	margin-left:10px;
-	margin-right:auto;
-	margin-top:auto;
-	line-height:50px;
-	overflow:hidden;
-	padding:5px 40px;
-	position:relative;
-	z-index:5;
-}
-#sign-up:hover{
-	border:3px solid black;
-	background-color:black;
-	color:white;
-	font-size:20px;
-	text-decoration:none;
-	position:relative;
-	cursor: pointer;
+	display: block;
+	position: relative;
+	top: 40vh;
+	margin: 0 auto;
+	padding: 20px 40px;
+	border: 0;
+	background: hsl(200,85%,60%);
+	color: white;
 }
 
-form input[type=email]{
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-  color:black;
-}
-
-form button[type=submit] {
-  background-color: white;
-  color: black;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
-}
-form button[type=submit]:hover {
-  background-color:grey;
-}
 form {
 	display: block;
 	position: absolute;
@@ -271,6 +235,22 @@ body.form-active form {
 	opacity: 1;
 	z-index: 10;
 }
+
+input[type="text"], textarea, input[type="submit"] {
+	display: block;
+	box-sizing: border-box;
+	border: 0;
+	margin: 10px 0;
+	padding: 20px 40px;
+	text-align: center;
+	background: hsl(0,0%,98%);
+	width: 100%;
+	color: hsl(200, 85%, 20%);
+}
+
+
+
+
 
 /*chapter 1*/
 .ch1{
