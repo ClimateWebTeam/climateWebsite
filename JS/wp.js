@@ -40,17 +40,11 @@ function sendData(e){
 
 
 
-// var body = document.getElementsByTagName('body')[0];
 
-// function toggleForm() {
-	// body.classList.toggle('form-active');
-// }
 
 /*newsletter form*/
-$('button').click(function(){
-  $('.pop-up').addClass('open');
-});
+var body = document.getElementsByTagName('body')[0];
 
-$('.pop-up .close').click(function(){
-  $('.pop-up').removeClass('open');
-});
+function toggleForm() {
+	body.classList.toggle('form-active');
+}
