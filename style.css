@@ -272,7 +272,11 @@ body.form-active form {
 	z-index: 10;
 }
 
-
+/*chapter 1*/
+.ch1{
+	width:100%;
+	height:auto;
+}
 
 
 /*footer*/
