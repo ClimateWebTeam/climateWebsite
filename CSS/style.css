@@ -256,6 +256,7 @@ input[type="text"], textarea, input[type="submit"] {
 .ch1{
 	width:100%;
 	height:auto;
+	position:relative;
 }
 
 
