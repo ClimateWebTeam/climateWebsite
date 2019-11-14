@@ -72,18 +72,12 @@
 
 /*newsletter form*/
 
-// function openForm() {
-  // document.getElementById("myForm").style.display = "block";
-// }
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
 
-// function closeForm() {
-  // document.getElementById("myForm").style.display = "none";
-// }
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
 
-$('button').click(function(){
-  $('.pop-up').addClass('open');
-});
 
-$('.pop-up .close').click(function(){
-  $('.pop-up').removeClass('open');
-});
