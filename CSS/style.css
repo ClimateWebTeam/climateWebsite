@@ -285,8 +285,18 @@ td {
 
 /*small text*/
 sub {
-  vertical-align: sub;
-  font-size: smaller;
+	vertical-align: sub;
+	font-size: smaller;
+}
+
+.chapter1 h1{
+	font-size:100px;
+}
+.chapter1 p b li{
+	
+}
+.chapter1 p{
+	
 }
 
 
