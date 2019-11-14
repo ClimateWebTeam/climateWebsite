@@ -283,6 +283,11 @@ td {
 	position:relative;
 }
 
+/*small text*/
+sub {
+  vertical-align: sub;
+  font-size: smaller;
+}
 
 
 /*footer*/
