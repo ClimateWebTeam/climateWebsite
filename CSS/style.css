@@ -202,72 +202,425 @@ td {
 }
 
 /*form*/
-/* Button used to open the contact form - fixed at the bottom of the page */
-.open-button {
-  background-color: #555;
-  color: white;
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
-  opacity: 0.8;
-  position: fixed;
-  bottom: 23px;
-  right: 28px;
-  width: 280px;
+/* /* Button used to open the contact form - fixed at the bottom of the page */ */
+/* .open-button { */
+  /* background-color: #555; */
+  /* color: white; */
+  /* padding: 16px 20px; */
+  /* border: none; */
+  /* cursor: pointer; */
+  /* opacity: 0.8; */
+  /* position: fixed; */
+  /* bottom: 23px; */
+  /* right: 28px; */
+  /* width: 280px; */
+/* } */
+
+/* /* The popup form - hidden by default */ */
+/* .form-popup { */
+  /* display: none; */
+  /* position: fixed; */
+  /* bottom: 0; */
+  /* right: 15px; */
+  /* border: 3px solid #f1f1f1; */
+  /* z-index: 50; */
+/* } */
+
+/* /* Add styles to the form container */ */
+/* .form-container { */
+  /* max-width: 300px; */
+  /* padding: 10px; */
+  /* background-color: white; */
+/* } */
+
+/* /* Full-width input fields */ */
+/* .form-container input[type=text], .form-container input[type=password] { */
+  /* width: 100%; */
+  /* padding: 15px; */
+  /* margin: 5px 0 22px 0; */
+  /* border: none; */
+  /* background: #f1f1f1; */
+/* } */
+
+/* /* When the inputs get focus, do something */ */
+/* .form-container input[type=text]:focus, .form-container input[type=password]:focus { */
+  /* background-color: #ddd; */
+  /* outline: none; */
+/* } */
+
+/* /* Set a style for the submit/login button */ */
+/* .form-container .btn { */
+  /* background-color: #4CAF50; */
+  /* color: white; */
+  /* padding: 16px 20px; */
+  /* border: none; */
+  /* cursor: pointer; */
+  /* width: 100%; */
+  /* margin-bottom:10px; */
+  /* opacity: 0.8; */
+/* } */
+
+/* /* Add a red background color to the cancel button */ */
+/* .form-container .cancel { */
+  /* background-color: red; */
+/* } */
+
+/* /* Add some hover effects to buttons */ */
+/* .form-container .btn:hover, .open-button:hover { */
+  /* opacity: 1; */
+/* } */
+
+/* COLORS
+========================================== */
+
+$gray: #3e4146;
+$blue: #689bf6;
+$yellow: #ffd84c;
+$orange: #f66867;
+$purple: #8e6ac1;
+$white: #ffffff;
+$black: #000000;
+
+/* MIXINS
+========================================== */
+
+@mixin animation($animation) {
+  -webkit-animation: #{$animation};
+     -moz-animation: #{$animation};
+       -o-animation: #{$animation};
+          animation: #{$animation};
 }
 
-/* The popup form - hidden by default */
-.form-popup {
-  display: none;
-  position: fixed;
-  bottom: 0;
-  right: 15px;
-  border: 3px solid #f1f1f1;
-  z-index: 50;
+@mixin animation-delay($animation-delay) {
+  -webkit-transition-delay: #{$animation-delay};
+     -moz-transition-delay: #{$animation-delay};
+       -o-transition-delay: #{$animation-delay};
+          transition-delay: #{$animation-delay};
 }
 
-/* Add styles to the form container */
-.form-container {
-  max-width: 300px;
-  padding: 10px;
-  background-color: white;
+@mixin keyframes($keyframes) {
+  @-webkit-keyframes #{$keyframes} { @content; }
+     @-moz-keyframes #{$keyframes} { @content; }
+       @-o-keyframes #{$keyframes} { @content; }
+          @keyframes #{$keyframes} { @content; }
 }
 
-/* Full-width input fields */
-.form-container input[type=text], .form-container input[type=password] {
+@mixin transform($transform) {
+  -webkit-transform: $transform;
+     -moz-transform: $transform;
+      -ms-transform: $transform;
+       -o-transform: $transform;
+          transform: $transform;
+}
+
+@mixin transition($transition) {
+  -webkit-transition: #{$transition};
+     -moz-transition: #{$transition};
+       -o-transition: #{$transition};
+          transition: #{$transition};
+}
+
+@mixin transition-delay($transition-delay) {
+  -webkit-transition-delay: #{$transition-delay};
+     -moz-transition-delay: #{$transition-delay};
+       -o-transition-delay: #{$transition-delay};
+          transition-delay: #{$transition-delay};
+}
+
+/* KEYFRAMES
+========================================== */
+
+@include keyframes(float) {
+  0% {
+		transform: translatey(0px);
+    transform: translatex(0px);
+	}
+	50% {
+		transform: translatey(-30px);
+    transform: translatex(20px);
+	}
+	100% {
+		transform: translatey(0px);
+    transform: translatex(0px);
+	}
+}
+
+/* RESET
+========================================== */
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: $gray;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* BUTTON
+========================================== */
+
+.button {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  border: none;
-  background: #f1f1f1;
+  height: 100%;
+  z-index: 2;
+  
+  button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    @include transform(translate(-50%, -50%));
+    
+    font-family: inherit;
+    background-color: $white;
+    border: 0;
+    padding: 15px 25px;
+    color: $black;
+    text-transform: uppercase;
+    font-size: 21px;
+    letter-spacing: 1px;
+    width: 200px;
+    overflow: hidden;
+    outline: 0;
+    @include transition(all .4s);
+    visibility: visible;
+    opacity: 1;
+    font-weight: bold;
+    box-shadow: 0px 6px 30px rgba(0,0,0,0.6);
+    
+    &:hover {
+      cursor: pointer;
+      background-color: $purple;
+      color: $white;
+    }
+    
+    span {
+      
+      opacity: 1;
+    }
+  }
+  
+  &.clicked {
+    button {
+      visibility: hidden;
+      oacity: 0;
+    }
+  }
 }
 
-/* When the inputs get focus, do something */
-.form-container input[type=text]:focus, .form-container input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
+/* POP-UP
+========================================== */
 
-/* Set a style for the submit/login button */
-.form-container .btn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
+.pop-up {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  @include transform(translate(-50%, -50%) scale(0.9));
+  overflow-y: auto; 
+  box-shadow: 0px 6px 30px rgba(0,0,0,0.4);
+  visibility: hidden;
+  opacity: 0;
+  @include transition(all .3s);
+  z-index: 10;
+  background-color: $white;
   width: 100%;
-  margin-bottom:10px;
-  opacity: 0.8;
-}
-
-/* Add a red background color to the cancel button */
-.form-container .cancel {
-  background-color: red;
-}
-
-/* Add some hover effects to buttons */
-.form-container .btn:hover, .open-button:hover {
-  opacity: 1;
+  height: 100%;
+  
+  @media (min-width: 768px) {
+    width: calc(100% - 40px);
+    height: auto;
+    max-width: 900px;
+  }
+  
+  .content {
+    width: 100%;
+    max-width: 900px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    min-height: 100vh;
+    
+    @media (min-width: 768px) {
+      min-height: inherit;
+    }
+    
+    .container {
+      padding: 100px 20px 140px;
+      
+      @media (min-width: 568px) {
+        padding: 50px 20px 80px;
+      }
+      
+      @media (min-width: 768px) {
+        padding: 70px 0px 90px;
+        max-width: 520px;
+        margin: 0 auto;
+      }
+    }
+    
+    .close {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      font-size: 1.1rem;
+      letter-spacing: 0.05rem;
+      color: $gray;
+      @include transition(all .4s);
+      
+      &:hover {
+        cursor: pointer;
+        color: $orange;
+      }
+    }
+    
+    .dots {
+      .dot {
+        position: absolute;
+        border-radius: 100%;
+        z-index: 11;
+        
+        &:nth-of-type(1) {
+          top: -80px;
+          right: -80px;
+          width: 160px;
+          height: 160px;
+          background-color: $blue;
+          @include animation(float 6s ease-in-out infinite);
+          
+          @media (min-width: 768px) {
+            top: -190px;
+            right: -190px;
+            width: 380px;
+            height: 380px;
+          }
+        }
+        
+        &:nth-of-type(2) {
+          bottom: -120px;
+          left: -120px;
+          width: 240px;
+          height: 240px;
+          background-color: $orange;
+          @include animation(float 8s ease-in-out infinite);
+        }
+        
+        &:nth-of-type(3) {
+          bottom: -50px;
+          right: -50px;
+          width: 100px;
+          height: 100px;
+          background-color: $yellow;
+          @include animation(float 4s ease-in-out infinite);
+        }
+      }
+    }
+    
+    .title {
+      h1 {
+        text-align: center;
+        color: $orange;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 2.8rem; //1.4
+        letter-spacing: 0.05rem;
+      }
+    }
+    
+    img {
+      width: 100%;
+      max-width: 220px;
+      display: inline-block;
+      margin: 30px 0 40px 0;
+      opacity: 0;
+      @include transform(translateX(60px));
+      @include transition(.2s);
+      -webkit-backface-visibility: hidden;
+      
+      @media (min-width: 768px) {
+        max-width: 300px;
+      }
+    }
+    
+    .subscribe {
+      h1 {
+        font-size: 1.5rem;
+        color: $gray;
+        line-height: 130%;
+        letter-spacing: 0.07rem;
+        margin-bottom: 30px;
+        
+        span {
+          color: $orange;
+        }
+      }
+      
+      form {
+        overflow: hidden;
+        
+        input {
+          width: 100%;
+          float: left;
+          padding: 15px 20px;
+          text-align: center;
+          font-family: inherit;
+          font-size: 1.1rem;
+          letter-spacing: 0.05rem;
+          outline: 0;
+          
+          &[type=email] {
+            margin-bottom: 15px;
+            border: 1px solid lighten($gray, 50%);
+            @include transition(all .4s);
+            
+            @media (min-width: 768px) {
+              margin-bottom: 0px;
+              width: 75%;
+              border-right-width: 0px;
+            }
+            
+            &:focus {
+              border-color: $gray;
+            }
+          }
+          
+          &[type=submit] {
+            background-color: $purple;
+            color: $white;
+            border: 1px solid $purple;
+            @include transition(all .4s);
+            
+            @media (min-width: 768px) {
+              width: 25%;
+            }
+            
+            &:hover {
+              cursor: pointer;
+              background-color: darken($purple, 10%);
+              border-color: darken($purple, 10%);
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  &.open {
+    visibility: visible;
+    opacity: 1;
+    @include transform(translate(-50%, -50%) scale(1));
+    
+    img {
+      opacity: 1;
+      @include transition(1s);
+      @include transition-delay(.3s);
+      @include transform(translateX(0px));
+    }
+  }
 }
 
 
