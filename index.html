@@ -37,7 +37,7 @@
 	  Your browser does not support the video tag.
 	</video>
 	
-	<a href="AboutUs.html"><img class="arrow" src="arrow_forward.png" alt="forwardArrow"/></a>
+	<!-- <a href="AboutUs.html"><img class="arrow" src="arrow_forward.png" alt="forwardArrow"/></a> -->
 
 	<div class="hero-text">
 
@@ -51,32 +51,27 @@
 
 <script src = "JS/wp.js"></script>
 
+<button class="open-button" onclick="openForm()">Open Form</button>
 
-<button id="sign-up" onclick="toggleForm();"> SIGN-UP </button>
+<div class="form-popup" id="myForm">
+  <form action="/" class="form-container">
+    <h1>Login</h1>
 
-<section>
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
 
-	<form>
-		<div>
-			<ul class = "error"></ul>
-		</div>
-		<div class = "label">
-		<label for = "">Name</label>
-		</div>
-		<div class = "input">
-			<input type = "text" placeholder = "Name" name = "name">
-		</div>
-		<div class = "label">
-		<label for = "">Email</label>
-		</div>
-		<div class = "input">
-			<input type = "email" placeholder = "Email" name = "email">
-		</div>
-		<button class = "submit">Submit</button>
-	</form>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn">Login</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
 
 
-</section>
+
+
+<!-- Add images to the socail media icons  -->
 
 <footer>
 
@@ -85,12 +80,12 @@
 	<a class = "footer-1">Privacy Policy</a>
 	<a class = "footer-2">Terms of Services</a> 
 	 
-	<a- class = "footer-3">Last updated November 2019 </a>
+	<a- class = "footer-3"> Last updated November 2019 </a>
 
-	<a href="mailto:someone@example.com"><img src="baseline_email_white_48dp.png" alt="email" class="contact"></a>
-	<a href=" 0123456789 "><img src="baseline_phone_white_48dp.png" alt="number" class="contact"></a>
-	<a href=" https://www.instagram.com/unfccc/?hl=en "><img src="iconfinder_-03_3057696.png" alt="instagram" class="socialmedia"></a>
-	<a href=" https://www.facebook.com/UNclimatechange/ "><img src="iconfinder_-04_3057625.png" alt="facebook" class="socialmedia"></a>  
+	<a href="mailto:someone@example.com"><img src=".png" alt="email" class="contact"></a>
+	<a href=" 0123456789 "><img src=".png" alt="number" class="contact"></a>
+	<a href=" https://www.instagram.com/unfccc/?hl=en "><img src=".png" alt="instagram" class="socialmedia"></a>
+	<a href=" https://www.facebook.com/UNclimatechange/ "><img src=".png" alt="facebook" class="socialmedia"></a>  
 </p> 
 
 </footer>
