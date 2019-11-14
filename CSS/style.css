@@ -289,8 +289,8 @@ sub {
 	font-size: smaller;
 }
 
-.chapter1 h1{
-	font-size:100px;
+ h1{
+	font-size: 50;
 }
 .chapter1 p b li{
 	
