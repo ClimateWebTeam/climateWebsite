@@ -47,8 +47,10 @@ app.post('/formdata', [
 
 	//Includes generic error message
 
-	check('email', 'Email is not valid')
-	.isEmail()
+	//Removed for now, will work out multiple checks later
+
+	/* check('email', 'Email is not valid')
+	.isEmail() */
 	
 ], (request, response) => {
 	
