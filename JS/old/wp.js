@@ -1,4 +1,14 @@
 
+/*newsletter form*/
+
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+
 //define get the form values
 
 let form = document.querySelector('form');
@@ -70,14 +80,6 @@ function sendData(e){
 
 
 
-/*newsletter form*/
-
-function openForm() {
-  document.getElementById("myForm").style.display = "block";
-}
-
-function closeForm() {
-  document.getElementById("myForm").style.display = "none";
-}
+/
 
 
