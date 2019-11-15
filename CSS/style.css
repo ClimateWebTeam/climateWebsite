@@ -12,7 +12,7 @@ body{
 .header{
 	position:fixed;
 	
-	height:10%;
+	height:15%;
 	background-color:rgba(52,52,47,0.45);
 	font-size:25px;
 	color:white;
@@ -22,12 +22,22 @@ body{
 	
 	
 }
-img{
-	width:10%;
-	height:10%;
-	position:relative;
-	right:87%;
-	top:20px;
+
+/* logo */
+.menu{
+	width:100%;
+	height:auto;
+	display:block;
+	position:absolute;	
+}
+.menu img{
+	width:15%;
+	height:auto;
+	margin-top:auto;
+	margin-left:4%;
+	display:block;
+	position:absolute;
+	z-index:5;
 }
 ul{
 	height:100%;
