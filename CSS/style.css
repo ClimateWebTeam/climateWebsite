@@ -27,6 +27,7 @@ nav > ul > li {
   position: relative;
   float: left;
   margin-right: 45px;
+  text-decoration:none;
 }
 /* nav ul{ */
 	/* height:100%; */
@@ -48,6 +49,7 @@ nav a {
 }
 nav ul a:hover {
   color: blue;
+  text-decoration:none;
 }
 
 nav .sub-menu {
