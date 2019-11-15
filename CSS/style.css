@@ -50,7 +50,7 @@ video{
 /* hero text*/
 .hero-text {
 	text-align:left;
-	position:absolute;
+	position:fixed;
 	top:75%;
 	left:15%;
 	transform:translate(-25%, -25%);
