@@ -17,11 +17,64 @@ body{
 	font-size:25px;
 	color:white;
 	text-align:right;
-	width:100%;
-
-	
-	
+	width:100%;	
 }
+
+/*navigation drop down*/
+
+
+nav > ul > li {
+  position: relative;
+  float: left;
+  margin-right: 45px;
+}
+/* nav ul{ */
+	/* height:100%; */
+	/* width:100%; */
+	/* position:relative; */
+	/* right:10%; */
+/* } */
+/* nav li{ */
+	/* display:inline-block; */
+	/* width:10%; */
+	/* height:50%; */
+	/* position:relative; */
+	/* top:20px; */
+
+/* } */
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav ul a:hover {
+  color: blue;
+}
+
+nav .sub-menu {
+  position: absolute;
+  width: 180px;
+  background: #0bd;
+  top: 30px;
+  display: none;
+}
+nav .sub-menu a {
+  color: #fff;
+  padding: 10px 15px;
+  display: block;
+}
+nav .sub-menu a:hover {
+  color: #fff;
+}
+
+nav .drop-down:hover ul,
+nav .drop-down ul.focused {
+  display: block;
+}
+nav li.drop-down li a:hover,
+nav li.drop-down li a:focus {
+  background: #0090aa;
+}
+
 
 /* logo */
 .menu{
@@ -39,20 +92,20 @@ body{
 	position:absolute;
 	z-index:5;
 }
-ul{
-	height:100%;
-	width:100%;
-	position:relative;
-	right:10%;
-}
-li{
-	display:inline-block;
-	width:10%;
-	height:50%;
-	position:relative;
-	top:20px;
+/* ul{ */
+	/* height:100%; */
+	/* width:100%; */
+	/* position:relative; */
+	/* right:10%; */
+/* } */
+/* li{ */
+	/* display:inline-block; */
+	/* width:10%; */
+	/* height:50%; */
+	/* position:relative; */
+	/* top:20px; */
 
-}
+/* } */
 
 
 /* video */
