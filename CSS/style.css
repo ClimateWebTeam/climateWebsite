@@ -266,7 +266,10 @@ legend{
 	text-align:left;
 	
 }
-
+.legendh2{
+	text-align:center;
+	
+}
 
 label{
 	float:left; 
