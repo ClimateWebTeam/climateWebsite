@@ -1,4 +1,14 @@
 
+/*newsletter form*/
+
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+
 //define get the form values
 
 let form = document.querySelector('form');
@@ -68,16 +78,17 @@ function sendData(e){
 
 
 
+$(document).ready(function() {
+  $('.menu-toggle').click(function(){
+    $('nav').toggleClass('active');
+  })
+  
+  $('ul li').click(function(){
+    $(this).siblings().removeClass('active');
+    $(this).toggleClass('active');
+  })
+})
 
 
-/*newsletter form*/
-
-function openForm() {
-  document.getElementById("myForm").style.display = "block";
-}
-
-function closeForm() {
-  document.getElementById("myForm").style.display = "none";
-}
 
 

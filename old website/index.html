@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>	
+	<meta charset="UTF-8">
+	<title> CMP </title>
+	<link type="text/css" rel = "stylesheet" href = "CSS/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<script src = "JS/wp.js"></script>	
+</head>  
+
+<body>
+
+<header>
+
+	<div class="menu">	
+		<a href="index.html" class="logo"><img src="logo.png" alt="Logo"></a>
+					
+			<nav>	
+				<ul>
+					<li><a href = "index.html"> Home </a></li>
+					<li><a href = "AboutUs.html"> About Us </a></li>				
+					<li><a href = "Chapter1.html"> Emission Reduction </a></li>
+					<li><a href = "Chapter2.html"> Developments </a></li>
+					<li><a href = "Chapter3.html"> Deep Emission </a></li>
+					<li><a href = "Chapter4.html"> UK Performance </a></li>				
+				</ul>
+			</nav>
+			
+	</div>
+
+</header>
+
+<div>
+
+	<video autoplay playsinline muted loop>
+	  <source src="video.mp4" type="video/mp4">
+	  <source src="video.ogg" type="video/ogg">
+	  Your browser does not support the video tag.
+	</video>
+	
+	<!-- <a href="AboutUs.html"><img class="arrow" src="arrow_forward.png" alt="forwardArrow"/></a> -->
+
+	<div class="hero-text">
+
+		<h1> Climate Monitoring People </h1>
+		<p><i> "TO CHANGE EVERYTHING IT TAKES EVERYONE" </i></p>
+		
+	</div>
+
+</div>
+
+
+
+
+<button class="open-button" onclick="openForm()">Subscribe</button>
+
+<div class="form-popup" id="myForm">
+  <form action="/" class="form-container">
+    <h1>Subscribe</h1>
+	
+	<label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="email" placeholder="Enter Email" name="email" required>
+
+
+
+    <button type="submit" class="btn">Subscribe</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+
+
+<!-- Add images to the socail media icons  -->
+
+<footer>
+
+<p> 
+	<small><i>Copyright © 2019 CMP</i></small> 
+	<a class = "footer-1">Privacy Policy</a>
+	<a class = "footer-2">Terms of Services</a> 
+	 
+	<a- class = "footer-3"> Last updated November 2019 </a>
+
+	<a href="mailto:someone@example.com"><img src=".png" alt="email" class="contact"></a>
+	<a href=" 0123456789 "><img src=".png" alt="number" class="contact"></a>
+	<a href=" https://www.instagram.com/unfccc/?hl=en "><img src=".png" alt="instagram" class="socialmedia"></a>
+	<a href=" https://www.facebook.com/UNclimatechange/ "><img src=".png" alt="facebook" class="socialmedia"></a>  
+</p> 
+
+</footer>
+
+
+</body>
+</html>
