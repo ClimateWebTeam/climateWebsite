@@ -233,9 +233,9 @@ form{
 	width:20%;
 	height:60%;
 	position:fixed;
-	bottom:10%;
-	left:65%;
-	z-index:2;
+	bottom:3%;
+	left:75%;
+	/* z-index:2; */
 
 
 }
@@ -268,7 +268,6 @@ legend{
 }
 .legendh2{
 	text-align:center;
-	
 }
 
 label{
@@ -291,44 +290,67 @@ input{
 	position:relative;	
 	left:16%;
 	/* border-radius:15px; */
+	font-size:15px;
 }
 
 select {
 	border-radius:35px;
 	width:98%;
 	/* background-color:rgba(217,181,149,0.5); */
-	
-	
-	
 }
+
 #reset {
 	width:30%;
 	height:30%;
 	position: relative;
+	top:-40px;
 	left:25%;
 	border-radius:25px;
-	background-color:black;
-	color:white;
 	font-size:14px;
 	margin:0 auto;
 	margin-top:60px;
 	padding:10px; 
+	background-color:black;
+	color:white;
+	border: 2px solid #4CAF50;
 	
 }
+#reset:hover{
+    transition-duration:0.7s;
+	background-color:#4CAF50;
+	color:#000000;
+	border-radius:10px;
+	border: 1px solid #000000;
+	
+}
+
 
 #submit {
 	width:30%;
 	height:30%;
 	position: relative;
+	top:-40px;
 	left:15%;
 	border-radius:25px;
-	background-color:black;
-	color:white;
 	font-size:14px;
 	margin:0 auto;
 	margin-top:60px;
 	padding:10px; 
+	background-color:black;
+	color:#FFFFFF; 
+	border: 2px solid #4CAF50;
 }
+
+#submit:hover{
+    transition-duration:0.7s;
+	background-color:#4CAF50;
+	color:#000000;
+	border-radius:10px;
+	border: 1px solid #000000;
+}
+
+
+
 
 /* @media screen and (min-width:500px){
 	form{width:40%;
