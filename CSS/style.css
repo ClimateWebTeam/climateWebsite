@@ -232,8 +232,9 @@ form{
 	padding:10px;
 	width:60%;
 	height:40%;
-	position:relative;
-	left:35%;
+	position:fixed;
+	left:50%;
+
 
 }
 
