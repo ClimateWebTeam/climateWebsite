@@ -299,6 +299,115 @@ sub {
 	
 }
 
+/*FORM*/
+form{
+	padding:10px;
+	width:60%;
+	height:40%;
+	position:relative;
+	left:35%;
+
+}
+
+
+fieldset{
+	border-radius:35px;
+	width:93%;
+	background-color:rgba(207,181,149,0.5);
+	font-size:17px;
+}
+
+legend{
+	text-align:center;
+	
+		
+}
+
+/*style for gender option */
+.dropdown{
+	border-radius:none;
+	width:60%;
+	position:relative;	
+	left:16%;
+	
+}
+.dropdownlegend{
+	text-align:left;
+	
+}
+
+
+label{
+	float:left; 
+	display:block;
+	text-align:left;
+	padding-right:1px;
+	width:50%;
+	height:10%;
+	font-family: 'Alice', serif;
+	position:relative;	
+	left:16%;
+}
+	
+input{
+	display:block;
+	margin-bottom:10px;
+	width:65%;
+	height:40px;
+	position:relative;	
+	left:16%;
+	/* border-radius:15px; */
+}
+
+select {
+	border-radius:35px;
+	width:98%;
+	/* background-color:rgba(217,181,149,0.5); */
+	
+	
+	
+}
+#reset {
+	width:30%;
+	height:30%;
+	position: relative;
+	left:25%;
+	border-radius:25px;
+	background-color:black;
+	color:white;
+	font-size:14px;
+	margin:0 auto;
+	margin-top:60px;
+	padding:10px; 
+	
+}
+
+#submit {
+	width:30%;
+	height:30%;
+	position: relative;
+	left:15%;
+	border-radius:25px;
+	background-color:black;
+	color:white;
+	font-size:14px;
+	margin:0 auto;
+	margin-top:60px;
+	padding:10px; 
+}
+
+@media screen and (min-width:500px){
+	form{width:40%;
+		
+	}
+} 
+ 
+@media screen and (max-width:700px){
+	form{width:50%;
+		
+	}
+}
+
 
 /*footer*/
 footer{

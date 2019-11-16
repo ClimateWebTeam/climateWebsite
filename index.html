@@ -50,26 +50,48 @@
 </div>
 
 
-
-
-<button class="open-button" onclick="openForm()">Subscribe</button>
-
-<div class="form-popup" id="myForm">
-  <form action="/" class="form-container">
-    <h1>Subscribe</h1>
+<form action="/">
+       
+  <fieldset>
+    <legend>Sign Up For Future Updates: </legend>
+     <br>
+	 
+      <label for="firstname">First Name*:</label> 
+      <input type="text" name="firstname" required id="firstname" placeholder="First Name" accesskey="F" >
+	  <br>
 	
-	<label for="name"><b>Name</b></label>
-    <input type="text" placeholder="Enter Name" name="name" required>
+      <label for="lastname">Last Name*:</label> 
+      <input type="text" name="lastname" required id="lastname" placeholder="Last Name" accesskey="L">
+	  <br>
+	
+      <label for="email">Email*: </label>
+      <input type="email" name="email" required id= "email" placeholder="Email" accesskey="E"> 
+      <br>
+     
+	 
+	<fieldset class ="dropdown">
+	 <legend class="dropdownlegend">Gender:</legend>
+     <select name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select> 
+	  
+	</fieldset>
+	
+	<br>
+     <!-- <label for="message">Please specify other requirements here:</label> 
+     <textarea name="message"  id="message" rows="5" cols="35"></textarea>
+      <br> -->
 
-    <label for="email"><b>Email</b></label>
-    <input type="email" placeholder="Enter Email" name="email" required>
+	  <button type="submit" name="submit" id="submit" alt="submit" value="submit">Sign Up</button>
+	  <button type="reset" name="reset" id="reset" alt="reset" value="reset">Reset</button>
+	 
+	 
+  </fieldset>
+ </form> 
 
 
-
-    <button type="submit" class="btn">Subscribe</button>
-    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-  </form>
-</div>
 
 
 
