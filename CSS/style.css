@@ -1,5 +1,5 @@
 *{
-	
+	font-family: fontAwsome;
 }
 
 body{
@@ -115,7 +115,6 @@ header nav ul li {
 header nav ul li.sub-menu:before {
   
   content: '\f0d7';
-  font-family: fontAwesome;
   position: absolute;
   line-height: 50px;
   color: #fff;
