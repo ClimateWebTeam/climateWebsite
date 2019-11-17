@@ -9,8 +9,13 @@ body{
 	padding:0;
 	background-color:white;
 
+
 FORM
 form{
+
+}
+/* form {
+
 	padding:10px;
 	width:25%;
 	height:60%;
@@ -33,7 +38,10 @@ legend{
 		
 }
 
+
 style for gender option
+
+
 .dropdown{
 	border-radius:none;
 	width:60%;
@@ -60,6 +68,29 @@ label{
 	height:10%;
 	position:relative;	
 	left:16%;
+
+	
+	font-family: 'Alice', serif;
+}
+	
+input{
+	display:block;
+	margin-bottom:10px;
+	width:65%;
+	height:40px;
+	position:relative;	
+	left:16%;
+	
+	border-radius:15px;
+	font-size:15px;
+}
+
+select {
+	border-radius:35px;
+	width:98%;
+	font-size:19px;
+	background-color:rgba(217,181,149,0.5);
+
 	
 	font-family: 'Alice', serif;
 }
@@ -82,61 +113,6 @@ select {
 	font-size:19px;
 	background-color:rgba(217,181,149,0.5);
 	
-}
-
-/*Navigation Bar*/
-
-a{
-	width:100%;
-	height:100%;
-	margin:0px;
-	padding:0px;
-}
-
-.header-card{	
-	height:15%;
-	background-color:rgba(52,52,47,0.45);
-	width:100%;	
-	margin:0px;
-	padding:0px;
-}
-ul{
-	width:50%;
-	height:50%;
-	background-color:red;
-	margin:0px;
-	padding:0px;
-	position:relative;
-	top:20%;
-	left:40%;
-	
-}
-li{
-	display:inline-block;
-	width:15%;
-	height:40%;
-	background-color:green;
-	margin:0px;
-	padding:0px;
-	position:relative;
-	top:30%;
-	right:10%;
-	
-}
-.logo{
-	height:200px;
-	width:400px;
-	float:left;
-	position:relative;
-	left:5%;
-}
-
-/* video */
-video{
-	width:100%;
-	height:auto;
-	z-index:-100;
-	overflow:hidden;
 }
 
 
@@ -191,6 +167,169 @@ video{
 	color:#000000;
 	border-radius:10px;
 	border: 1px solid #000000;
+} */
+
+
+/*Navigation Bar*/
+
+ul a:hover {
+  color: blue;
+  /* height:200px; */
+  /* width:200px; */
+}
+.sub-menu li{
+	width:180px;
+	height:50px;
+	z-index:100;
+}
+.sub-menu {
+  position: absolute;
+  /* width: 200px; */
+  /* height:600px; */
+  top: 30px;
+  display: none;
+  z-index:100;
+}
+.sub-menu a {
+  color: white;
+  padding: 15px 25px;
+  display: block;
+    z-index:100;
+
+  /* width:200px; */
+  /* height:200px; */
+}
+.sub-menu a:hover {
+  color: #fff;
+  /* width:200px; */
+  /* height:200px; */
+    z-index:100;
+}
+
+.drop-down:hover ul,
+.drop-down ul.focused {
+  display: block;
+  /* width:200px; */
+  /* height:200px; */
+    z-index:100;
+}
+li.drop-down li a:hover,
+li.drop-down li a:focus {
+  background-color:white; 
+  color:black;
+  /* width:200px; */
+  /* height:200px; */
+    z-index:100;
+}
+
+
+a{
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	color:white;
+	text-decoration:none;
+}
+
+.header-card{	
+	height:15%;
+	background-color:rgba(52,52,47,0.45);
+	width:100%;	
+	margin:0px;
+	padding:0px;
+}
+ul{
+	width:50%;
+	height:50%;
+	/* background-color:red; */
+	margin:0px;
+	padding:0px;
+	position:relative;
+	top:20%;
+	left:40%;
+}
+li{
+	display:inline-block;
+	width:15%;
+	height:40%;
+	/* background-color:green; */
+	margin:0px;
+	padding:0px;
+	position:relative;
+	top:30%;
+	right:10%;	
+}
+.logo{
+	height:200px;
+	width:400px;
+	float:left;
+	position:relative;
+	left:5%;
+}
+
+/* video */
+video{
+	width:100%;
+	height:auto;
+	z-index:-100;
+	overflow:hidden;
+}
+
+
+
+#reset {
+	width:30%;
+	height:30%;
+	position: relative;
+	top:-40px;
+	left:25%;
+	border-radius:25px;
+	font-size:14px;
+	margin:0 auto;
+	margin-top:60px;
+	padding:10px; 
+	background-color:black;
+	color:white;
+	border: 2px solid #4CAF50;
+	
+}
+
+#reset:hover{
+    transition-duration:0.7s;
+	background-color:rgba(113, 218, 218,0.3);
+	color:#000000;
+	border-radius:10px;
+	border: 1px solid #000000;
+	
+
+}
+
+
+#submit {
+	width:30%;
+	height:30%;
+	position: relative;
+	top:-40px;
+	left:15%;
+	border-radius:25px;
+	font-size:14px;
+	margin:0 auto;
+	margin-top:60px;
+	padding:10px; 
+	background-color:black;
+	color:#FFFFFF; 
+	border: 2px solid #4CAF50;
+}
+
+
+
+#submit:hover{
+    transition-duration:0.7s;
+	background-color:rgba(113, 218, 218,0.3);
+	color:#000000;
+	border-radius:10px;
+	border: 1px solid #000000;
 }
 
 
@@ -225,3 +364,55 @@ article{
 	font-size:20px;
 	
 }
+
+
+/* hero text*/
+.hero-text {
+	text-align:left;
+	position:fixed;
+	top:75%;
+
+
+	color:black;
+}
+.hero-text h1{
+	font-size:60px;
+	text-align:left;
+	line-height:50px;
+	animation-duration: 3s;
+	animation-name: slideinr;
+	animation-iteration-count: 1;
+}
+.hero-text p{
+	position:fixed;
+	font-size:25px;
+	text-align:center;
+	top:10%;
+	left:-35%;
+	animation-duration: 3s;
+	animation-name: slideinl;
+	animation-iteration-count: 1;
+}
+@keyframes slideinr{
+  from{
+    margin-left: 300%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 30%;
+    width: 100%;
+  }
+}
+@keyframes slideinl{
+  from{
+    margin-right: 300%;
+    width: 300%; 
+  }
+
+  to {
+    margin-right: 30%;
+    width: 100%;
+  }
+}
+
