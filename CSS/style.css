@@ -276,6 +276,12 @@ article{
 	font-size:20px;
 	
 }
+section {
+	height:auto
+}
+section .chapterText {
+	padding-bottom: 5px;
+}
 
 /* hero text*/
 .hero-text {
