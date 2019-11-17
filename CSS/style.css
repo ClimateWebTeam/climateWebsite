@@ -56,6 +56,7 @@ style for gender option
 }
 .legendh2{
 	text-align:center;
+	color:#000000;
 	
 }
 
@@ -68,6 +69,9 @@ label{
 	height:10%;
 	position:relative;	
 	left:16%;
+
+	color:#000000;
+
 
 	
 	font-family: 'Alice', serif;
@@ -92,6 +96,7 @@ select {
 	background-color:rgba(217,181,149,0.5);
 
 	
+
 	font-family: 'Alice', serif;
 }
 	
@@ -102,7 +107,7 @@ input{
 	height:40px;
 	position:relative;	
 	left:16%;
-	
+	color:#000000;
 	border-radius:15px;
 	font-size:15px;
 }
@@ -173,52 +178,44 @@ select {
 /*Navigation Bar*/
 
 ul a:hover {
-  color: blue;
-  /* height:200px; */
-  /* width:200px; */
+	color: black;
 }
 .sub-menu li{
 	width:180px;
-	height:50px;
+	height:25px;
 	z-index:100;
+	right:75px;
 }
 .sub-menu {
-  position: absolute;
-  /* width: 200px; */
-  /* height:600px; */
-  top: 30px;
-  display: none;
-  z-index:100;
+	position: absolute;
+	top: 30px;
+	display: none;
+	z-index:100;
+	/* background-color:grey;  */
+	/* width:180px; */
+	/* height:100px; */
+	/* right:75px; */
 }
 .sub-menu a {
-  color: white;
-  padding: 15px 25px;
-  display: block;
-    z-index:100;
-
-  /* width:200px; */
-  /* height:200px; */
+	color: white;
+	padding: 15px 25px;
+	display: block;
+	z-index:100;
 }
 .sub-menu a:hover {
-  color: #fff;
-  /* width:200px; */
-  /* height:200px; */
-    z-index:100;
+	color: #fff;
+	z-index:100;
 }
 
 .drop-down:hover ul,
 .drop-down ul.focused {
-  display: block;
-  /* width:200px; */
-  /* height:200px; */
-    z-index:100;
+	display: block;
+	z-index:100;
 }
 li.drop-down li a:hover,
 li.drop-down li a:focus {
-  background-color:white; 
-  color:black;
-  /* width:200px; */
-  /* height:200px; */
+	background-color:white; 
+	color:black;
     z-index:100;
 }
 
@@ -230,6 +227,7 @@ a{
 	padding:0px;
 	color:white;
 	text-decoration:none;
+	font-size:25px;
 }
 
 .header-card{	
