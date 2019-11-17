@@ -1,5 +1,5 @@
 *{
-	
+	font-family: fontAwsome;
 }
 
 body{
@@ -115,7 +115,6 @@ header nav ul li {
 header nav ul li.sub-menu:before {
   
   content: '\f0d7';
-  font-family: fontAwesome;
   position: absolute;
   line-height: 50px;
   color: #fff;
@@ -256,10 +255,24 @@ video{
 	font-size:60px;
 	text-align:left;
 	line-height:50px;
+	animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
 }
 .hero-text p{
 	font-size:25px;
 	text-align:center;
 	top:-2%;
 	left:5%;
+}
+@keyframes slidein {
+  from {
+    margin-left: 300%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
