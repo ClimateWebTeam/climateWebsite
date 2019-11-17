@@ -82,7 +82,6 @@ form{
 	position:fixed;
 	bottom:3%;
 	left:70%;
-	/* z-index:2; */
 
 
 }
@@ -163,12 +162,12 @@ select {
 	padding:10px; 
 	background-color:black;
 	color:white;
-	border: 2px solid #4CAF50;
+	border: 2px solid #71dada;
 	
 }
 #reset:hover{
     transition-duration:0.7s;
-	background-color:#4CAF50;
+	background-color:rgba(113, 218, 218,0.2);
 	color:#000000;
 	border-radius:10px;
 	border: 1px solid #000000;
@@ -194,7 +193,7 @@ select {
 
 #submit:hover{
     transition-duration:0.7s;
-	background-color:#4CAF50;
+	background-color:rgba(113, 218, 218,0.2);
 	color:#000000;
 	border-radius:10px;
 	border: 1px solid #000000;
