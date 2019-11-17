@@ -9,7 +9,7 @@ body{
 	padding:0;
 	background-color:white;
 }
-form {
+/* form {
 	padding:10px;
 	width:25%;
 	height:60%;
@@ -133,7 +133,7 @@ select {
 	color:#000000;
 	border-radius:10px;
 	border: 1px solid #000000;
-}
+} */
 
 
 /*Navigation Bar*/
@@ -275,4 +275,54 @@ article{
 	height:10%;
 	font-size:20px;
 	
+}
+
+/* hero text*/
+.hero-text {
+	text-align:left;
+	position:fixed;
+	top:75%;
+
+
+	color:black;
+}
+.hero-text h1{
+	font-size:60px;
+	text-align:left;
+	line-height:50px;
+	animation-duration: 3s;
+	animation-name: slideinr;
+	animation-iteration-count: 1;
+}
+.hero-text p{
+	position:fixed;
+	font-size:25px;
+	text-align:center;
+	top:10%;
+	left:-35%;
+	animation-duration: 3s;
+	animation-name: slideinl;
+	animation-iteration-count: 1;
+}
+@keyframes slideinr{
+  from{
+    margin-left: 300%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 30%;
+    width: 100%;
+  }
+}
+@keyframes slideinl{
+  from{
+    margin-right: 300%;
+    width: 300%; 
+  }
+
+  to {
+    margin-right: 30%;
+    width: 100%;
+  }
 }
