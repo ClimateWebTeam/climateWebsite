@@ -54,6 +54,7 @@ li.drop-down li a:focus {
     z-index:100;
 }
 
+/*Header and Nav bar*/
 
 a{
 	width:100%;
@@ -101,7 +102,7 @@ li{
 	left:5%;
 }
 
-/* video */
+/* Video */
 video{
 	width:100%;
 	height:auto;
