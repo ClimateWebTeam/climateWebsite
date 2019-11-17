@@ -1,21 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@MrGhostlyOrb 
-2
-11ClimateWebTeam/climateWebsite
- Code Issues 6 Pull requests 1 Actions Projects 0 Wiki Security Insights Settings
-climateWebsite/CSS/style.css
-@MrGhostlyOrb MrGhostlyOrb Merge branch 'master' into Tendai's-Branch
-16c3295 5 minutes ago
-@Thiruisa@TendaiPhikiso@MrGhostlyOrb
-228 lines (188 sloc)  2.67 KB
-  
 *{
 	width:100%;
 	height:100%;
@@ -26,9 +8,8 @@ body{
 	margin:0;
 	padding:0;
 	background-color:white;
-
-FORM
-form{
+}
+form {
 	padding:10px;
 	width:25%;
 	height:60%;
@@ -50,8 +31,6 @@ legend{
 	
 		
 }
-
-style for gender option
 .dropdown{
 	border-radius:none;
 	width:60%;
@@ -100,61 +79,6 @@ select {
 	font-size:19px;
 	background-color:rgba(217,181,149,0.5);
 	
-}
-
-/*Navigation Bar*/
-
-a{
-	width:100%;
-	height:100%;
-	margin:0px;
-	padding:0px;
-}
-
-.header-card{	
-	height:15%;
-	background-color:rgba(52,52,47,0.45);
-	width:100%;	
-	margin:0px;
-	padding:0px;
-}
-ul{
-	width:50%;
-	height:50%;
-	background-color:red;
-	margin:0px;
-	padding:0px;
-	position:relative;
-	top:20%;
-	left:40%;
-	
-}
-li{
-	display:inline-block;
-	width:15%;
-	height:40%;
-	background-color:green;
-	margin:0px;
-	padding:0px;
-	position:relative;
-	top:30%;
-	right:10%;
-	
-}
-.logo{
-	height:200px;
-	width:400px;
-	float:left;
-	position:relative;
-	left:5%;
-}
-
-/* video */
-video{
-	width:100%;
-	height:auto;
-	z-index:-100;
-	overflow:hidden;
 }
 
 
@@ -212,6 +136,64 @@ video{
 }
 
 
+/*Navigation Bar*/
+
+a{
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+}
+
+.header-card{	
+	height:15%;
+	background-color:rgba(52,52,47,0.45);
+	width:100%;	
+	margin:0px;
+	padding:0px;
+}
+ul{
+	width:50%;
+	height:50%;
+	background-color:red;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	top:20%;
+	left:40%;
+	
+}
+li{
+	display:inline-block;
+	width:15%;
+	height:40%;
+	background-color:green;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	top:30%;
+	right:10%;
+	
+}
+.logo{
+	height:200px;
+	width:400px;
+	float:left;
+	position:relative;
+	left:5%;
+}
+
+/* video */
+video{
+	width:100%;
+	height:auto;
+	z-index:-100;
+	overflow:hidden;
+}
+
+
+
+
 
 /*Stuff for Chapter Pages*/
 .imageWrapper{
@@ -243,15 +225,3 @@ article{
 	font-size:20px;
 	
 }
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
