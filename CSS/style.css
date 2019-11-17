@@ -54,6 +54,7 @@ li.drop-down li a:focus {
     z-index:100;
 }
 
+/*Header and Nav bar*/
 
 a{
 	width:100%;
@@ -101,7 +102,7 @@ li{
 	left:5%;
 }
 
-/* video */
+/* Video */
 video{
 	width:100%;
 	height:auto;
@@ -167,27 +168,15 @@ article li {
 .hero-text {
 	text-align:left;
 	position:fixed;
-	top:75%;
-
-
-	color:black;
+	color:red;
+	top:40%;
 }
 .hero-text h1{
 	font-size:60px;
-	text-align:left;
 	line-height:50px;
-	animation-duration: 3s;
-	animation-name: slideinr;
-	animation-iteration-count: 1;
 }
 .hero-text p{
-	position:fixed;
 	font-size:25px;
 	text-align:center;
-	top:10%;
-	left:-35%;
-	animation-duration: 3s;
-	animation-name: slideinl;
-	animation-iteration-count: 1;
 }
 
