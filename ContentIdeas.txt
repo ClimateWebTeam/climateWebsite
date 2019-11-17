@@ -1,3 +1,42 @@
+Chapter 3 Ideas:
+
+- The transport industry sector is currently the biggest source of greenhouse gas emissions.
+
+The average CO2 intensity of a newly sold car rose from 121.1 to 124.5 gCO2/km in 2018, a 2.9% increase.
+This was mainly caused by an increase in sales of larger vehicles, up to of 31% of new cars in 2018
+from 21%, which alone contributed to a 1.8% increase in new car CO2 intensity.
+The overall increase would have been 3.5%, if not for the increase market share of hybrid, plug-in hybrid
+and electric vehicles.
+
+Overall demand for car travel rose by 0.2% in 2018, a slower rise than in the previous four years.
+
+- Government has not been clear enough as to how they will meet their target for all houses to be EPC band C
+(moderately energy efficient) by 2035. (The current average is D).
+
+Our target is for all new homes built from 2025 to be ultra-energy efficient and not connected to the gas
+grid, instead relying on low-carbon heating.
+
+- Afforestation rate in the UK, about 13,400 hectares/year in 2018/19, is still short of the Government's
+ambition of 20,000 hectares/year. Scotland is the only nation within the UK performing strongly.
+
+- Defra's Waste and Resource Strategy published in 2018 lays out several key targets for reducing waste in
+England:
+
+	- Work towards zero food waste going to landfill by 2030.
+	- Increase recycling rates of municipal solid waste from around 45% to 65% by 2035.
+	- Explore policies to work towrads eliminating the landfill of all biodegrable waste by 2035.
+
+The Welsh Government's strategy on climate change, published in 2018, includes an ambition for zero-landfill
+by 2025, and zero waste by 2050.
+
+The Scottish Government's Climate Change Plan will be updated in 2020, following the Scottish Parliament's
+legislation of Scotland's net-zero target.
+
+- The target for net=zero greenhouse gas emission by 2050 became law on 27 June 2019, but a more effective
+policy framework is required to drive extesnvie deployment of key technologies, in order to reach this
+target.
+
+
 Chapter 4 Ideas:
 
 Between 2010 and 2017, the average cost of battery packs (Figure 4.2.b) fell much
