@@ -143,13 +143,25 @@ article{
 	font-size:20px;
 	
 }
-section {
-	height:auto
+.chapterHead2{
+	position:relative;
+	top:10%;
+	height:10%;
+	width:50%;
+	left:25%;
+	text-align:center;
+	font-size:25px;
+	background-color:yellow;
 }
-section .chapterText {
+article {
+	height:auto;
+}
+article .chapterText {
 	padding-bottom: 5px;
 }
-
+article li {
+	vertical-align: top;
+}
 
 /* hero text*/
 .hero-text {
