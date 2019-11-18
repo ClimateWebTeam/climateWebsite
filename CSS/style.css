@@ -183,12 +183,12 @@ article li {
 
 form{
 	width:15%;
-	height:25%;
+	height:35%;
 	position:relative;
 	left:30%;
 	border-radius:35px;
 	top:-700px;
-	background-color:rgba(255,255,255,0.9);
+	background-color:rgba(255,255,255,0.7);
 }
 
 section , h2{
@@ -197,7 +197,6 @@ section , h2{
 	top:5%;
 	width:94%;
 	height:10%;
-	
 }
 
 
@@ -219,24 +218,7 @@ input{
 	border-color:grey;
 }
 
-
-
-/* select{
-	width:60%;
-	height:10%;
-	
-	padding:16px 20px;
-	border:none;
-	border-radius:4px;
-	background-color:green;
-	
-} */
-
-
 #submitbutton{
-	/* position:relative;
-	left:-40%;
-	border-radius:20px; */
 	width:25%;
 	height:10%;
 	position: relative;
