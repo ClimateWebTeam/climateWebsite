@@ -108,20 +108,20 @@ video{
 
 /*Footer*/
 footer{
-	background-color:black;
+	background-color:rgba(0,0,0,0.5);
 	color:white;
 	font-size: 0.8em;
 	font-family:italic;
 }
 footer a{
-	background-color:black;
+	background-color:rgba(0,0,0,0.5);
 	color:white;
 	font-size: 1.3em;
 	font-family:italic;
 	text-align: center;
 }
 footer p{
-	background-color:black;
+	background-color:rgba(0,0,0,0.5);
 	color:white;
 	font-size: 1.3em;
 	font-family:italic;
