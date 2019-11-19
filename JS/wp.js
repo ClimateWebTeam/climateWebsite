@@ -4,7 +4,7 @@ let form = document.querySelector('form');
 
 //Create a new variable to send the data to the server
 
-form.onsubmit = sendData();
+form.onsubmit = sendData;
 
 //New function for passing data
 
@@ -24,8 +24,9 @@ function sendData(e){
 			'Content-type': 'application/json'
 		},
 		body: JSON.stringify({
-			name: formData.get('name')
-			/* email: formData.get('email') */
+			firstname: formData.get('firstname'),
+			lastname: formData.get('lastname'),
+			email: formData.get('email'),
 		}),
 		method: "POST"
 	}
@@ -39,7 +40,7 @@ function sendData(e){
 		//If statement to check for errors
 		
 		if (data.success === "Okay"){
-			console.log(Successful);
+			console.log("Successful Data Entry");
 		}
 		else{
 			let error = document.querySelector('.error');
@@ -56,19 +57,7 @@ function sendData(e){
 		}
 		
 		
-		
-		console.log(data);
-		
 	})
 	.catch(err => console.log(err))
 	
 }
-
-
-
-
-
-
-
-
-
