@@ -37,26 +37,20 @@ app.post('/formdata', [
 	//Begin the validation of the response from the HTML form
 
 	//Checks to see if 'name' element of the form is empty
-	
-	check('firstname')
-	.not().isEmpty().withMessage('FirstName cannot be empty')
+
+	check('name')
+	.not().isEmpty().withMessage('Name cannot be empty')
 	.isLength({
 		min: 3
-	}).withMessage('FirstName must be at least 3 characters')
-	.isAlpha().withMessage('FirstName cannot contain numbers or special characters'),
-	
-	check('lastname')
-	.not().isEmpty().withMessage('LastName cannot be empty')
-	.isLength({
-		min: 3
-	}).withMessage('LastName must be at least 3 characters')
-	.isAlpha().withMessage('LastName cannot contain numbers or special characters'),
+	}).withMessage('Name must be at least 3 characters')
+	.isAlpha().withMessage('Name cannot contain numbers or special characters'),
+
 	//Includes generic error message
 
 	//Removed for now, will work out multiple checks later
 
 	check('email', 'Email is not valid')
-	.isEmail(),
+	.isEmail()
 	
 ], (request, response) => {
 	
