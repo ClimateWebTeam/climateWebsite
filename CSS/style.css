@@ -4,9 +4,8 @@ body{
 }
 
 /*Navigation*/
-a{
+.drop-down a{
 	font-size: 20px;
-	text-transform: uppercase;
 }
 .drop-down{
 	background-color:rgba(0,0,0,0.5);
@@ -23,7 +22,6 @@ a{
 	margin: 0;
 	z-index:100;
 	float:right;
-
 }
 .drop-down > ul > li{
 	float: left;
@@ -35,8 +33,7 @@ a{
 	color: #fff;
 	padding: 15px 20px;
 	display: block;
-	z-index:100;
-	
+	z-index:100;	
 }
 .drop-down ul li:hover a{
 	background: #34495e;
@@ -46,26 +43,27 @@ a{
 .drop-down ul ul{
 	position: absolute;
 	padding: 0;
-	min-width: 120px;
+	min-width: 100px;
 	display: none;
 	top: 100%;
 	left: 0;
 	z-index:100;
-
+	font-size:12px;
 }
 .drop-down ul li:hover > ul{
 	display: block;
 	z-index:100;
-
+	font-size:12px;	
 }
 .drop-down ul ul li:hover a{
 	background: #262626;
 	z-index:100;
-		font-size:12px;
+	font-size:12px;	
 }
 .drop-down ul ul li{
 	position: relative;
 	z-index:100;
+	font-size:12px;
 }
 
 
@@ -107,7 +105,7 @@ video{
 }
 
 
-
+/*Home Form*/
 form{
 	width:30%;
 	height:500px;
@@ -196,25 +194,17 @@ input{
 
 /*Footer*/
 footer{
-	background-color:black;
+	background-color:rgba(0,0,0,0.5);
+
+}
+footer a p{
+	background-color:rgba(0,0,0,0.5);
 	color:white;
 	font-size: 0.8em;
 	font-family:italic;
+	text-align:center;
 }
-footer a{
-	background-color:black;
-	color:white;
-	font-size: 1.3em;
-	font-family:italic;
-	text-align: center;
-}
-footer p{
-	background-color:black;
-	color:white;
-	font-size: 1.3em;
-	font-family:italic;
-	text-align: center;
-}
+
 footer .footer-1{
 	margin-right:2%;
 }
