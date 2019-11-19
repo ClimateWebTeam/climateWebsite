@@ -21,10 +21,8 @@ body{
 }
 .drop-down ul{
 	list-style: none;
-	margin-right:50%;
 	z-index:100;
-	float:center;
-	left:50%;
+
 }
 .drop-down > ul > li{
 	float:left;
@@ -36,11 +34,16 @@ body{
 	color: #fff;
 	padding: 15px 25px;
 	display: block;
-	z-index:100;	
-	width:80%;
+	z-index:100;
+}
+.drop-down ul li{
+	position:relative;
+	margin:2%;
+	left:20%;
 }
 .drop-down ul li:hover a{
-	background: #34495e;
+	border-top:2px solid white;
+	border-bottom:2px solid white;
 	z-index:100;
 }
 .drop-down ul ul{
@@ -58,7 +61,7 @@ body{
 	z-index:100;
 }
 .drop-down ul ul li:hover a{
-	background: #262626;
+	background-color: black;
 	z-index:100;
 }
 .drop-down ul ul li{
@@ -111,11 +114,12 @@ video{
 }
 
 .hero-text1 {
-	text-align:left;
+	text-align:center;
 	position:fixed;
 	color:white;
 	top:50%;
-	left:3%;
+	left:50%;
+	transform: translate(-50%, -50%);
 }
 .hero-text1 h1{
 	font-size:60px;
@@ -157,7 +161,7 @@ video{
 /*Hero Image*/
 .container{
 	width:100%;
-	height:100vh;
+	height:99%;
 	position:fixed;
 	overflow:hidden;
 	background-size:cover;
@@ -168,7 +172,7 @@ video{
 }
 .hero-image h-image{
 	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-	height:100vh;
+	height:99%;
 	width:100%;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -178,7 +182,7 @@ video{
 }
 .h-image{
 	width:100%;
-	height:75vh;
+	height:90%;
 	position:absolute;
 }
 
