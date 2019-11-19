@@ -1,105 +1,81 @@
-*{
-	width:100%;
-	height:100%;
-}
 body{
-	height:100%;
-	width:100%;
-	margin:0;
-	padding:0;
-	background-color:white;
+	margin: 0;
+	padding: 0;
 }
 
-/*Navigation Bar*/
-
-ul a:hover {
-	color: black;
-}
-.sub-menu li{
-	width:180px;
-	height:25px;
-	z-index:100;
-	right:75px;
-}
-.sub-menu {
-	position: absolute;
-	top: 30px;
-	display: none;
-	z-index:100;
-	/* background-color:grey;  */
-	/* width:180px; */
-	/* height:100px; */
-	/* right:75px; */
-}
-.sub-menu a {
-	color: white;
-	padding: 15px 25px;
-	display: block;
-	z-index:100;
-}
-.sub-menu a:hover {
-	color: #fff;
-	z-index:100;
-}
-
-.drop-down:hover ul,
-.drop-down ul.focused {
-	display: block;
-	z-index:100;
-}
-li.drop-down li a:hover,
-li.drop-down li a:focus {
-	background-color:white; 
-	color:black;
-    z-index:100;
-}
-
-/*Header and Nav bar*/
-
+/*Navigation*/
 a{
-	width:100%;
-	height:100%;
-	margin:0px;
-	padding:0px;
-	color:white;
-	text-decoration:none;
-	font-size:25px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.drop-down{
+	background-color:rgba(0,0,0,0.5);
+	z-index:100;
+}
+.drop-down:after{
+	content: '';
+	clear: both;
+	display: block;
+	z-index:100;
+}
+.drop-down ul{
+	list-style: none;
+	margin: 0;
+	z-index:100;
+	float:right;
+
+}
+.drop-down > ul > li{
+	float: left;
+	position: relative;
+	z-index:100;
+}
+.drop-down ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 15px 20px;
+	display: block;
+	z-index:100;
+	
+}
+.drop-down ul li:hover a{
+	background: #34495e;
+	z-index:100;
 }
 
-.header-card{	
-	height:15%;
-	background-color:rgba(52,52,47,0.45);
-	width:100%;	
-	margin:0px;
-	padding:0px;
+.drop-down ul ul{
+	position: absolute;
+	padding: 0;
+	min-width: 120px;
+	display: none;
+	top: 100%;
+	left: 0;
+	z-index:100;
+
 }
-ul{
-	width:50%;
-	height:50%;
-	/* background-color:red; */
-	margin:0px;
-	padding:0px;
-	position:relative;
-	top:20%;
-	left:40%;
+.drop-down ul li:hover > ul{
+	display: block;
+	z-index:100;
+
 }
-li{
-	display:inline-block;
-	width:15%;
-	height:40%;
-	/* background-color:green; */
-	margin:0px;
-	padding:0px;
-	position:relative;
-	top:30%;
-	right:10%;	
+.drop-down ul ul li:hover a{
+	background: #262626;
+	z-index:100;
+		font-size:12px;
 }
+.drop-down ul ul li{
+	position: relative;
+	z-index:100;
+}
+
+
+/*Logo*/
 .logo{
-	height:200px;
-	width:400px;
+	height:auto;
+	width:200px;
 	float:left;
 	position:relative;
-	left:5%;
+	left:0;
 }
 
 /* Video */
@@ -108,68 +84,18 @@ video{
 	height:auto;
 	z-index:-100;
 	overflow:hidden;
-}
-
-
-
-
-
-/*Stuff for Chapter Pages*/
-.imageWrapper{
-	height:3400px;
-	width:3000px;
-}
-article{
-	width:100%;
-	height:100%;
-	
-	
-}
-.chapterHead{
-	position:relative;
-	top:10%;
-	height:10%;
-	width:50%;
-	left:25%;
-	text-align:center;
-	font-size:40px;
-	background-color:yellow;
-}
-.chapterText{
-	position:relative;
-	top:15%;
-	left:35%;
-	width:30%;
-	height:10%;
-	font-size:20px;
-	
-}
-.chapterHead2{
-	position:relative;
-	top:10%;
-	height:10%;
-	width:50%;
-	left:25%;
-	text-align:center;
-	font-size:25px;
-	background-color:yellow;
-}
-article {
-	height:auto;
-}
-article .chapterText {
-	padding-bottom: 5px;
-}
-article li {
-	vertical-align: top;
+	position:fixed;
+	top:0;
+	left:0;
 }
 
 /* hero text*/
 .hero-text {
 	text-align:left;
 	position:fixed;
-	color:red;
-	top:40%;
+	color:white;
+	top:75%;
+	left:3%;
 }
 .hero-text h1{
 	font-size:60px;
@@ -180,3 +106,48 @@ article li {
 	text-align:center;
 }
 
+/*Footer*/
+footer{
+	background-color:black;
+	color:white;
+	font-size: 0.8em;
+	font-family:italic;
+}
+footer a{
+	background-color:black;
+	color:white;
+	font-size: 1.3em;
+	font-family:italic;
+	text-align: center;
+}
+footer p{
+	background-color:black;
+	color:white;
+	font-size: 1.3em;
+	font-family:italic;
+	text-align: center;
+}
+footer .footer-1{
+	margin-right:2%;
+}
+footer .footer-2{
+	margin-right:2%;
+}
+footer .footer-3{
+	margin-right:2%;
+}
+footer i{
+	color:white;
+	font-size: 1.2em;
+	font-family:italic;
+	text-align:center;
+	margin-right:2%;
+}
+.socialmedia{
+    width:2%;
+    height:2%;
+}
+.contact{
+    width:2%;
+    height:2%; 	
+}
