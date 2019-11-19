@@ -113,6 +113,27 @@ video{
 	animation-name:slideinl;
 	animation-iteration-count:1;
 }
+/*Sliding Text*/
+@keyframes slideinl{
+	0%{
+		margin-left:-300%;
+		width:300%;
+	}
+	100%{
+		margin-left:0%;
+		width:100%;
+	}
+} 
+@keyframes slideinr{
+	0%{
+		margin-left:300%;
+		width:1000%;
+	}
+	100%{
+		margin-left:0%;
+		width:100%;
+	}
+}
 
 
 /*Home Form*/
@@ -203,11 +224,12 @@ input{
 
 /*Footer*/
 footer{
-	background-color:rgba(0,0,0,0.5);
-
+	background-color:rgba(0,0,0,0.2);
+	border:1px solid;
+	border-bottom-color:white;
+	
 }
 footer a p{
-	background-color:rgba(0,0,0,0.5);
 	color:white;
 	font-size: 0.8em;
 	font-family:italic;
@@ -238,23 +260,4 @@ footer i{
     width:2%;
     height:2%; 	
 }
-@keyframes slideinl{
-	0%{
-		margin-left:-300%;
-		width:300%;
-	}
-	100%{
-		margin-left:0%;
-		width:100%;
-	}
-} 
-@keyframes slideinr{
-	0%{
-		margin-left:300%;
-		width:1000%;
-	}
-	100%{
-		margin-left:0%;
-		width:100%;
-	}
-}
+
