@@ -5,15 +5,13 @@ body{
 
 /*Navigation*/
 .drop-down a{
-	font-size: 20px;
+	font-size:30px;
 }
 .drop-down{
 	background-color:rgba(0,0,0,0.4);
 	z-index:100;
 	border:1px solid;
-	border-bottom-color:white;
-	
-	
+	border-bottom-color:white;	
 }
 .drop-down:after{
 	content: '';
@@ -23,15 +21,15 @@ body{
 }
 .drop-down ul{
 	list-style: none;
-	margin: 0;
+	margin-right:50%;
 	z-index:100;
-	float:right;
+	float:center;
+	left:50%;
 }
 .drop-down > ul > li{
 	float: left;
 	position: relative;
-	z-index:100;
-	
+	z-index:100;	
 }
 .drop-down ul li a{
 	text-decoration: none;
@@ -75,10 +73,10 @@ body{
 /*Logo*/
 .logo{
 	height:auto;
-	width:250px;
+	width:15%;
 	float:left;
 	position:relative;
-	left:0;
+	left:1%;
 }
 
 /* Video */
