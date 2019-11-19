@@ -1,21 +1,10 @@
-
-/*newsletter form*/
-
-function openForm() {
-  document.getElementById("myForm").style.display = "block";
-}
-
-function closeForm() {
-  document.getElementById("myForm").style.display = "none";
-}
-
 //define get the form values
 
 let form = document.querySelector('form');
 
 //Create a new variable to send the data to the server
 
-form.onsubmit = sendData;
+form.onsubmit = sendData();
 
 //New function for passing data
 
@@ -34,9 +23,9 @@ function sendData(e){
 		headers: {
 			'Content-type': 'application/json'
 		},
-		body: JSON..stringify({
+		body: JSON.stringify({
 			name: formData.get('name')
-			email: formData.get('email')
+			/* email: formData.get('email') */
 		}),
 		method: "POST"
 	}
