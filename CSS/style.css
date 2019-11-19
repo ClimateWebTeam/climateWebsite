@@ -250,17 +250,9 @@ input{
 
 /*Footer*/
 footer{
-	background-color:rgba(0,0,0,0.2);
-	border:1px solid;
-	border-bottom-color:white;
-	
-}
-footer a p{
-	background-color:rgba(0,0,0,1);
+	background-color:rgba(0,0,0,0.4);
 	position:relative;
-	width:100%;
 	top:416px;
-}
 }
 footer a {
 	color:white;
