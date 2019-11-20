@@ -27,6 +27,7 @@ function sendData(e){
 			firstname: formData.get('firstname'),
 			lastname: formData.get('lastname'),
 			email: formData.get('email'),
+			gender: formData.get('gender')
 		}),
 		method: "POST"
 	}
