@@ -477,13 +477,13 @@ footer{
 }
 footer a {
 	color:white;
-	font-size: 1.2em;
+	font-size: 1em;
 	font-family:italic;
 	text-align:center;
 }
 footer p{
 	color:white;
-	font-size: 1.2em;
+	font-size: 1em;
 	font-family:italic;
 	text-align:center;
 }
@@ -498,7 +498,7 @@ footer .footer-3{
 }
 footer i{
 	color:white;
-	font-size: 1.2em;
+	font-size: 1em;
 	font-family:italic;
 	text-align:center;
 	margin-right:2%;
