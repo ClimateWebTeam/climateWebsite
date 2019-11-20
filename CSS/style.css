@@ -296,8 +296,8 @@ select{
 } */
 .imagecolumn {
 	float:left;
-	width:25%;
-	padding:0px;
+	width:20%;
+	padding:10px;
 }
 .imagerow::after{
 	content:"";
@@ -309,11 +309,36 @@ select{
 	height:50%;
 	cursor: pointer;
     transition: 0.3s;
+	position:relative;
+	left:45%;
 }
 .memberimages:hover{
 	opacity:0.8;
-	
 }
+.name{
+	position:relative;
+	top:-90px;
+	left:45%;
+	text-align: justify;
+    color:#FFFFFF;
+}
+.role{
+	position:relative;
+	top:-90px;
+	left:45%;
+	text-align: justify;
+    color:#FFFFFF;
+}
+.info{
+	text-align: justify;
+    color:#FFFFFF;
+    width:50%;
+	position:relative;
+	top:-70px;
+	left:45%;  
+}
+
+
 
 
 /* @media screen and (max-width: 500px){
