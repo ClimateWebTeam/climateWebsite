@@ -477,13 +477,13 @@ footer{
 }
 footer a {
 	color:white;
-	font-size: 0.8em;
+	font-size: 1.2em;
 	font-family:italic;
 	text-align:center;
 }
 footer p{
 	color:white;
-	font-size: 0.8em;
+	font-size: 1.2em;
 	font-family:italic;
 	text-align:center;
 }
@@ -504,10 +504,10 @@ footer i{
 	margin-right:2%;
 }
 .socialmedia{
-    width:1%;
-    height:1%;
+    width:2%;
+    height:2%;
 }
 .contact{
-    width:1%;
-    height:1%; 	
+    width:2%;
+    height:2%; 	
 }
