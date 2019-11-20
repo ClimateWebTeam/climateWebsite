@@ -136,6 +136,10 @@ video{
 	animation-iteration-count:1;
 }
 
+.top {
+	top:18%
+}
+
 /*Sliding Text*/
 @keyframes slideinl{
 	0%{
@@ -175,7 +179,7 @@ video{
 	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 	height:100%;
 	width:100%;
-	background-position:center;
+	background-position: center center;
 	background-repeat:no-repeat;
 	background-size:cover;
 	position:relative;
@@ -192,7 +196,7 @@ video{
 /*Home Form*/
 form{
 	width:29%;
-	height:530px;
+	height:630px;
 	position:relative;
 	left:65%;
 	border-radius:30px;
@@ -227,7 +231,7 @@ input{
 	width:28%;
 	height:8%;
 	position: relative;
-	top:5px;
+	top:-20px;
 	left:18%;
 	border-radius:15px;
 	font-size:14px;
@@ -244,12 +248,13 @@ input{
 	color:#000000;
 	border-radius:10px;
 	border: 1px solid #000000;
+    cursor: pointer;
 }
 #resetbutton{
 	width:28%;
 	height:8%;
 	position: relative;
-	top:5px;
+	top:-20px;
 	left:30%;
 	border-radius:15px;
 	font-size:14px;
@@ -265,7 +270,8 @@ input{
 	background-color:rgba(113, 218, 218,0.2);
 	color:#000000;
 	border-radius:10px;
-	border: 1px solid #000000;	
+	border: 1px solid #000000;
+    cursor: pointer;	
 }
 fieldset{
 	border-radius:19px;
@@ -283,12 +289,52 @@ select{
 	font-size:15px;
 }
 
+/*ABOUT US */
+/* .memberstable{
+	position:relative;
+	left:-20%;
+	background-color:red;
+	width:100%;
+	height:50%;
+	
+} */
+.imagecolumn {
+	float:left;
+	width:25%;
+	padding:0px;
+}
+.imagerow::after{
+	content:"";
+	clear:both;
+	dispaly:table;
+}
+.memberimages{
+	width:100%;
+	height:50%;
+	cursor: pointer;
+    transition: 0.3s;
+}
+.memberimages:hover{
+	opacity:0.8;
+	
+}
+
+
+/* @media screen and (max-width: 500px){
+	.column{
+		width:100%;
+	}
+} */
+
+
+
 /*Chapter 1*/
 article{
 	width:100%;
 	height:100%;
-
+	color:white;
 }
+
 .chapterHead{
 	position:absolute;
 	top:15%;
@@ -302,10 +348,28 @@ article{
 	top:400px;
 	left:35%;
 	width:30%;
-	font-size:20px;
-
+	font-size:19px;
+	text-shadow: 1px 1px black;
 }
 
+/*Chapter 3*/
+.flexrow {
+	display: flex;
+	height: 49%;
+}
+
+.column33 {
+	flex: 33%;
+}
+
+article section {
+	margin: 0 10px;
+}
+
+.flexrow .chapterText {
+	top: auto;
+	left: 3.5%;
+}	
 
 /*Contact Page*/
 /* .contact-Form p ul li{ */
