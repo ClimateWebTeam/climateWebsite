@@ -42,8 +42,9 @@ body{
 	left:20%;
 }
 .drop-down ul li:hover a{
-	border-top:2px solid white;
+	/* border-top:2px solid white; */
 	border-bottom:2px solid white;
+	color:black;	
 	z-index:100;
 }
 .drop-down ul ul{
@@ -54,14 +55,21 @@ body{
 	top: 100%;
 	left: 0;
 	z-index:100;
-	font-size:12px;
+}
+.drop-down ul ul a{
+	z-index:100;
+	min-width:100px;
+	font-size:20px;
+	position:relative;
+	right:33px;
+	background-color:white
 }
 .drop-down ul li:hover > ul{
 	display: block;
 	z-index:100;
 }
 .drop-down ul ul li:hover a{
-	background-color: black;
+	background-color: red;
 	z-index:100;
 }
 .drop-down ul ul li{
@@ -82,7 +90,7 @@ body{
 /* Video */
 video{
 	width:100%;
-	height:102%;
+	height:auto;
 	z-index:-100;
 	overflow:hidden;
 	position:fixed;
