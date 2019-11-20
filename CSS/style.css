@@ -373,6 +373,14 @@ article section {
 	left: 3.5%;
 }	
 
+.chapterIntro {
+	margin-top: 90px;
+	margin-bottom: 0px;
+	font-size: 18px;
+	text-align: center;
+	
+}
+
 /*Contact Page*/
 /* .contact-Form p ul li{ */
 	/* text-align:left; */
