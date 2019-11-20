@@ -41,6 +41,13 @@ function sendData(e){
 		
 		if (data.success === "Okay"){
 			console.log("Successful Data Entry");
+			
+			let error = document.querySelector('.error');
+			
+			
+			
+			error.innerHTML += `<li>Confirmation email has been sent successfully</li>`
+			
 		}
 		else{
 			let error = document.querySelector('.error');

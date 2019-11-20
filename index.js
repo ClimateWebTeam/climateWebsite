@@ -6,11 +6,12 @@ const port = 3000;
 const path = require('path');
 const bodyParser = require('body-parser');
 const { check, validationResult } = require('express-validator');
-const mail = require('nodemailer');
+const nodemailer = require('nodemailer');
+const fs = require('fs');
 
 //Not sure what this does yet
 
-let urlencoded = bodyParser.urlencoded({extended: false});
+let urlencoded = bodyParser.urlencoded({extended: true});
 
 //Includes bodyParser package and urlencoded package in file in JSON format
 
@@ -44,23 +45,23 @@ app.post('/formdata', [
 	.isLength({
 		min: 3
 	}).withMessage('FirstName must be at least 3 characters')
-	.isAlpha().withMessage('FirstName cannot contain numbers or special characters'),
+	.isAlpha().withMessage('First name cannot contain numbers or special characters'),
 	
 	check('lastname')
-	.not().isEmpty().withMessage('LastName cannot be empty')
+	.not().isEmpty().withMessage('Last name cannot be empty')
 	.isLength({
 		min: 3
 	}).withMessage('LastName must be at least 3 characters')
 	.isAlpha().withMessage('LastName cannot contain numbers or special characters'),
 	//Includes generic error message
 
-	//Removed for now, will work out multiple checks later
-
 	check('email', 'Email is not valid')
 	.isEmail(),
 	
 ], (request, response) => {
-	
+	console.log(request.body.firstname)
+	console.log(request.body)
+	console.log(request.body.email)
 	//Creates a response to serve with the validation with info about any errors
 	
 	const errors = validationResult(request)
@@ -77,7 +78,30 @@ app.post('/formdata', [
 	}
 	
 	//If there are no errors then send a code 202 to let the HTml know everything is okay
-	
+	var transporter = nodemailer.createTransport({
+	service: 'gmail',
+	auth: {
+    user: 'ben.f.cooper@gmail.com',
+    pass: 'Coopster123'
+	}
+	});
+
+	console.log(request.body.email);
+
+	var mailOptions = {
+	from: 'ben.f.cooper@gmail.com',
+	to: request.body.email,
+	subject: 'Sending Email using Node.js',
+	text: 'Hey ' + request.body.firstname + ', \n Welcome to the CMP Newsletter, we are glad to have you',
+	};
+
+	transporter.sendMail(mailOptions, function(error, info){
+	if (error) {
+    console.log(error);
+	} else {
+    console.log('Email sent: ' + info.response);
+	}
+	});
 	response.status(202).json({
 		success: 'Okay'
 	})
@@ -87,6 +111,19 @@ app.post('/formdata', [
 	//Show the content of the name input in the console
 	
 	console.log(request.body.name);
+	
+		var obj = JSON.parse(fs.readFileSync('/climateWebsite/JS/emails.json', 'utf8'));
+		console.log(obj);
+		
+		var newObj = JSON.stringify(obj) + '\n' + JSON.stringify(request.body);
+	
+	fs.writeFile('/climateWebsite/JS/emails.json', JSON.stringify(newObj) + '\n', function(err) {
+		if(err){
+			return console.log(err);
+		}
+		
+		console.log("Information saved");
+	})
 	
 	
 	
@@ -98,25 +135,3 @@ app.listen(port, () => console.log('Server Running'));
 
 
 
-var transporter = nodemailer.createTransport({
-  service: 'gmail',
-  auth: {
-    user: 'youremail@gmail.com',
-    pass: 'yourpassword'
-  }
-});
-
-var mailOptions = {
-  from: 'youremail@gmail.com',
-  to: 'myfriend@yahoo.com',
-  subject: 'Sending Email using Node.js',
-  text: 'That was easy!'
-};
-
-transporter.sendMail(mailOptions, function(error, info){
-  if (error) {
-    console.log(error);
-  } else {
-    console.log('Email sent: ' + info.response);
-  }
-});
