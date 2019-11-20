@@ -97,7 +97,7 @@ video{
 	color:white;
 	top:75%;
 	left:3%;
-	width:70%;
+
 }
 .hero-text h1{
 	font-size:60px;
@@ -156,7 +156,7 @@ video{
 @keyframes slideinr{
 	0%{
 		margin-left:300%;
-		width:1000%;
+		width:100%;
 	}
 	100%{
 		margin-left:0%;
