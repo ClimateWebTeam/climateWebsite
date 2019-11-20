@@ -368,6 +368,15 @@ article section {
 	margin: 0 10px;
 }
 
+article h2 {
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+article p {
+	margin-top: 8px;
+}
+
 .flexrow .chapterText {
 	top: auto;
 	left: 3.5%;
