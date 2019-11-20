@@ -175,7 +175,7 @@ video{
 	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 	height:99%;
 	width:100%;
-	background-position:center;
+	background-position: center center;
 	background-repeat:no-repeat;
 	background-size:cover;
 	position:relative;
@@ -183,11 +183,7 @@ video{
 }
 .h-image{
 	width:100%;
-<<<<<<< HEAD
-	height:99%;
-=======
-	height:90%;
->>>>>>> 586235072fdf243cdac6decfbb6a303871ac4fa0
+	height:100%;
 	position:absolute;
 }
 
@@ -231,7 +227,7 @@ input{
 	width:28%;
 	height:8%;
 	position: relative;
-	top:5px;
+	top:-35px;
 	left:18%;
 	border-radius:15px;
 	font-size:14px;
@@ -248,12 +244,13 @@ input{
 	color:#000000;
 	border-radius:10px;
 	border: 1px solid #000000;
+    cursor: pointer;
 }
 #resetbutton{
 	width:28%;
 	height:8%;
 	position: relative;
-	top:5px;
+	top:-35px;
 	left:30%;
 	border-radius:15px;
 	font-size:14px;
@@ -269,7 +266,8 @@ input{
 	background-color:rgba(113, 218, 218,0.2);
 	color:#000000;
 	border-radius:10px;
-	border: 1px solid #000000;	
+	border: 1px solid #000000;
+    cursor: pointer;	
 }
 fieldset{
 	border-radius:19px;
@@ -287,12 +285,51 @@ select{
 	font-size:15px;
 }
 
+/*ABOUT US */
+/* .memberstable{
+	position:relative;
+	left:-20%;
+	background-color:red;
+	width:100%;
+	height:50%;
+	
+} */
+.column {
+	float:left;
+	width:20%;
+	padding:6px;
+}
+.row::after{
+	content:"";
+	clear:both;
+	dispaly:table;
+}
+.memberimages{
+	width:100%;
+	height:50%;
+	cursor: pointer;
+    transition: 0.3s;
+}
+.memberimages:hover{
+	opacity:0.8;
+	
+}
+
+
+@media screen and (max-width: 500px){
+	.column{
+		width:100%;
+	}
+}
+
+
+
 /*Chapter 1*/
 article{
 	width:100%;
 	height:100%;
-
 }
+
 .chapterHead{
 	position:absolute;
 	top:15%;
@@ -307,7 +344,6 @@ article{
 	left:35%;
 	width:30%;
 	font-size:20px;
-
 }
 
 /*Footer*/
