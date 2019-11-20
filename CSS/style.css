@@ -136,6 +136,10 @@ video{
 	animation-iteration-count:1;
 }
 
+.top {
+	top:18%
+}
+
 /*Sliding Text*/
 @keyframes slideinl{
 	0%{
@@ -328,6 +332,7 @@ select{
 article{
 	width:100%;
 	height:100%;
+	color:white;
 }
 
 .chapterHead{
@@ -343,9 +348,28 @@ article{
 	top:400px;
 	left:35%;
 	width:30%;
-	font-size:20px;
+	font-size:19px;
+	text-shadow: 1px 1px black;
 }
 
+/*Chapter 3*/
+.flexrow {
+	display: flex;
+	height: 49%;
+}
+
+.column33 {
+	flex: 33%;
+}
+
+article section {
+	margin: 0 10px;
+}
+
+.flexrow .chapterText {
+	top: auto;
+	left: 3.5%;
+}	
 
 /*Contact Page*/
 .contact-Form p li{
