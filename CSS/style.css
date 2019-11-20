@@ -294,12 +294,12 @@ select{
 	height:50%;
 	
 } */
-.column {
+.imagecolumn {
 	float:left;
-	width:20%;
-	padding:6px;
+	width:25%;
+	padding:0px;
 }
-.row::after{
+.imagerow::after{
 	content:"";
 	clear:both;
 	dispaly:table;
@@ -316,11 +316,11 @@ select{
 }
 
 
-@media screen and (max-width: 500px){
+/* @media screen and (max-width: 500px){
 	.column{
 		width:100%;
 	}
-}
+} */
 
 
 
