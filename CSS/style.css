@@ -308,6 +308,12 @@ article{
 
 
 /*Contact Page*/
+.contact-Form p li{
+	text-align:left;
+	font-family: FreightSansProBook-Regular;
+	padding:20px;
+	font-size:20px;
+}
 
 .contact-Form h2{
 	margin:0;
@@ -317,7 +323,16 @@ article{
 	text-transform:uppercase;
 	letter-spacing:0.1em;	
 }
-.contact-Form input[type=text], select, textarea {
+.contact-Form input[type=text], textarea {
+  width:100%;
+  padding:12px;
+  border:1px solid #ccc;
+  margin-top:6px;
+  margin-bottom:16px;
+  resize:vertical;
+  color:black;
+}
+.contact-Form input[type=email]{
   width:100%;
   padding:12px;
   border:1px solid #ccc;
@@ -336,6 +351,12 @@ article{
 .contact-Form button[type=submit]:hover {
 	background-color:grey;
 }
+.contact-Form {
+	/* background-color:#f2f2f2; */
+    width:100%;
+	padding:40px;
+	margin-top:40px;
+}
 .contact-Form form{
 	/* background-color:#f2f2f2; */
     width:100%;
@@ -346,7 +367,7 @@ article{
     float:left;
 	width:50%;
 	margin-top:6px;
-	padding:20px;
+	padding:40px;
 	color:black;
 }
 .row:after {
