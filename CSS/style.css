@@ -97,6 +97,7 @@ video{
 	color:white;
 	top:75%;
 	left:3%;
+	width:70%;
 }
 .hero-text h1{
 	font-size:60px;
@@ -120,6 +121,7 @@ video{
 	top:50%;
 	left:50%;
 	transform: translate(-50%, -50%);
+	width:70%;
 }
 .hero-text1 h1{
 	font-size:60px;
@@ -370,6 +372,14 @@ article section {
 	top: auto;
 	left: 3.5%;
 }	
+
+.chapterIntro {
+	margin-top: 90px;
+	margin-bottom: 0px;
+	font-size: 18px;
+	text-align: center;
+	
+}
 
 /*Contact Page*/
 /* .contact-Form p ul li{ */
