@@ -42,9 +42,8 @@ body{
 	left:20%;
 }
 .drop-down ul li:hover a{
-	/* border-top:2px solid white; */
 	border-bottom:2px solid white;
-	color:black;	
+	color:grey;	
 	z-index:100;
 }
 .drop-down ul ul{
@@ -69,8 +68,9 @@ body{
 	z-index:100;
 }
 .drop-down ul ul li:hover a{
-	background-color: red;
+	background-color:rgba(113, 218, 218,0.2);
 	z-index:100;
+	color:black;
 }
 .drop-down ul ul li{
 	position: relative;
