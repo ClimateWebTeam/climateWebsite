@@ -6,6 +6,8 @@ body{
 /*Navigation*/
 .drop-down a{
 	font-size:30px;
+	font-family:'Roboto', sans-serif;
+	text-transform:uppercase;
 }
 .drop-down{
 	background-color:rgba(0,0,0,0.4);
@@ -42,7 +44,6 @@ body{
 	left:20%;
 }
 .drop-down ul li:hover a{
-	/* border-top:2px solid white; */
 	border-bottom:2px solid white;
 	color:black;	
 	z-index:100;
