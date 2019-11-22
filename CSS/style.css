@@ -6,8 +6,6 @@ body{
 /*Navigation*/
 .drop-down a{
 	font-size:30px;
-	font-family:'Roboto', sans-serif;
-	text-transform:uppercase;
 }
 .drop-down{
 	background-color:rgba(0,0,0,0.4);
