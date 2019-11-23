@@ -472,61 +472,59 @@ article p {
 }
 
 /*Contact Page*/
-/* .contact-Form p ul li{ */
-	/* text-align:left; */
-	/* font-family: FreightSansProBook-Regular; */
-	/* padding:20px; */
-	/* font-size:20px; */
-/* } */
+.contact-Form p ul li{
+	text-align:left;
+	font-family: FreightSansProBook-Regular;
+	padding:20px;
+	font-size:20px;
+}
 
-/* .contact-Form h2{ */
-	/* margin:0; */
-	/* font-size:30px; */
-	/* font-family:Georgia, serif; */
-    /* text-align:center;  */
-	/* text-transform:uppercase; */
-	/* letter-spacing:0.1em;	 */
-/* } */
-/* .contact-Form input[type=text], textarea { */
-  /* width:100%; */
-  /* padding:12px; */
-  /* border:1px solid #ccc; */
-  /* margin-top:6px; */
-  /* margin-bottom:16px; */
-  /* resize:vertical; */
-  /* color:black; */
-/* } */
-/* .contact-Form input[type=email]{ */
-  /* width:100%; */
-  /* padding:12px; */
-  /* border:1px solid #ccc; */
-  /* margin-top:6px; */
-  /* margin-bottom:16px; */
-  /* resize:vertical; */
-  /* color:black; */
-/* } */
-/* .contact-Form button[type=submit] { */
-  /* background-color:#e3e4e6; */
-  /* color:black; */
-  /* padding:12px 20px; */
-  /* border:none; */
-  /* cursor:pointer; */
-/* } */
-/* .contact-Form button[type=submit]:hover { */
-	/* background-color:grey; */
-/* } */
-/* .contact-Form { */
-	/* /* background-color:#f2f2f2; */ */
-    /* width:100%; */
-	/* padding:20px; */
-	/* margin-top:20px; */
-/* } */
-/* .contact-Form form{ */
-	/* /* background-color:#f2f2f2; */ */
-    /* width:100%; */
-	/* padding:20px; */
-	/* margin-top:20px; */
-/* } */
+.contact-Form h2{
+	margin:0;
+	font-size:30px;
+	font-family:Georgia, serif;
+    text-align:center; 
+	text-transform:uppercase;
+	letter-spacing:0.1em;
+	color:black;	
+}
+.contact-Form input[type=text], textarea {
+  width:100%;
+  padding:12px;
+  border:1px solid #ccc;
+  margin-top:6px;
+  margin-bottom:16px;
+  resize:vertical;
+  color:black;
+}
+.contact-Form input[type=email]{
+  width:100%;
+  padding:12px;
+  border:1px solid #ccc;
+  margin-top:6px;
+  margin-bottom:16px;
+  resize:vertical;
+  color:black;
+}
+.contact-Form button[type=submit] {
+  color:black;
+  padding:12px 20px;
+  border:none;
+  cursor:pointer;
+}
+.contact-Form button[type=submit]:hover {
+	background-color:grey;
+}
+.contact-Form {
+    width:100%;
+	padding:20px;
+	margin-top:20px;
+}
+.contact-Form form{
+    width:100%;
+	padding:20px;
+	margin-top:20px;
+}
 .column {
     float:left;
 	width:50%;
@@ -539,12 +537,12 @@ article p {
   display:table;
   clear:both;
 }
-/* .contact-Form label{ */
-	/* color:black; */
-	/* float:left; */
-	/* font-size:20px; */
-	/* font-family:FreightSansProBook-Regular; */
-/* } */
+.contact-Form label{
+	color:black;
+	float:left;
+	font-size:20px;
+	font-family:FreightSansProBook-Regular;
+}
 @media screen and (max-width: 1300px) {
   .column, button[type=submit] {
     width:100%;
