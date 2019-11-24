@@ -118,9 +118,33 @@ app.post('/formdata', [
 	
 	//Show the content of the name input in the console
 	
-	console.log(request.body.name);
+	console.log(request.body);
 	
-		var obj = JSON.parse(fs.readFileSync('/climateWebsite/JS/emails.json', 'utf8'));
+	/* var jsonfile = require('jsonfile');	
+	var obj = {
+		'table':[]
+	};
+	
+	obj.table.push(request.body);
+	
+	var json = JSON.stringify(obj);
+	
+	var fs = require('fs');
+	fs.writeFile('JS/emails.json', json, 'utf8'); */
+	
+	fs.readFile('JS/emails.json', 'utf8', function readFileCallback(err, data){
+    if (err){
+        console.log(err);
+    } else {
+    obj = JSON.parse(data); //now it an object
+    obj.table.push(request.body); //add some data
+    json = JSON.stringify(obj); //convert it back to json
+    fs.writeFile('JS/emails.json', json, 'utf8'); // write it back 
+}});
+	
+	
+	
+		/* var obj = JSON.parse(fs.readFileSync('/climateWebsite/JS/emails.json', 'utf8'));
 		console.log(obj);
 		
 		var newObj = JSON.stringify(obj) + '\n' + JSON.stringify(request.body);
@@ -131,7 +155,7 @@ app.post('/formdata', [
 		}
 		
 		console.log("Information saved");
-	})
+	}) */
 	
 	
 	
