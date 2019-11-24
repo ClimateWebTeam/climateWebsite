@@ -332,6 +332,28 @@ select{
 	position:relative;
 	top:190px;
 }
+
+.imagecolumn:hover .memberimages{
+	opacity:0.5;
+}
+
+.imagecolumn:hover .overlay {
+	opacity:1;
+}
+
+
+.overlay{
+	cursor: pointer;
+	transition: .5s ease;
+    opacity: 0;
+    position:relative;
+    top:-150px;
+    left:95%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 .imagerow{
   position: relative;
   width: 100%;
@@ -347,51 +369,67 @@ select{
 .memberimages{
 	width:100%;
 	height: auto;
-	cursor: pointer;
-    transition: 0.3s;
 	position:relative;
 	left:45%;
     display: block;
+	opacity: 5;
+    transition: .7s ease;
+    backface-visibility: hidden;
 }
-.memberimages:hover{
-	opacity:0.8;
-}
-.name{
+
+.name {
 	position:relative;
 	top:-90px;
 	left:45%;
-	text-align: justify;
+	text-align:center;
     color:#FFFFFF;
+	background-color:rgba(0,0,0,0.5);
+	/* text-decoration-line: underline; */
+	/* text-decoration-style:dotted; */
+	width:50%;
+	border-radius:3px;
 }
+
 .role{
 	position:relative;
-	top:-90px;
+	top:-116px;
 	left:45%;
-	text-align: justify;
+	text-align:center;
     color:#FFFFFF;
+	font-size:25px;
+	background-color:rgba(0,0,0,0.5);
+	width:50%;
+	border-radius:2px;
 }
+
 .info{
 	 text-align: justify;
-    color:#FFFFFF;
-    width:50%;
-	position:relative;
-	top:-70px;
-	left:45%;  
-  
+     color:#FFFFFF;
+     width:60%;
+	 height:100px;
+	 position:relative;
+	 top:-200px;
+	 left:14%;  
+	 border-radius:10px;
+	 background-color:rgba(0,0,0,0.7);
+     font-size:20px;
+     padding: 16px 32px;
+	 cursor: pointer;
 }
 
 
 
 
-.para{
-	text-align: justify;
-    color:#FFFFFF;
-    width:50%;
-	position:relative;
-	top:190px;
-	left:25%;  
-	/* background-color:red; */
-}
+
+
+
+
+
+
+
+
+
+
 
 
 
