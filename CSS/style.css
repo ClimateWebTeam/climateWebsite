@@ -450,7 +450,7 @@ select{
 
 
 /*Chapter 1*/
-article{
+main{
 	width:100%;
 	height:100%;
 	color:white;
@@ -468,7 +468,6 @@ article{
 	position:relative;
 	top:400px;
 	left:35%;
-	width:30%;
 	font-size:19px;
 	text-shadow: 1px 1px black;
 }
@@ -483,8 +482,15 @@ article{
 	flex: 33%;
 }
 
+article {
+	margin: 0 3.5%;
+}
+
 article section {
-	margin: 0 10px;
+	margin: 5px 6px;
+	padding: 0 5px;
+	background-color: rgba(0, 0, 0, 0.4);
+	box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.4);
 }
 
 article h2 {
@@ -498,7 +504,7 @@ article p {
 
 .flexrow .chapterText {
 	top: auto;
-	left: 3.5%;
+	left: auto;
 }	
 
 .chapterIntro {
