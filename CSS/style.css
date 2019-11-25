@@ -382,6 +382,7 @@ select{
 	text-align: justify;
     color:#FFFFFF;
 
+
 	background-color:rgba(0,0,0,0.5);
 	text-decoration-line: underline;
 	text-decoration-style:dotted;
@@ -472,15 +473,6 @@ select{
 	border: 1px solid #000000;
     cursor: pointer;	
 }
-
-
-
-
-
-
-
-
-
 
 
 
