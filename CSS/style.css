@@ -433,7 +433,7 @@ select{
 .information{
 	 text-align: justify;
      color:#FFFFFF;
-	 width:155%;
+	 width:100%;
 	 height:auto;
 	 position:relative;
 	 top:-269px;
@@ -449,7 +449,7 @@ select{
 .information2{
 	 text-align: justify;
      color:#FFFFFF;
-	 width:175%;
+	 width:100%;
 	 height:auto;
 	 position:relative;
 	 top:-540px;
