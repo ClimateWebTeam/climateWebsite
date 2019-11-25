@@ -47,7 +47,7 @@ function sendData(e){
 			
 			
 			
-			error.innerHTML += `<li>Confirmation email has been sent successfully</li>`
+			error.innerHTML += `<li class="errormessagesuccess">Confirmation email has been sent successfully</li>`
 			
 		}
 		else{
