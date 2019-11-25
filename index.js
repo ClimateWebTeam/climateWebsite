@@ -103,6 +103,10 @@ app.post('/formdata', [
 "\n \n \t" + "Thanks For Signing Up!",
 	};
 
+	function callback(error){
+		console.log(error)
+	}
+
 	transporter.sendMail(mailOptions, function(error, info){
 	if (error) {
     console.log(error);
@@ -139,7 +143,7 @@ app.post('/formdata', [
     obj = JSON.parse(data); //now it an object
     obj.table.push(request.body); //add some data
     json = JSON.stringify(obj); //convert it back to json
-    fs.writeFile('JS/emails.json', json, 'utf8'); // write it back 
+    fs.writeFile('JS/emails.json', json, 'utf8', callback); // write it back 
 }});
 	
 	
