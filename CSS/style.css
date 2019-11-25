@@ -432,7 +432,6 @@ select{
 	top:-90px;
 	left:45%;
 	text-align:center;
-	text-align: justify;
     color:#FFFFFF;
 	background-color:rgba(0,0,0,0.5);
 	text-decoration-line: underline;
@@ -445,7 +444,6 @@ select{
 .role{
 	position:relative;
 	top:-116px;
-	top:-90px;
 	left:45%;
 	text-align:center;
 	text-align: justify;
