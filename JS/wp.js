@@ -60,7 +60,7 @@ function sendData(e){
 			//document.querySelector('.errorContainer').style.display = "block";
 		
 			data.errors.forEach(function(err){
-				error.innerHTML += `<li>${err.msg}</li>`
+				error.innerHTML += `<li class="errormessage">${err.msg}</li>`
 			});
 		}
 		

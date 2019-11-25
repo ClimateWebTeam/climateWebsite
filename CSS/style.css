@@ -299,6 +299,16 @@ select{
 	font-size:15px;
 }
 
+
+.error {
+	background-color:red;
+	
+}
+.errormessage{
+	background-color:yellow;
+}
+
+
 /*ABOUT US */
 
 .hero-text2 {
@@ -486,20 +496,6 @@ select{
 	border: 1px solid #000000;
     cursor: pointer;	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
