@@ -586,8 +586,7 @@ article p {
 	font-family:Georgia, serif;
     text-align:center; 
 	text-transform:uppercase;
-	letter-spacing:0.1em;
-	color:black;	
+	letter-spacing:0.1em;	
 }
 .contact-Form input[type=text], textarea {
   width:100%;
@@ -618,13 +617,14 @@ article p {
 }
 .contact-Form {
     width:100%;
-	padding:20px;
-	margin-top:20px;
+	padding:40px;
+	margin-top:40px;
 }
 .contact-Form form{
     width:100%;
-	padding:20px;
-	margin-top:20px;
+	padding:40px;
+	margin-top:40px;
+	float:right;
 }
 .column {
     float:left;
@@ -642,7 +642,7 @@ article p {
 	color:black;
 	float:left;
 	font-size:20px;
-	font-family:FreightSansProBook-Regular;
+	/* font-family:FreightSansProBook-Regular; */
 }
 @media screen and (max-width: 1300px) {
   .column, button[type=submit] {
