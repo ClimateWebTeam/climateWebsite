@@ -103,6 +103,12 @@ app.post('/formdata', [
 "\n \n \t" + "Thanks For Signing Up!",
 	};
 
+	//Error function to print callback
+
+	function callback(error){
+		console.log(error)
+	}
+
 	transporter.sendMail(mailOptions, function(error, info){
 	if (error) {
     console.log(error);
@@ -120,46 +126,23 @@ app.post('/formdata', [
 	
 	console.log(request.body);
 	
-	/* var jsonfile = require('jsonfile');	
-	var obj = {
-		'table':[]
-	};
-	
-	obj.table.push(request.body);
-	
-	var json = JSON.stringify(obj);
-	
-	var fs = require('fs');
-	fs.writeFile('JS/emails.json', json, 'utf8'); */
+	//Read the json file and add on the new information
 	
 	fs.readFile('JS/emails.json', 'utf8', function readFileCallback(err, data){
     if (err){
         console.log(err);
     } else {
-    obj = JSON.parse(data); //now it an object
-    obj.table.push(request.body); //add some data
-    json = JSON.stringify(obj); //convert it back to json
-    fs.writeFile('JS/emails.json', json, 'utf8'); // write it back 
+    obj = JSON.parse(data); 
+    obj.table.push(request.body);
+    json = JSON.stringify(obj); 
+    fs.writeFile('JS/emails.json', json, 'utf8', callback); 
 }});
 	
 	
 	
-		/* var obj = JSON.parse(fs.readFileSync('/climateWebsite/JS/emails.json', 'utf8'));
-		console.log(obj);
 		
-		var newObj = JSON.stringify(obj) + '\n' + JSON.stringify(request.body);
+	})
 	
-	fs.writeFile('/climateWebsite/JS/emails.json', JSON.stringify(newObj) + '\n', function(err) {
-		if(err){
-			return console.log(err);
-		}
-		
-		console.log("Information saved");
-	}) */
-	
-	
-	
-})
 
 //Get the application to listen on port 3000 for requests
 
