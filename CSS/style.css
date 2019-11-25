@@ -103,10 +103,29 @@ video{
 	text-align:left;
 	position:fixed;
 	color:white;
-	top:75%;
-	left:3%;
+	top:50%;
+	left:7%;
 
 }
+.homeIntro{
+	position:absolute;
+	top:67%;
+	left:5%;
+	width:30%;
+	height:20%;
+	background-color:rgba(255,255,255,0.5);
+	border-radius:7px;
+	box-shadow:50px;
+}
+.homeIntrop{
+	position:relative;
+	top:5%;
+	left:7%;
+	width:90%;
+	height:90%;
+	font-size:20px;
+}
+
 .hero-text h1{
 	font-size:60px;
 	line-height:50px;
