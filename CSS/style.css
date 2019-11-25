@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body{
 	margin: 0;
 	padding: 0;
@@ -403,7 +407,8 @@ select{
     width:50%;
 	position:relative;
 	top:-70px;
-	left:45%;  
+	left:45%;
+		
   
 }
 .information{
@@ -545,22 +550,15 @@ article p {
 }
 
 /*Contact Page*/
-.contact-Form p ul li{
-	text-align:left;
-	font-family: FreightSansProBook-Regular;
-	padding:20px;
-	font-size:20px;
-}
 
-.contact-Form h2{
-	margin:0;
-	font-size:30px;
-	font-family:Georgia, serif;
-    text-align:center; 
-	text-transform:uppercase;
-	letter-spacing:0.1em;	
-}
-.contact-Form input[type=text], textarea {
+/* .contact-Form h2{ */
+	/* margin:0; */
+	/* font-size:30px; */
+	/* font-family:Georgia, serif; */
+    /* text-align:center;  */
+	/* letter-spacing:0.1em;	 */
+/* } */
+.contact-Form input[type=text]{
   width:100%;
   padding:12px;
   border:1px solid #ccc;
@@ -568,6 +566,10 @@ article p {
   margin-bottom:16px;
   resize:vertical;
   color:black;
+}
+textarea {
+  position:relative;
+	left:25%;
 }
 .contact-Form input[type=email]{
   width:100%;
@@ -583,50 +585,63 @@ article p {
   padding:12px 20px;
   border:none;
   cursor:pointer;
+    position:relative;
+	left:25%;
 }
 .contact-Form button[type=submit]:hover {
 	background-color:grey;
 }
-.contact-Form {
-    width:100%;
-	padding:40px;
-	margin-top:40px;
-}
-.contact-Form form{
-    width:100%;
-	/* padding:40px; */
-	/* margin-top:40px; */
-	float:right;
-}
-.column {
-    float:left;
+.contactText{
+	float:left;
 	width:50%;
-	margin-top:6px;
-	padding:20px;
-	color:black;
+	padding:10%;
+	height:100%;
+	color:white;
+	
 }
-.row:after {
-  content:"";
-  display:table;
-  clear:both;
+.contentWrapper{
+	background-color:rgba(255,255,255,0.4);
+	border-radius:10px;
+	padding:4%;
 }
+.contactForm{
+	width:70%;
+	position:relative;
+	left:0%;
+}
+.contactFormDiv{
+    width:50%;
+	border-radius:0;
+	height:100%;
+	margin:0;
+	padding:0;
+	position:relative;
+	left:0%;
+	float:right;
+	padding:5%;
+}
+
 .contact-Form label{
 	color:black;
 	float:left;
 	font-size:20px;
 	/* font-family:FreightSansProBook-Regular; */
 }
-@media screen and (max-width: 1300px) {
+/* @media screen and (max-width: 1300px) {
   .column, button[type=submit] {
     width:100%;
     margin-top:0;
   }
-}
+} */
 
 iframe{
-	width:100%;
-	height:100%;
+	width:40%;
+	height:400px;
 	border:0;
+	padding:5%;
+	position:relative;
+	bottom:300px;
+	left:5%;
 }
 
 /*Footer*/
