@@ -339,14 +339,19 @@ select{
 
 
 .error {
-	background-color:red;
+	position:relative;
+	top:5%;
+	list-style-type:none;
+	width:50%;
 	
 }
 .errormessage{
-	background-color:yellow;
+	background-color:#E57373;
+	color:#F22336;
 }
 .errormessagesuccess{
-	
+	background-color:#A5D6A7;
+	color:#66BB6A;
 }
 
 
