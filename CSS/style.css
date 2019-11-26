@@ -365,7 +365,6 @@ select{
 	position:relative;
 	left:45%;
     display: block;
-
 	opacity: 5;
     transition: .7s ease;
     backface-visibility: hidden;
@@ -381,7 +380,6 @@ select{
 	left:45%;
 	text-align: justify;
     color:#FFFFFF;
-
 
 	background-color:rgba(0,0,0,0.5);
 	text-decoration-line: underline;
@@ -473,6 +471,22 @@ select{
 	border: 1px solid #000000;
     cursor: pointer;	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
