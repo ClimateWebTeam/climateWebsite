@@ -340,18 +340,20 @@ select{
 
 .error {
 	position:relative;
-	top:5%;
+	top:10%;
+	left:20%;
 	list-style-type:none;
 	width:50%;
+	padding:2%;
 	
 }
 .errormessage{
 	background-color:#E57373;
-	color:#F22336;
+	color:#B71C1C;
 }
 .errormessagesuccess{
 	background-color:#A5D6A7;
-	color:#66BB6A;
+	color:#388E3C;
 }
 
 
