@@ -469,45 +469,16 @@ select{
 	 cursor: pointer;
 }
 
-.information{
-	 text-align: justify;
-     color:#FFFFFF;
-	 width:155%;
-	 height:auto;
-	 position:relative;
-	 top:-269px;
-	 left:-240%;  
-	 border-radius:7px;
-	 background-color:rgba(0,0,0,0.6);
-     font-size:25px;
-     padding: 16px 32px;
+.information{ 
+       background-color: red;
+	   width:50%;
+	   height:auto;
 }
 
-
-.information2{
-	 text-align: justify;
-     color:#FFFFFF;
-	 width:175%;
-	 height:auto;
-	 position:relative;
-	 top:-535px;
-	 left:-60%;  
-	 border-radius:7px;
-	 background-color:rgba(0,0,0,0.6);
-     font-size:25px;
-     padding: 16px 32px;
+.paragraph{
+	background-color:yellow;
 }
 
-
-.para{
-	text-align: justify;
-    color:#FFFFFF;
-    width:50%;
-	position:relative;
-	top:190px;
-	left:25%;  
-	/* background-color:red; */
-}
 
 .contactusbutton{
 	width:20%;
@@ -520,7 +491,8 @@ select{
 	margin:0 auto;
 	margin-top:60px;
 	padding:20px; 
-	background-color:rgba(0,0,0,0.7);
+	/* background-color:rgba(0,0,0,0.7); */
+	background-color:blue;
 	color:#FFFFFF;
 	border: 2px solid #FFFFFF;
 	cursor: pointer;
