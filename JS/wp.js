@@ -47,7 +47,7 @@ function sendData(e){
 			
 			
 			
-			error.innerHTML += `<li>Confirmation email has been sent successfully</li>`
+			error.innerHTML += `<li class="errormessagesuccess">Confirmation email has been sent successfully</li>`
 			
 		}
 		else{
@@ -60,7 +60,7 @@ function sendData(e){
 			//document.querySelector('.errorContainer').style.display = "block";
 		
 			data.errors.forEach(function(err){
-				error.innerHTML += `<li>${err.msg}</li>`
+				error.innerHTML += `<li class="errormessage">${err.msg}</li>`
 			});
 		}
 		
