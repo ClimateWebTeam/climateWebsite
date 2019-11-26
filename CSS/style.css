@@ -244,7 +244,7 @@ video{
 /*Home Form*/
 form{
 	width:29%;
-	height:630px;
+	height:830px;
 	position:relative;
 	left:65%;
 	border-radius:30px;
@@ -340,20 +340,22 @@ select{
 
 .error {
 	position:relative;
-	top:10%;
-	left:20%;
+	top:5%;
+	left:25%;
 	list-style-type:none;
 	width:50%;
-	padding:20px;
+	padding:2%;
 	
 }
 .errormessage{
-	background-color:#E57373;
+	/* background-color:#E57373; */
 	color:#B71C1C;
+	padding:2%;
 }
 .errormessagesuccess{
-	background-color:#A5D6A7;
+	/* background-color:#A5D6A7; */
 	color:#388E3C;
+	padding:2%;
 }
 
 
@@ -526,12 +528,17 @@ select{
 
 .information{ 
        background-color: red;
-	   width:50%;
+	   width:40%;
 	   height:auto;
+	   position:fixed;
 }
 
 .paragraph{
 	background-color:yellow;
+	width:40%;
+	height:auto;
+	position:fixed;
+	
 }
 
 
