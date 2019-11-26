@@ -1,3 +1,8 @@
+function errorRemove(){
+
+var errorlist = document.getElementById('errorlist');
+errorlist.innerHTML = '';
+}
 //define get the form values
 
 let form = document.querySelector('form');
