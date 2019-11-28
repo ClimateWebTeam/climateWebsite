@@ -54,7 +54,7 @@ body{
 .drop-down ul ul{
 	position: absolute;
 	padding: 0;
-	min-width: 100px;
+	min-width: 160px;
 	display: none;
 	top: 100%;
 	left: 0;
