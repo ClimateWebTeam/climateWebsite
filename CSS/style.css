@@ -672,7 +672,7 @@ textarea {
 	width:28%;
 	height:8%;
 	position: relative;
-	top:-35px;
+	top:10px;
 	left:35%;
 	border-radius:15px;
 	font-size:14px;
@@ -681,7 +681,7 @@ textarea {
 	padding:10px; 
 	background-color:black;
 	color:#FFFFFF;
-	border: 2px solid #4CAF50;
+	border: 2px solid #4CAF50;  
 }
 .contactFormDiv button[type=submit]:hover {
 	transition-duration:0.7s;
@@ -689,7 +689,7 @@ textarea {
 	color:#000000;
 	border-radius:10px;
 	border: 1px solid #000000;
-    cursor: pointer;
+    cursor: pointer;	
 }
 .contactText{
 	float:left;
