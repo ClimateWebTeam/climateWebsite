@@ -111,6 +111,9 @@ video{
 	video{
 		display:none;
 	}
+	*{
+		font-size:10px !important;
+	}
 	
 	
 }
