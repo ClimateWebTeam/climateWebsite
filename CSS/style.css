@@ -132,7 +132,6 @@ video{
 	height:20%;
 	/* background-color:rgba(255,255,255,0.5); */
 	border-radius:7px;
-	box-shadow:50px;
 	color:white;
 	border: 5px white solid;
 }
@@ -273,7 +272,7 @@ input{
 	left:25%;
 	bottom:-16px;
 	border-color:#E0E0E0;
-	border-top-color:E0E0E0;
+	border-top-color:#E0E0E0;
 }
 #submitbutton{
 	width:28%;
@@ -414,7 +413,6 @@ select{
 .imagerow::after{
 	content:"";
 	clear:both;
-	dispaly:table;
 }
 
 
@@ -427,7 +425,6 @@ select{
 	position:relative;
 	left:45%;
     display: block;
-	opacity: 5;
     transition: .7s ease;
     backface-visibility: hidden;
 	border-radius:20px;
@@ -452,7 +449,8 @@ select{
     top:-150px;
     left:95%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+   
     text-align: center;
 }
 .memberimages{
@@ -463,7 +461,6 @@ select{
 	position:relative;
 	left:45%;
     display: block;
-	opacity: 5;
     transition: .7s ease;
     backface-visibility: hidden;
 }
@@ -545,7 +542,7 @@ select{
 
 .contactusbutton{
 	width:20%;
-	height:auto%;
+	height:auto;
 	position:fixed;
 	top:82%;
 	left:40%;
