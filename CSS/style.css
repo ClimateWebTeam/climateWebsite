@@ -417,7 +417,16 @@ select{
 	content:"";
 }
 
-
+.nextPage{
+	position:fixed;
+	top:50%;
+	left:95%;
+}
+.lastPage{
+	position:fixed;
+	right:95%;
+	top:50%;
+}
 
 .memberimages{
 	width:100%;
