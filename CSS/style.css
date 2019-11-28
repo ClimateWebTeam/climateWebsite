@@ -128,7 +128,7 @@ video{
 .homeIntro{
 	position:absolute;
 	top:71%;
-	left:5%;
+	left:7%;
 	width:30%;
 	height:20%;
 	/* background-color:rgba(255,255,255,0.5); */
@@ -151,6 +151,7 @@ video{
 	animation-duration:3s;
 	animation-name:slideinr;
 	animation-iteration-count:1;
+
 }
 .hero-text p{
 	font-size:25px;
