@@ -500,7 +500,7 @@ select{
 	 text-align: justify;
      color:#FFFFFF;
      width:80%;
-	 height:115px;
+	 height:140px;
 	 position:relative;
 	 top:-200px;
 	 left:10%;  
@@ -596,18 +596,20 @@ main{
 }
 
 .figure-img{
-	width: 100%;
-	height: auto;
+	width: 60%;
+	position:relative;
+	left:20%;
+	height:50%;
 }
+figcaption{
+	width:50%;
+}
+
 .chapterText{
 	position:relative;
 	top:400px;
 	left:35%;
 	font-size:19px;
-}
-
-figure{
-	background-color:rgba(255,255,255,0.4);
 }
 
 .flexrow {
@@ -635,6 +637,7 @@ article section {
 article h2 {
 	margin-top: 10px;
 	margin-bottom: 0;
+	width: 80%;
 }
 
 article p {
