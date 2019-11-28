@@ -253,7 +253,7 @@ form{
 }
 section , h2{
 	position:relative;
-	left:13%;
+	left:16%;
 	top:5%;
 	width:94%;
 	height:10%;
@@ -279,7 +279,7 @@ input{
 	width:28%;
 	height:8%;
 	position: relative;
-	top:-20px;
+	top:10px;
 	left:18%;
 	border-radius:15px;
 	font-size:14px;
@@ -302,7 +302,7 @@ input{
 	width:28%;
 	height:8%;
 	position: relative;
-	top:-20px;
+	top:10px;
 	left:30%;
 	border-radius:15px;
 	font-size:14px;
@@ -341,10 +341,11 @@ select{
 .error {
 	position:relative;
 	top:5%;
-	left:25%;
+	left:21%;
 	list-style-type:none;
-	width:50%;
+	width:80%;
 	padding:2%;
+	height:2%;
 	
 }
 .errormessage{
@@ -360,9 +361,6 @@ select{
 
 
 /*ABOUT US */
-
-
-
 
 
 .hero-text2 {
@@ -508,7 +506,7 @@ select{
 	 height:115px;
 	 position:relative;
 	 top:-200px;
-	 left:14%;  
+	 left:10%;  
 	 border-radius:10px;
 	 background-color:rgba(0,0,0,0.7);
      font-size:20px;
