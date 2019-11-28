@@ -670,23 +670,35 @@ textarea {
   resize:vertical;
   color:black;
 }
-.contact-Form button[type=submit] {
-  color:black;
-  padding:12px 20px;
-  border:none;
-  cursor:pointer;
-    position:relative;
-	left:25%;
+.contactFormDiv button[type=submit] {
+	width:28%;
+	height:8%;
+	position: relative;
+	top:-35px;
+	left:35%;
+	border-radius:15px;
+	font-size:14px;
+	margin:0 auto;
+	margin-top:60px;
+	padding:10px; 
+	background-color:black;
+	color:#FFFFFF;
+	border: 2px solid #4CAF50;
 }
-.contact-Form button[type=submit]:hover {
-	background-color:grey;
+.contactFormDiv button[type=submit]:hover {
+	transition-duration:0.7s;
+	background-color:rgba(113, 218, 218,0.2);
+	color:#000000;
+	border-radius:10px;
+	border: 1px solid #000000;
+    cursor: pointer;
 }
 .contactText{
 	float:left;
 	width:50%;
 	padding:10%;
 	height:100%;
-	color:white;
+	color:black;
 	
 }
 .contentWrapper{

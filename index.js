@@ -81,8 +81,8 @@ app.post('/formdata', [
 	var transporter = nodemailer.createTransport({
 	service: 'gmail',
 	auth: {
-    user: 'ben.f.cooper@gmail.com',
-    pass: 'Coopster123'
+    user: 'climatemonitoringpeople@gmail.com',
+    pass: '@CMPeople1'
 	}
 	});
 
