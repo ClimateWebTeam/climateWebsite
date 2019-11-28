@@ -432,11 +432,11 @@ select{
 }
 .memberimages:hover{
 	opacity:0.8;
-	background-color:green;
+	
 }
 .imagecolumn:hover .memberimages{
 	opacity:0.5;
-	background-color:green;
+	
 }
 
 .imagecolumn:hover .overlay {
