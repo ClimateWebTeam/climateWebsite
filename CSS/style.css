@@ -26,7 +26,6 @@ body{
 .drop-down ul{
 	list-style: none;
 	z-index:100;
-
 }
 .drop-down > ul > li{
 	float:left;
@@ -54,6 +53,7 @@ body{
 	position: absolute;
 	padding: 0;
 	min-width: 100px;
+	width:100%;
 	display: none;
 	top: 100%;
 	left: 0;
@@ -85,6 +85,7 @@ body{
 
 
 
+
 /* header { */
   /* position: absolute; */
   /* top: 0; */
@@ -98,7 +99,7 @@ body{
 /* } */
 
 /* header nav { */
-  /* /* float: center; */ */
+  /* /* float: center; */ 
 	/* left:20%; */
 	/* margin:2%; */
 	/* background-color:rgba(0,0,0,0.4) */
@@ -116,12 +117,12 @@ body{
   /* content: " \f107"; */
   /* position: absolute; */
   /* font-family: fontAwesome; */
-  /* /* line-height: 50px; */ */
+  /* /* line-height: 50px; */ 
   /* color: white; */
   /* right: 5px; */
 /* } */
 
-/* /* dropdown-starts */ */
+/* /* dropdown-starts */ 
 /* header nav ul li ul { */
   /* position: absolute; */
   /* left: 0; */
@@ -140,7 +141,7 @@ body{
   /* text-decoration: none; */
   /* padding: 15px 25px; */
   /* height: 50px; */
-  /* /* line-height: 50px; */ */
+  /* /* line-height: 50px; */ 
   /* display: block; */
 /* } */
 /* header nav ul li:hover a{ */
@@ -190,6 +191,7 @@ body{
     /* width: 100%; */
   /* } */
 /* } */
+
 
 
 /*Logo*/
