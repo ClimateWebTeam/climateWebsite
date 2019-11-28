@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
 }
 
 body{
@@ -631,15 +632,6 @@ article section {
 	letter-spacing: 0.3px;
 }
 
-.sectEmphasis {
-	border-color: white;
-	text-shadow: 1px 1px black;
-}
-
-.sectEmphasis h2 {
-	font-size: 50px;
-}
-
 article h2 {
 	margin-top: 10px;
 	margin-bottom: 0;
@@ -649,13 +641,25 @@ article p {
 	margin-top: 8px;
 }
 
+article h3 {
+	text-shadow: 1px 1px black;
+}
+.sectEmphasis {
+	border-color: white;
+	text-shadow: 1px 1px black;
+}
+
+.sectEmphasis h2 {
+	font-size: 50px;
+}
+
 .flexrow .chapterText {
 	top: auto;
 	left: auto;
 }	
 
 .chapterIntro {
-	margin-top: 90px;
+	margin-top: 92px;
 	margin-bottom: 0px;
 	font-size: 18px;
 	text-align: center;
