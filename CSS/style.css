@@ -82,6 +82,116 @@ body{
 }
 
 
+
+
+
+/* header { */
+  /* position: absolute; */
+  /* top: 0; */
+  /* left: 0; */
+  /* padding: 0 100px; */
+  /* background-color:rgba(0,0,0,0.4); */
+  /* width: 100%; */
+  /* box-sizing: border-box; */
+  /* font-size:30px; */
+  /* border-bottom-color:white; */
+/* } */
+
+/* header nav { */
+  /* /* float: center; */ */
+	/* left:20%; */
+	/* margin:2%; */
+	/* background-color:rgba(0,0,0,0.4) */
+/* } */
+/* header nav ul { */
+  /* display: flex; */
+  /* margin: 0; */
+  /* padding: 0; */
+/* } */
+/* header nav ul li { */
+  /* list-style: none; */
+  /* position: relative; */
+/* } */
+/* header nav ul li .sub-menu:before { */
+  /* content: " \f107"; */
+  /* position: absolute; */
+  /* font-family: fontAwesome; */
+  /* /* line-height: 50px; */ */
+  /* color: white; */
+  /* right: 5px; */
+/* } */
+
+/* /* dropdown-starts */ */
+/* header nav ul li ul { */
+  /* position: absolute; */
+  /* left: 0; */
+  /* background: #333; */
+  /* display: none; */
+/* } */
+/* header nav ul li.active ul { */
+  /* display: block; */
+/* } */
+/* header nav ul li ul li { */
+  /* display: block; */
+  /* width: 200px; */
+/* } */
+/* header nav ul li a { */
+  /* color: white; */
+  /* text-decoration: none; */
+  /* padding: 15px 25px; */
+  /* height: 50px; */
+  /* /* line-height: 50px; */ */
+  /* display: block; */
+/* } */
+/* header nav ul li:hover a{ */
+	/* border-bottom:2px solid white; */
+	/* color:grey;	 */
+/* } */
+
+/* header nav ul ul li a:hover { */
+  /* color: #fff; */
+  /* border:none; */
+  /* background-color:rgba(113, 218, 218,0.2); */
+/* } */
+/* .menu-toggle { */
+  /* color: #fff; */
+  /* float: right; */
+  /* line-height: 50px; */
+  /* font-size: 24px; */
+  /* cursor: pointer; */
+  /* display: none; */
+/* } */
+/* @media (max-width: 991px) { */
+  /* header { */
+    /* padding: 0 20px; */
+  /* } */
+  /* .menu-toggle { */
+    /* display: block; */
+  /* } */
+   /* header nav { */
+    /* position: absolute; */
+    /* width: 100%; */
+    /* height: calc(100vh - 50px); */
+    /* background: #333; */
+    /* top: 50px; */
+    /* left: -100%; */
+    /* transition: 0.5s; */
+  /* } */
+
+  /* header nav ul { */
+    /* display: block; */
+    /* text-align: center; */
+  /* } */
+  /* header nav ul li a { */
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.2); */
+  /* } */
+
+  /* header nav ul li ul li { */
+    /* width: 100%; */
+  /* } */
+/* } */
+
+
 /*Logo*/
 .logo{
 	height:auto;
@@ -569,25 +679,6 @@ select{
 	border: 1px solid #000000;
     cursor: pointer;	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
