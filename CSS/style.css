@@ -401,31 +401,30 @@ select{
 
 
 .imagecolumn {
-	float:left;
+	display:inline-block;
 	width:20%;
 	padding:10px;
 	position:relative;
 	top:190px;
+	left:10%;
+
 }
 .imagerow{
-  position: relative;
   width: 100%;
+  height:100%;
 } 
 .imagerow::after{
 	content:"";
-	clear:both;
 }
 
 
 
 .memberimages{
 	width:100%;
-	height: auto;
 	cursor: pointer;
     transition: 0.3s;
 	position:relative;
-	left:45%;
-    display: block;
+    display: inline;
     transition: .7s ease;
     backface-visibility: hidden;
 	border-radius:20px;
@@ -433,9 +432,11 @@ select{
 }
 .memberimages:hover{
 	opacity:0.8;
+	background-color:green;
 }
 .imagecolumn:hover .memberimages{
 	opacity:0.5;
+	background-color:green;
 }
 
 .imagecolumn:hover .overlay {
@@ -447,23 +448,12 @@ select{
 	transition: .5s ease;
     opacity: 0;
     position:relative;
-    top:-150px;
-    left:95%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    bottom:200px;
+	width:90%;
+    
     text-align: center;
 }
-.memberimages{
-	width:100%;
-	height: auto;
-	cursor: pointer;
-    transition: 0.3s;
-	position:relative;
-	left:45%;
-    display: block;
-    transition: .7s ease;
-    backface-visibility: hidden;
-}
+
 
 
 
@@ -500,10 +490,10 @@ select{
 	 text-align: justify;
      color:#FFFFFF;
      width:80%;
-	 height:140px;
+	 height:100%;
 	 position:relative;
 	 top:-200px;
-	 left:10%;  
+	 left:15%;  
 	 border-radius:10px;
 	 background-color:rgba(0,0,0,0.7);
      font-size:20px;
@@ -551,6 +541,7 @@ select{
 	margin:0 auto;
 	margin-top:60px;
 	padding:20px; 
+	text-decoration:none;
     background-color:rgba(0,0,0,0.7); 
 	color:#FFFFFF;
 	border: 2px solid #FFFFFF;
@@ -566,27 +557,6 @@ select{
 	border: 1px solid #000000;
     cursor: pointer;	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*Chapter Graphs*/
 main{
