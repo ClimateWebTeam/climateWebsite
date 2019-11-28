@@ -592,16 +592,27 @@ select{
 
 
 /*Chapter Graphs*/
+main{
+	width:100%;
+	height:100%;
+	color:white;
+}
 
 .figure-img{
 	width: 100%;
 	height: auto;
 }
+.chapterText{
+	position:relative;
+	top:400px;
+	left:35%;
+	font-size:19px;
+}
+
 figure{
 	background-color:rgba(255,255,255,0.4);
 }
 
-/*Chapter 3*/
 .flexrow {
 	display: flex;
 	height: 49%;
@@ -611,8 +622,26 @@ figure{
 	flex: 33%;
 }
 
+article {
+	margin: 0 3.5%;
+}
+
 article section {
-	margin: 0 10px;
+	margin: 10px 6px;
+	padding: 0px 15px;
+	background-color: rgba(0, 0, 0, 0.4);
+	border: 2.5px solid #afafaf;
+	border-radius: 14px;
+	letter-spacing: 0.3px;
+}
+
+.sectEmphasis {
+	border-color: white;
+	text-shadow: 1px 1px black;
+}
+
+.sectEmphasis h2 {
+	font-size: 50px;
 }
 
 article h2 {
@@ -626,7 +655,7 @@ article p {
 
 .flexrow .chapterText {
 	top: auto;
-	left: 3.5%;
+	left: auto;
 }	
 
 .chapterIntro {
