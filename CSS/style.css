@@ -596,18 +596,20 @@ main{
 }
 
 .figure-img{
-	width: 100%;
-	height: auto;
+	width: 60%;
+	position:relative;
+	left:20%;
+	height:50%;
 }
+figcaption{
+	width:50%;
+}
+
 .chapterText{
 	position:relative;
 	top:400px;
 	left:35%;
 	font-size:19px;
-}
-
-figure{
-	background-color:rgba(255,255,255,0.4);
 }
 
 .flexrow {
