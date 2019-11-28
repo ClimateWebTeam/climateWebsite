@@ -635,6 +635,7 @@ article section {
 article h2 {
 	margin-top: 10px;
 	margin-bottom: 0;
+	width: 80%;
 }
 
 article p {
