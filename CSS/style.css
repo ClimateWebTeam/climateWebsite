@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
 }
 
 body{
@@ -26,6 +27,7 @@ body{
 .drop-down ul{
 	list-style: none;
 	z-index:100;
+
 }
 .drop-down > ul > li{
 	float:left;
@@ -52,8 +54,7 @@ body{
 .drop-down ul ul{
 	position: absolute;
 	padding: 0;
-	min-width: 100px;
-	width:100%;
+	min-width: 160px;
 	display: none;
 	top: 100%;
 	left: 0;
@@ -110,6 +111,9 @@ video{
 	video{
 		display:none;
 	}
+	*{
+		font-size:10px !important;
+	}
 	
 	
 }
@@ -127,12 +131,11 @@ video{
 .homeIntro{
 	position:absolute;
 	top:71%;
-	left:5%;
+	left:7%;
 	width:30%;
 	height:20%;
 	/* background-color:rgba(255,255,255,0.5); */
 	border-radius:7px;
-	box-shadow:50px;
 	color:white;
 	border: 5px white solid;
 }
@@ -151,6 +154,7 @@ video{
 	animation-duration:3s;
 	animation-name:slideinr;
 	animation-iteration-count:1;
+
 }
 .hero-text p{
 	font-size:25px;
@@ -253,7 +257,7 @@ form{
 }
 section , h2{
 	position:relative;
-	left:13%;
+	left:16%;
 	top:5%;
 	width:94%;
 	height:10%;
@@ -273,13 +277,13 @@ input{
 	left:25%;
 	bottom:-16px;
 	border-color:#E0E0E0;
-	border-top-color:E0E0E0;
+	border-top-color:#E0E0E0;
 }
 #submitbutton{
 	width:28%;
 	height:8%;
 	position: relative;
-	top:-20px;
+	top:10px;
 	left:18%;
 	border-radius:15px;
 	font-size:14px;
@@ -302,7 +306,7 @@ input{
 	width:28%;
 	height:8%;
 	position: relative;
-	top:-20px;
+	top:10px;
 	left:30%;
 	border-radius:15px;
 	font-size:14px;
@@ -341,10 +345,11 @@ select{
 .error {
 	position:relative;
 	top:5%;
-	left:25%;
+	left:21%;
 	list-style-type:none;
-	width:50%;
+	width:80%;
 	padding:2%;
+	height:2%;
 	
 }
 .errormessage{
@@ -360,9 +365,6 @@ select{
 
 
 /*ABOUT US */
-
-
-
 
 
 .hero-text2 {
@@ -403,43 +405,51 @@ select{
 
 
 .imagecolumn {
-	float:left;
+	display:inline-block;
 	width:20%;
 	padding:10px;
 	position:relative;
 	top:190px;
+	left:8.5%;
+
 }
 .imagerow{
-  position: relative;
   width: 100%;
+  height:100%;
 } 
 .imagerow::after{
 	content:"";
-	clear:both;
-	dispaly:table;
 }
 
-
+.nextPage{
+	position:fixed;
+	top:50%;
+	left:95%;
+}
+.lastPage{
+	position:fixed;
+	right:95%;
+	top:50%;
+}
 
 .memberimages{
 	width:100%;
-	height: auto;
 	cursor: pointer;
     transition: 0.3s;
 	position:relative;
-	left:45%;
-    display: block;
-	opacity: 5;
+    display: inline;
     transition: .7s ease;
     backface-visibility: hidden;
-	border-radius:7px;
+	border-radius:20px;
 
 }
 .memberimages:hover{
 	opacity:0.8;
+	
 }
 .imagecolumn:hover .memberimages{
 	opacity:0.5;
+	
 }
 
 .imagecolumn:hover .overlay {
@@ -451,24 +461,12 @@ select{
 	transition: .5s ease;
     opacity: 0;
     position:relative;
-    top:-150px;
-    left:95%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    bottom:200px;
+	width:90%;
+    
     text-align: center;
 }
-.memberimages{
-	width:100%;
-	height: auto;
-	cursor: pointer;
-    transition: 0.3s;
-	position:relative;
-	left:45%;
-    display: block;
-	opacity: 5;
-    transition: .7s ease;
-    backface-visibility: hidden;
-}
+
 
 
 
@@ -503,58 +501,61 @@ select{
 
 .info{
 	 text-align: justify;
-
-    color:#FFFFFF;
-    width:50%;
-	position:relative;
-	top:-70px;
-	left:45%;
-		
-  
-
      color:#FFFFFF;
-     width:60%;
-	 height:100px;
+     width:80%;
+	 height:100%;
 	 position:relative;
 	 top:-200px;
-	 left:14%;  
+	 left:15%;  
 	 border-radius:10px;
 	 background-color:rgba(0,0,0,0.7);
      font-size:20px;
      padding: 16px 32px;
 	 cursor: pointer;
-
 }
 
-.information{ 
-       background-color: red;
-	   width:40%;
-	   height:auto;
-	   position:fixed;
-}
 
 .paragraph{
-	background-color:yellow;
+	background-color:rgba(0,0,0,0.7);
 	width:40%;
-	height:auto;
+	height:20%;
+	padding:2%;
+	text-align:justify;
 	position:fixed;
-	
+	top:63%;
+	left:9%;
+	color:#FFFFFF;
+	border-radius:10px;
+	font-size:20px;
+}
+.paragraph2{
+	background-color:rgba(0,0,0,0.7);
+	text-align:justify;
+	width:38%;
+	height:20%;
+	padding:2%;
+	position:fixed;
+	left:50%;
+	top:63%;
+	color:#FFFFFF;
+	border-radius:10px;
+	font-size:20px;
 }
 
 
 .contactusbutton{
 	width:20%;
-	height:auto%;
-	position: relative;
-	top:-400px;
+	height:auto;
+	position:fixed;
+	top:82%;
 	left:40%;
 	border-radius:35px;
 	font-size:25px;
 	margin:0 auto;
 	margin-top:60px;
 	padding:20px; 
-	/* background-color:rgba(0,0,0,0.7); */
-	background-color:blue;
+	text-decoration:none;
+    background-color:rgba(0,0,0,0.7); 
 	color:#FFFFFF;
 	border: 2px solid #FFFFFF;
 	cursor: pointer;
@@ -570,19 +571,30 @@ select{
     cursor: pointer;	
 }
 
-
-
 /*Chapter Graphs*/
+main{
+	width:100%;
+	height:100%;
+	color:white;
+}
 
 .figure-img{
-	width: 100%;
-	height: auto;
+	width: 60%;
+	position:relative;
+	left:20%;
+	height:50%;
 }
-figure{
-	background-color:rgba(255,255,255,0.4);
+figcaption{
+	width:50%;
 }
 
-/*Chapter 3*/
+.chapterText{
+	position:relative;
+	top:400px;
+	left:35%;
+	font-size:19px;
+}
+
 .flexrow {
 	display: flex;
 	height: 49%;
@@ -592,26 +604,48 @@ figure{
 	flex: 33%;
 }
 
+article {
+	margin: 0 3.5%;
+}
+
 article section {
-	margin: 0 10px;
+	margin: 10px 6px;
+	padding: 0px 15px;
+	background-color: rgba(0, 0, 0, 0.4);
+	border: 2.5px solid #afafaf;
+	border-radius: 14px;
+	letter-spacing: 0.3px;
 }
 
 article h2 {
 	margin-top: 10px;
 	margin-bottom: 0;
+	width: 80%;
 }
 
 article p {
 	margin-top: 8px;
 }
 
+article h3 {
+	text-shadow: 1px 1px black;
+}
+.sectEmphasis {
+	border-color: white;
+	text-shadow: 1px 1px black;
+}
+
+.sectEmphasis h2 {
+	font-size: 50px;
+}
+
 .flexrow .chapterText {
 	top: auto;
-	left: 3.5%;
+	left: auto;
 }	
 
 .chapterIntro {
-	margin-top: 90px;
+	margin-top: 92px;
 	margin-bottom: 0px;
 	font-size: 18px;
 	text-align: center;
@@ -620,13 +654,6 @@ article p {
 
 /*Contact Page*/
 
-/* .contact-Form h2{ */
-	/* margin:0; */
-	/* font-size:30px; */
-	/* font-family:Georgia, serif; */
-    /* text-align:center;  */
-	/* letter-spacing:0.1em;	 */
-/* } */
 .contact-Form input[type=text]{
   width:100%;
   padding:12px;
@@ -653,7 +680,7 @@ textarea {
 	width:28%;
 	height:8%;
 	position: relative;
-	top:-35px;
+	top:10px;
 	left:35%;
 	border-radius:15px;
 	font-size:14px;
@@ -662,7 +689,7 @@ textarea {
 	padding:10px; 
 	background-color:black;
 	color:#FFFFFF;
-	border: 2px solid #4CAF50;
+	border: 2px solid #4CAF50;  
 }
 .contactFormDiv button[type=submit]:hover {
 	transition-duration:0.7s;
@@ -670,14 +697,14 @@ textarea {
 	color:#000000;
 	border-radius:10px;
 	border: 1px solid #000000;
-    cursor: pointer;
+    cursor: pointer;	
 }
 .contactText{
 	float:left;
 	width:50%;
 	padding:10%;
 	height:100%;
-	color:black;
+	color:white;
 	
 }
 .contentWrapper{
