@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Reservations</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Marcellus+SC&display=swap" rel="stylesheet">
+	
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Alice&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bad+Script&display=swap" rel="stylesheet">
+  </head>
+  
+  
+  <body class="bodycolor">
+    <div class="imgbgfour">  
+		<nav>
+		 <img src="logo.png" alt="logo" class="logo">
+		  <ul>
+		     <li><a href="index.html">Home</a></li>
+	         <li><a href="facilities.html">Facilities</a></li>
+	         <li><a href="booking.html">Corporate Booking</a></li>
+	         <li><a href="reservations.html">Reservations</a></li>
+		  </ul>
+		</nav> 
+		<div class="hero-inner">
+	    <h1> Reservations </h1>
+		</div>
+    </div>
+   
+    <div class="reservationsarticle">
+	 <table class="restable">
+	 
+	 <tr>
+	  <td>
+	   <div class="resimage"><img src="room1.jpg" alt="image" class="resimg"></div>
+	 <p class="restitle">Double Room: <br>£180/Night</p>
+	
+	 </td>
+
+	 <td>
+	 <div class="resimage"><img src="room2.jpg" alt="image" class="resimg">
+	 </div>
+	 <p class="restitle">Single Room: <br> £290/Night</p>
+	
+	 </td>
+	 
+	 <td>
+	 <div class="resimage"><img src="room3.jpg" alt="image" class="resimg">
+	 </div>
+	 <p class="restitle">Suite:<br> £400/Night</p>
+	 
+	 </td>
+   
+    </table>
+   </div>
+    
+	<br>
+	
+	
+   <div class="spacer">
+    <h2> Book Now & Get The Best Prices </h2>
+	<img src="underline.png" alt="underline" class="underline">
+   </div> 
+   
+     
+	 <img src="sideunderline.png" alt="underline" class="sideunderlineleft">
+	 
+	 <img src="sideunderline.png" alt="underline" class="sideunderlineright">
+
+     <form action="/" class="resform">
+       
+      <label for="firstname">First Name*:</label> 
+      <input type="text" name="firstname" required id="firstname" placeholder="First Name" accesskey="F" >
+	  <br>
+	
+      <label for="lastname">Last Name*:</label> 
+      <input type="text" name="lastname" required id="lastname" placeholder="Last Name" accesskey="L">
+	  <br>
+	
+      <label for="email">Email*: </label>
+      <input type="email" name="email" required id= "email" placeholder="Email" accesskey="E"> 
+      <br>
+   
+      <label for="phone">Phone Number*: </label>
+      <input type="text" name="phone" required id= "phone" placeholder="Phone Number" accesskey="P"> 
+      <br>
+   
+	
+	<fieldset class="resfieldset">
+     <legend>Booking: </legend>
+	 
+	 <label for = "checkindate">Check In Date*:</label> 
+      <input type="date" name="checkindate" required id="checkindate" >
+	  <br>
+	 
+	 <label for="checkoutdate">Check Out Date*:</label> 
+      <input type="date" name="checkoutdate" required id="checkoutdate" >
+	  <br>
+	 
+	</fieldset>  
+	  
+	 <br>
+	 
+	<fieldset class="resfieldset">
+	 <legend>Room Type: </legend>
+     <select name="numbers">
+        <option value="single">Single Room</option>
+        <option value="double">Double Room</option>
+        <option value="suit">Suit</option>
+      </select> 
+	  
+	</fieldset>
+	<br>
+	
+	  
+     <label for="message" class="resformtext">Please specify other requirements here:</label> 
+     <textarea name="message"  id="message" rows="5" cols="35" class="restextarea"></textarea>
+      <br>
+	
+	  <button type="submit" name="submit" value="submit" class="resbutton">Book Room</button>
+	  <button type="reset" name="reset" value="reset" class="resbutton">Reset</button>
+	  
+	 
+    </form> 
+	
+   
+	 
+    <div class="resspacer">
+    <h2>Connect with us </h2>
+	<img src="underline.png" alt="underline" class="resunderline">
+   </div> 
+   
+    <img src="sideunderline.png" alt="underline" class="connectsideunderlineleft">
+	 
+	 <img src="sideunderline.png" alt="underline" class="connectsideunderlineright">
+ 
+ 
+
+  
+    <form action="/" class="resconnectform">
+       
+  
+      <label for="firstname">First Name*:</label> 
+      <input type="text" name="firstname" required id="firstname2" placeholder="First Name" accesskey="F" >
+	  <br>
+	
+      <label for="lastname">Last Name*:</label> 
+      <input type="text" name="lastname" required id="lastname2" placeholder="Last Name" accesskey="L">
+	  <br>
+	
+      <label for="email">Email*: </label>
+      <input type="email" name="email" required id= "email2" placeholder="Email" accesskey="E"> 
+      <br>
+	  
+	  <label for="phone">Phone Number*: </label>
+      <input type="text" name="phone" required id= "phone2" placeholder="Phone Number" accesskey="P"> 
+      <br>
+	  
+	  <label for="message">Message*:</label> 
+      <textarea name="message" required id="message2" rows="5" cols="35"></textarea>
+      <br>
+	
+
+      <button type="submit" name="submit" value="submit" class="ressubmitbutton">Submit</button>
+	
+    </form> 
+   
+    
+ 
+     <div class="map">
+      <div class="mapouter">
+       <div class="gmap_canvas"> 
+	     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2164.557581579325!2d-4.684119184790712!3d57.14462549125726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488f217e03b7a9d3%3A0x90d58b9acc79a869!2sThe%20Lock%20Inn!5e0!3m2!1sen!2suk!4v1571654271585!5m2!1sen!2suk"></iframe>
+       </div>
+      </div>
+	
+     </div>
+     
+	 
+  
+  
+      <footer class="footer">
+      <div class ="linkcontainer">
+         <div class="contact">
+          <h4>Contact us</h4>
+		  	<img src="underline.png" alt="underline" class="footerunderline">
+          <p><a href = "tel:0200375628" class="contactlinks">0200375628</a></p> 
+          <p><a href = "mailto:info@TheLonchInn.org.uk" class="contactlinks">info@TheLonchInn.org.uk</a></p>
+       </div> 
+	   
+        <div class="quicklinks"> 
+         <h4>Quick Links</h4>
+		  <img src="underline.png" alt="underline" class="footerunderlinetwo">
+          <p><a href="facilities.html" class="contactlinks">Facilities</a></p>
+          <p><a href="booking.html" class="contactlinks">Corporate Booking</a></p>
+       </div>
+	   
+        <div class="stayconnected"> 
+        <h4>Stay Connected</h4>
+			<img src="underline.png" alt="underline" class="footerunderlinethree">
+         <a href=" https://www.facebook.com/thelochinn"><img src="facebook.png" class="icon" alt="Facebook logo"></a>
+         <a href=" https://www.instagram.com/thelockinn/"><img src="instagram.png" class="icon" alt="Instagram logo"></a>
+         <a href=" https://twitter.com/lockinnwithy?lang=en"><img src="twitter.png" class="icon" alt="Twitter logo"></a>   
+        </div>
+      </div> 
+	 <p class="footerp">  © 2019 The Loch Inn. All Rights Reserved </p> <p class="footerp"> Last Updated: Oct 2019 </p>
+	 
+    </footer> 
+ 
+  </body>
+</html>
+	

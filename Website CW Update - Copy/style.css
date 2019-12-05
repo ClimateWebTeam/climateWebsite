@@ -1,0 +1,862 @@
+body { 
+   margin:0;
+   /* width: 100vh; */
+   height:100vh;
+   background-color:#F0F0F0;
+}
+
+.bodycolor{
+	background-color:#F0F0F0;
+}
+
+/* * {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+} */
+
+/* body{
+	margin: 0;
+	padding: 0;
+} */
+
+
+.articleContainer{
+	height:80%;
+	width:100%;
+	display:flex;
+}
+.leftArticle{
+	height:90%;
+	width:100%;
+	display:flex;
+	padding:5%;
+	margin:5%;
+	background-color:red;
+	
+}
+.rightArticle{
+	height:90%;
+	width:100%;
+	display:flex;
+	padding:5%;
+	margin:5%;
+	background-color:hotpink;
+	
+}
+.mainArticle{
+	width:100%;
+}
+@media only screen and (max-width: 900px) {
+  .articleContainer{
+	  flex-direction:column;
+	  width:80%;
+  }
+}
+/*Navigation*/
+.drop-down a{
+	font-size:30px;
+}
+.drop-down{
+	background-color:rgba(0,0,0,0.4);
+	z-index:100;
+	border:1px solid;
+	border-bottom-color:white;	
+}
+.drop-down:after{
+	content: '';
+	clear: both;
+	display: block;
+	z-index:100;
+}
+.drop-down ul{
+	list-style: none;
+	z-index:100;
+
+}
+.drop-down > ul > li{
+	float:left;
+	position:relative;
+	z-index:100;	
+}
+.drop-down ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 15px 25px;
+	display: block;
+	z-index:100;
+}
+.drop-down ul li{
+	position:relative;
+	margin:2%;
+	left:20%;
+}
+.drop-down ul li:hover a{
+	border-bottom:2px solid white;
+	color:grey;	
+	z-index:100;
+}
+.drop-down ul ul{
+	position: absolute;
+	padding: 0;
+	min-width: 160px;
+	display: none;
+	top: 100%;
+	left: 0;
+	z-index:100;
+}
+.drop-down ul ul a{
+	z-index:100;
+	min-width:100px;
+	font-size:20px;
+	position:relative;
+	right:33px;
+	background-color:white
+}
+.drop-down ul li:hover > ul{
+	display: block;
+	z-index:100;
+}
+.drop-down ul ul li:hover a{
+	background-color:rgba(113, 218, 218,0.2);
+	z-index:100;
+	color:black;
+}
+.drop-down ul ul li{
+	position: relative;
+	z-index:100;
+}
+
+
+/*Logo*/
+.logo{
+	height:auto;
+	width:15%;
+	float:left;
+	position:relative;
+	left:1%;
+}
+
+
+
+.imgbg{
+	/* linear gradient is used to darken the image*/
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("homepage.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center center;
+	background-repeat:no-repeat;
+	height:50%;
+	width:100%;
+}
+
+
+.Chapter2imgbg{
+	/* linear gradient is used to darken the image*/
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("aboutusbg.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:50% 100%;
+	background-repeat:no-repeat;
+	height:70%;
+	width:100%;
+}
+
+
+h1{
+    font-size:4em;
+	margin-top:0;
+	margin-bottom:0.5em;
+	color:#FFFFFF;
+	text-align:center;
+	height:50%;
+	font-family: 'Alice', serif;   
+	position:relative;
+	bottom: -300px;
+}
+
+
+
+.hero-text2 {
+	text-align:center;
+	position:relative;
+	color:white;
+	top:90px;
+	left:50%;
+	transform: translate(-50%, -50%);
+	width:70%;
+	
+}
+
+
+.hero-text2 h1{
+	font-size:60px;
+	line-height:50px;
+	animation-duration:3s;
+	animation-name:slideinr;
+	animation-iteration-count:1;
+}
+/*Sliding Text*/
+@keyframes slideinl{
+	0%{
+		margin-left:-300%;
+		width:300%;
+	}
+	100%{
+		margin-left:0%;
+		width:100%;
+	}
+} 
+@keyframes slideinr{
+	0%{
+		margin-left:300%;
+		width:100%;
+	}
+	100%{
+		margin-left:0%;
+		width:100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.paras {
+         text-align: justify;
+		  color: #000000;
+		  font-family: 'Alice', serif;
+		 
+}
+
+
+.paragraphs {
+	position:relative;
+	left:25%;
+	width: 50%;
+	font-family: 'Alice', serif;
+	display:flex;
+	padding:5%;
+	background-color:red;
+		  
+	
+}
+h2{
+	background-color:hotpink;
+}
+
+
+
+.centeredimage {
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+	width:50%;
+	height:30%;
+	
+}
+
+
+/* style for facilities  */
+/* article{
+	width: 70%;
+	position: relative;
+	left: 15%;
+	bottom: 25px;
+	margin: 0px;
+	padding: 0px;
+	background-color:#ded3d3;
+	
+
+} */
+
+ .table{
+     border-collapse: separate; border-spacing: 50px;
+     border-collapse: collapse; border-spacing: 0; 
+ }
+
+
+tr {
+	width: 100%;
+	height: 50%;
+	margin: 0px;
+	padding: 10px;
+}
+td {
+	width: 33%;
+	text-align: center;
+	height: 100%;
+	margin: 20px;
+	padding: 0px;
+	border: 1px solid #000000;
+}
+.membersimage {
+	width: 100%;
+	height: 50%;
+	margin: 0px;
+	padding: 0px;
+}
+.membersimg {
+	width:100%;
+	height:50%;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 70%;
+}
+.role {
+	width:20%;
+	height:5%;
+	margin: 0px;
+	padding:0px;
+	text-align:center;
+	color:#FFFFFF;
+	position:relative;
+	bottom:25px;
+	background-color: #000000;
+	font-family: 'Bad Script', cursive;
+	
+
+}
+.membernane {
+	height: 10%;
+	width:100%;
+	margin: 0px;
+	padding: 0px;
+}
+.memberinfo {
+	width:100%;
+	height:35%;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+/* style for booking page */ 
+
+.resform2{
+	padding:10px;
+	width:20%;
+	height:40%;
+	position: relative;
+	left:40%;
+	top:-20px;
+	
+}
+.resbutton2{
+	width:40%;
+	height:25%;
+	position: relative;
+	left:10%;
+	font-family: 'Alice', serif;
+	 
+ }
+
+ .ttable{
+     border-collapse: separate; border-spacing: 50px;
+     border-collapse: collapse; border-spacing: 0; 
+	 background-color:#ded3d3;
+	 border:1px solid #000000;
+ }
+
+
+.bookingimg {
+	width:100%;
+	height:50%;
+	margin: 0px;
+	padding: 0px;
+	border-radius:70%; 
+	border:1px solid #000000;
+}
+
+
+.bookingimage {
+	width:100%;
+	height:50%;
+	
+}
+
+.tabledata {
+	width:33%;
+	text-align: center;
+	height: 100%;
+	margin: 10px;
+	padding: 0px;
+}
+
+
+
+
+legend{
+	text-align:left;
+	font-family: 'Alice', serif;
+	font-size:15px;
+	
+}
+
+fieldset{
+	width:48.5%;
+	border: 1px solid #B0B0B0;
+}
+/* Customize the container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size:15px;
+  font-family: 'Alice', serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:15px;
+  width:20px;
+  background-color: #000000;
+  border-radius:70%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color:#000000;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #ded3d3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  style for reservations page  */ 
+
+.Chaptertitle {
+	font-family: 'Alice', cursive;
+	position:relative;
+	left:30%;
+    width:50%;
+	height:5%; 
+	margin:5%;
+	padding:0;
+	display:flex;
+	
+	text-align:center;
+	font-size:2em;
+	text-decoration:underline overline;
+	font-size:30px;
+}
+
+
+
+
+.resunderline{
+	width:20%;
+	height:10%;
+	position: relative;
+	left:40%;
+	top:10px;
+}
+
+#firstname{
+	width:100%;
+}
+
+#lastname{
+	width:100%;
+}
+#email{
+	width:100%;
+}
+#phone{
+	width:100%;
+}
+
+#checkindate{
+	width:100%;
+}
+#checkoutdate{
+	width:100%;
+}
+#message{
+	width:100%;
+}
+#firstname2{
+	width:100%;
+}
+
+#lastname2{
+	width:100%;
+}
+#email2{
+	width:100%;
+}
+#phone2{
+	width:100%;
+}
+
+
+#message2{
+	width:100%;
+}
+.resbutton{
+
+	width:40%;
+	height:25%;
+	position: relative;
+	left:10%;
+	font-family: 'Alice', serif;
+}
+.ressubmitbutton{
+	width:40%;
+	height:25%;
+	position: relative;
+	left:30%;
+	font-family: 'Alice', serif;
+	
+	
+}
+	
+
+
+legend{
+	text-align:left;
+	font-family: 'Alice', serif;
+	font-size:15px;
+	
+}
+
+.resformtext{
+	font-family: 'Alice', serif;
+	width:100%;
+	
+	
+	
+}
+.resfieldset{
+	width:95%;
+	border: 1px solid #B0B0B0;
+}
+.restextarea{
+	width:100%;
+}
+
+
+.resform{
+	padding:10px;
+	width:20%;
+	height:40%;
+	position: relative;
+	left:40%;
+	top:-350px;
+	
+}
+ 
+
+.reservationsarticle {
+	width:70%;
+	height:300px;
+	position: relative;
+	left: 15%;
+	top:-50px;
+	margin: 0px;
+	padding: 0px;
+	
+}
+ .restable{
+     border-collapse: separate; border-spacing: 50px;
+     border-collapse: collapse; border-spacing: 0; 
+	 background-color:#F0F0F0;
+	
+	 
+ }
+tr {
+	width: 100%;
+	height: 50%;
+	margin: 0px;
+	padding: 10px;
+}
+td {
+	width: 33%;
+	text-align: center;
+	height: 100%;
+	margin: 20px;
+	padding: 0px;
+	border: 1px solid #F0F0F0;
+}
+.resimage {
+	width: 100%;
+	height: 50%;
+	margin: 0px;
+	padding: 0px;
+}
+.resimg {
+	width:100%;
+	height:50%;
+	margin: 0px;
+	padding: 0px;
+}
+.restitle{
+	width:30%;
+	height:5%;
+	margin: 0px;
+	padding: 5px;
+	text-align:center;
+	color:#000000;
+	position:relative;
+	bottom:55px;
+	background-color:#ded3d3;
+	border: 1px solid #000000;
+	border-radius:5%; 
+	font-family: 'Alice', serif;
+}
+
+
+ 
+
+.sideunderlineleft{
+	width:5%;
+	height:5%;
+	position: relative;
+	left:25%;
+	top:100px;
+}
+
+.sideunderlineright{
+	width:5%;
+	height:5%;
+	position: relative;
+	left:65%;
+	top:100px;
+}
+
+
+
+
+.resconnectform{
+	padding:10px;
+	width:20%;
+	height:40%;
+	position: relative;
+	left:40%;
+	top:-650px;
+	
+}
+ 
+
+
+
+.connectsideunderlineleft{
+	width:5%;
+	height:5%;
+	position: relative;
+	left:25%;
+	top:-300px;
+	
+}
+
+.connectsideunderlineright{
+	width:5%;
+	height:5%;
+	position: relative;
+	left:65%;
+	top:-300px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+/*  style for the map */ 
+ .gmap_canvas {
+     overflow: hidden; 
+     width:70%;
+	 height:900px;
+ }
+ .mapouter {
+     text-align: right;
+     width: 70%;
+
+ }
+ .map {
+     position: relative;
+	 left:25%;
+	 bottom:500px;
+	 height:300px;
+ }
+
+
+iframe{
+	width:100%;
+	height:60%;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar{
+	display:none;
+}
+
+.footer {
+   position:relative;
+   width:100%;
+   height:300px;
+   background-color:#ded3d3;
+   color:#000000;
+   text-align:center;
+}	
+
+.footerp{
+	position: relative;
+	top:80%;
+	right:20%;
+	font-family: 'Alice', serif;
+	
+	
+}
+.contact{
+     float:left;
+     width:20%;
+     margin:0px;
+     padding:0px;
+} 
+.contact h4{
+	font-family: 'Bad Script', cursive;
+	font-size:1.5em;
+}
+
+.contactlinks{
+	 position:relative;
+	 top:-50px;
+	 left:1%;
+	 font-family: 'Alice', serif;
+	 color:#000000;
+}
+
+.linkcontainer{
+     width:60%;
+     position: relative;
+	 left: 30%;
+	 
+	 
+ } 
+
+.icon{
+     width:10%;
+	 height:40%;
+	 position:relative;
+	 top:-10px;
+	 left:-25%;
+ }
+.stayconnected{
+     float:left;
+     width:20%;
+	 height:20%; 
+	 margin:0px;
+     padding:0px;
+
+}
+ 
+ .stayconnected h4{
+	font-family: 'Bad Script', cursive;
+	font-size:1.5em;
+}
+
+ .quicklinks{
+     float:left;
+     width:20%;
+     margin:0px;
+     padding:0px;
+	 font-family: 'Alice', serif;
+	 
+ }
+ 
+ .quicklinks h4 {
+	 font-family: 'Bad Script', cursive;
+	 font-size:1.5em;
+ }
+
+.footerunderline{
+	width:50%;
+	height:10%;
+	position:relative;
+	left:1%;
+	top:-50px;
+
+}
+.footerunderlinetwo{
+	width:50%;
+	height:10%;
+	position: relative;
+	left:2%;
+	top:-50px;
+	
+}
+.footerunderlinethree{
+	width:50%;
+	height:10%;
+	position: relative;
+	left:19%;
+	top:-50px;
+}
