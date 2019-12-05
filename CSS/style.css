@@ -112,7 +112,7 @@ video{
 		display:none;
 	}
 	*{
-		font-size:10px !important;
+		/*font-size:10px !important;*/
 	}
 	
 	
@@ -366,7 +366,6 @@ select{
 
 /*ABOUT US */
 
-
 .hero-text2 {
 	text-align:center;
 	position:fixed;
@@ -434,6 +433,7 @@ select{
 
 .memberimages{
 	width:100%;
+	height:50%;
 	cursor: pointer;
     transition: 0.3s;
 	position:relative;
@@ -441,8 +441,35 @@ select{
     transition: .7s ease;
     backface-visibility: hidden;
 	border-radius:20px;
-
+	top:19px;
 }
+.memberimage{
+	width:100%;
+	height:50%;
+	cursor: pointer;
+    transition: 0.3s;
+	position:relative;
+    display: inline;
+    transition: .7s ease;
+    backface-visibility: hidden;
+	border-radius:20px;
+	top:40px;
+}
+.memberimagess{
+	width:100%;
+	height:50%;
+	cursor: pointer;
+    transition: 0.3s;
+	position:relative;
+    display: inline;
+    transition: .7s ease;
+    backface-visibility: hidden;
+	border-radius:20px;
+	top:-10px;
+}
+
+
+
 .memberimages:hover{
 	opacity:0.8;
 	
@@ -451,6 +478,23 @@ select{
 	opacity:0.5;
 	
 }
+.memberimage:hover{
+	opacity:0.8;
+	
+}
+.imagecolumn:hover .memberimage{
+	opacity:0.5;
+	
+}
+.memberimagess:hover{
+	opacity:0.8;
+	
+}
+.imagecolumn:hover .memberimagess{
+	opacity:0.5;
+	
+}
+
 
 .imagecolumn:hover .overlay {
 	opacity:1;
@@ -463,41 +507,87 @@ select{
     position:relative;
     bottom:200px;
 	width:90%;
-    
     text-align: center;
 }
 
 
 
-
-
 .name{
 	position:relative;
-	top:-90px;
-	left:45%;
+	top:-78px;
+	left:24%;
 	text-align:center;
     color:#FFFFFF;
-
 	background-color:rgba(0,0,0,0.5);
 	text-decoration-line: underline;
 	text-decoration-style:dotted;
 	width:50%;
-	border-radius:3px;
+	border-radius:2px;
 }
-	
-
 .role{
 	position:relative;
-	top:-116px;
-	left:45%;
+	top:-102px;
+	left:24%;
 	text-align:center;
 	text-align: justify;
     color:#FFFFFF;
 	font-size:25px;
 	background-color:rgba(0,0,0,0.5);
 	width:50%;
+	/* border-radius:4px; */
+}
+
+.tname{
+	position:relative;
+	top:-55px;
+	left:24%;
+	text-align:center;
+    color:#FFFFFF;
+	background-color:rgba(0,0,0,0.5);
+	text-decoration-line: underline;
+	text-decoration-style:dotted;
+	width:50%;
+	border-radius:2px; 
+}
+.trole{
+	position:relative;
+	top:-80px;
+	left:24%;
+	text-align:center;
+	text-align: justify;
+    color:#FFFFFF;
+	font-size:25px;
+	background-color:rgba(0,0,0,0.5);
+	width:50%;
+	/* border-radius:3.5px; */
+}
+.names{
+	position:relative;
+	top:-107px;
+	left:25%;
+	text-align:center;
+    color:#FFFFFF;
+	background-color:rgba(0,0,0,0.5);
+	text-decoration-line: underline;
+	text-decoration-style:dotted;
+	width:50%;
 	border-radius:2px;
 }
+.roles{
+	position:relative;
+	top:-132px;
+	left:25%;
+	text-align:center;
+	text-align: justify;
+    color:#FFFFFF;
+	font-size:25px;
+	background-color:rgba(0,0,0,0.5);
+	width:50%;
+	/* border-radius:3.5px; */
+}
+
+
+
 
 .info{
 	 text-align: justify;
@@ -513,6 +603,10 @@ select{
      padding: 16px 32px;
 	 cursor: pointer;
 }
+
+
+
+
 
 
 .paragraph{
@@ -569,7 +663,85 @@ select{
 	border-radius:35px;
 	border: 1px solid #000000;
     cursor: pointer;	
+	
+	
 }
+/*CHAPTER 2  PAGE*/
+.flexrow .chapterText {
+	top: auto;
+	left: auto;
+}	
+
+.chapterIntro {
+	margin-top: 92px;
+	margin-bottom: 0px;
+	font-size: 18px;
+	text-align: center;
+	
+}
+
+.chapterText{
+	position:relative;
+	top:400px;
+	left:35%;
+	font-size:19px;
+}
+
+.flexrow {
+	display: flex;
+	height: 49%;
+}
+
+.column33 {
+	flex: 33%;
+}
+article {
+	margin: 0 3.5%;
+}
+
+article section {
+	margin: 10px 6px;
+	padding: 0px 15px;
+	background-color: rgba(0, 0, 0, 0.4);
+	border: 2.5px solid #afafaf;
+	border-radius: 14px;
+	letter-spacing: 0.3px;
+}
+
+article h2 {
+	margin-top: 10px;
+	margin-bottom: 0;
+	width: 80%;
+}
+
+article p {
+	margin-top: 8px;
+}
+
+article h3 {
+	text-shadow: 1px 1px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Chapter Graphs*/
 main{
