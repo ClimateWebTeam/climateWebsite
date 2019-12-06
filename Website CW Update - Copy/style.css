@@ -1,10 +1,14 @@
+*{
+	font-family: 'Alice';
+	text-align:justify;
+}
+
 body { 
    margin:0;
    /* width: 100vh; */
    height:100vh;
    background-color:#F0F0F0;
 }
-
 .bodycolor{
 	background-color:#F0F0F0;
 }
@@ -24,23 +28,23 @@ body {
 	height:80%;
 	width:100%;
 	display:flex;
+	margin:0;
+	padding:0;
+
 }
 .leftArticle{
 	height:90%;
-	width:100%;
+	width:31%;
 	display:flex;
-	padding:5%;
-	margin:5%;
-	background-color:red;
-	
+	padding:2%;
+	margin-left:15%;
 }
 .rightArticle{
 	height:90%;
-	width:100%;
+	width:31%;
 	display:flex;
-	padding:5%;
-	margin:5%;
-	background-color:hotpink;
+	padding:2%;
+	margin-right:15%;
 	
 }
 .mainArticle{
@@ -50,6 +54,10 @@ body {
   .articleContainer{
 	  flex-direction:column;
 	  width:80%;
+  }
+  Chaptertitle{
+	  width:80%;
+	  background-color:red;
   }
 }
 /*Navigation*/
@@ -249,21 +257,17 @@ h1{
 
 .paragraphs {
 	position:relative;
-	left:20%;
+	left:24%;
 	width: 50%;
 	font-family: 'Alice', serif;
 	display:flex;
-	padding:5%;
-	top:-10%;
+	padding:2%;
+
+
 		  
 	
 }
-<<<<<<< HEAD
-=======
 
-
-
->>>>>>> a876d137513ae1230fd05c6c90f4366b13c2542a
 
 .centeredimage {
 	display:block;
@@ -485,16 +489,16 @@ fieldset{
 .Chaptertitle {
 	font-family: 'Alice', cursive;
 	position:relative;
-	left:38.375%;
+	left:42.375%;
     width:13.25%;
 	height:5%; 
-	margin:5%;
+	margin:1%;
 	padding:0;
 	display:flex;
 	text-align:center;
 	text-decoration:underline overline;
 	font-size:30px;
-	background-color:red;
+
 }
 
 
