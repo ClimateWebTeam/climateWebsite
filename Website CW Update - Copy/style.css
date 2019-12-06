@@ -666,7 +666,7 @@ fieldset{
 
 iframe{
 	width:100%;
-	height:60%;
+	height:500px;
 	
 }
 
@@ -709,7 +709,87 @@ iframe{
 	font-family: 'Bad Script', cursive;
 	font-size:1.5em;
 }
+.contact-Form input[type=text]{
+  width:100%;
+  padding:12px;
+  border:1px solid #ccc;
+  margin-top:6px;
+  margin-bottom:16px;
+  resize:vertical;
+  color:black;
+}
+textarea {
+  position:relative;
+	left:25%;
+}
+.contact-Form input[type=email]{
+  width:100%;
+  padding:12px;
+  border:1px solid #ccc;
+  margin-top:6px;
+  margin-bottom:16px;
+  resize:vertical;
+  color:black;
+}
+.contactForm button[type=submit] {
+	width:28%;
+	height:8%;
+	position: relative;
+	top:10px;
+	left:35%;
+	border-radius:15px;
+	font-size:14px;
+	margin:0 auto;
+	margin-top:60px;
+	padding:10px; 
+	background-color:black;
+	color:#FFFFFF;
+	border: 2px solid #4CAF50;  
+}
+.contactForm button[type=submit]:hover {
+	transition-duration:0.7s;
+	background-color:rgba(113, 218, 218,0.2);
+	color:#000000;
+	border-radius:10px;
+	border: 1px solid #000000;
+    cursor: pointer;	
+}
+.contactText{
+	float:left;
+	width:50%;
+	padding:10%;
+	height:100%;
+	color:white;
+	
+}
+.contentWrapper{
+	background-color:rgba(255,255,255,0.4);
+	border-radius:10px;
+	padding:4%;
+}
+.contactForm{
+	width:70%;
+	position:relative;
+	left:0%;
+}
+.contactFormDiv{
+    width:50%;
+	border-radius:0;
+	height:100%;
+	margin:0;
+	padding:0;
+	position:relative;
+	left:0%;
+	float:right;
+	padding:5%;
+}
 
+.contact-Form label{
+	color:black;
+	float:left;
+	font-size:20px;
+	/* font-family:FreightSansProBook-Regular; */
+}
 .contactlinks{
 	 position:relative;
 	 top:-50px;
