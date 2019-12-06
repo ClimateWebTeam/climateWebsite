@@ -305,6 +305,17 @@ select{
 	padding:2%;
 }
 
+.Aboutusimgbg{
+	/* linear gradient is used to darken the image*/
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("aboutusimage.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:50% 100%;
+	background-repeat:no-repeat;
+	height:70%;
+	width:100%;
+}
+
 .Chapter1imgbg{
 	/* linear gradient is used to darken the image*/
 	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("chapter1img.jpg");
@@ -317,7 +328,7 @@ select{
 }
 .Chapter2imgbg{
 	/* linear gradient is used to darken the image*/
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("aboutusbg.jpg");
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("chapter2bg.jpg");
 	background-size:cover;
 	background-attachment:fixed;
 	background-position:50% 100%;
@@ -336,7 +347,19 @@ select{
 	width:100%;
 }
 
-
+.ContactUsimgbg {
+	/* linear gradient is used to darken the image*/
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("contactusbg.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:50% 100%;
+	background-repeat:no-repeat;
+	height:70%;
+	width:100%;
+	
+	
+	
+}
 
 h1{
     font-size:4em;
@@ -513,7 +536,6 @@ fieldset{
 }
 
 
-}
 
 
 
@@ -522,7 +544,6 @@ fieldset{
 
 
 
-/*  style for reservations page  */ 
 
 .Chaptertitle {
 	font-family: 'Alice', cursive;
@@ -542,72 +563,6 @@ fieldset{
 
 
 
-.resunderline{
-	width:20%;
-	height:10%;
-	position: relative;
-	left:40%;
-	top:10px;
-}
-
-#firstname{
-	width:100%;
-}
-
-#lastname{
-	width:100%;
-}
-#email{
-	width:100%;
-}
-#phone{
-	width:100%;
-}
-
-#checkindate{
-	width:100%;
-}
-#checkoutdate{
-	width:100%;
-}
-#message{
-	width:100%;
-}
-#firstname2{
-	width:100%;
-}
-
-#lastname2{
-	width:100%;
-}
-#email2{
-	width:100%;
-}
-#phone2{
-	width:100%;
-}
-
-
-#message2{
-	width:100%;
-}
-.resbutton{
-
-	width:40%;
-	height:25%;
-	position: relative;
-	left:10%;
-	font-family: 'Alice', serif;
-}
-.ressubmitbutton{
-	width:40%;
-	height:25%;
-	position: relative;
-	left:30%;
-	font-family: 'Alice', serif;
-	
-	
-}
 
 .contactusbutton:hover{
 	transition-duration:0.7s;
@@ -748,6 +703,13 @@ iframe{
 ::-webkit-scrollbar{
 	display:none;
 }
+
+
+
+
+
+
+
 
 .footer {
    position:relative;
