@@ -392,21 +392,6 @@ h1{
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .paras {
          text-align: justify;
 		  color: #000000;
@@ -437,10 +422,6 @@ h1{
 	height:30%;
 	
 }
-
-
-
-
 
 legend{
 	text-align:left;
@@ -513,16 +494,6 @@ fieldset{
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /*  style for reservations page  */ 
 
 .Chaptertitle {
@@ -540,76 +511,6 @@ fieldset{
 
 }
 
-
-
-
-.resunderline{
-	width:20%;
-	height:10%;
-	position: relative;
-	left:40%;
-	top:10px;
-}
-
-#firstname{
-	width:100%;
-}
-
-#lastname{
-	width:100%;
-}
-#email{
-	width:100%;
-}
-#phone{
-	width:100%;
-}
-
-#checkindate{
-	width:100%;
-}
-#checkoutdate{
-	width:100%;
-}
-#message{
-	width:100%;
-}
-#firstname2{
-	width:100%;
-}
-
-#lastname2{
-	width:100%;
-}
-#email2{
-	width:100%;
-}
-#phone2{
-	width:100%;
-}
-
-
-#message2{
-	width:100%;
-}
-.resbutton{
-
-	width:40%;
-	height:25%;
-	position: relative;
-	left:10%;
-	font-family: 'Alice', serif;
-}
-.ressubmitbutton{
-	width:40%;
-	height:25%;
-	position: relative;
-	left:30%;
-	font-family: 'Alice', serif;
-	
-
-	
-}
 
 .contactusbutton:hover{
 	transition-duration:0.7s;
@@ -684,29 +585,23 @@ fieldset{
 	
 }
 .Chaptertitle {
-font-family: 'Alice', cursive;
-position:relative;
-left:42.375%;
+	font-family: 'Alice', cursive;
+	position:relative;
+	left:42.375%;
     width:13.25%;
-height:5%;
-margin:1%;
-padding:0;
-display:flex;
-text-align:center;
-text-decoration:underline overline;
-font-size:30px;
+	height:5%;
+	margin:1%;
+	padding:0;
+	display:flex;
+	text-align:center;
+	text-decoration:underline overline;
+	font-size:30px;
 
 }
 .chapterText h2{
 	text-align:center;
 	
 }
-
-
-
-
-
-
 
 
 /*  style for the map */ 
@@ -733,18 +628,6 @@ iframe{
 	height:60%;
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ::-webkit-scrollbar{
