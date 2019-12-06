@@ -1,5 +1,6 @@
 *{
 	font-family: 'Alice';
+	text-align:justify;
 }
 
 body { 
@@ -8,7 +9,6 @@ body {
    height:100vh;
    background-color:#F0F0F0;
 }
-
 .bodycolor{
 	background-color:#F0F0F0;
 }
@@ -34,17 +34,17 @@ body {
 }
 .leftArticle{
 	height:90%;
-	width:26%;
+	width:31%;
 	display:flex;
 	padding:2%;
-	margin:0% 10%;
+	margin-left:15%;
 }
 .rightArticle{
 	height:90%;
-	width:26%;
+	width:31%;
 	display:flex;
 	padding:2%;
-	margin:0% 10%;
+	margin-right:15%;
 	
 }
 .mainArticle{
