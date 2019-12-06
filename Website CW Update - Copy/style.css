@@ -239,15 +239,21 @@ h1{
 
 .paragraphs {
 	position:relative;
-	left:25%;
+	left:20%;
 	width: 50%;
 	font-family: 'Alice', serif;
 	display:flex;
 	padding:5%;
-	background-color:red;
+	top:-10%;
 		  
 	
 }
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> a876d137513ae1230fd05c6c90f4366b13c2542a
 
 .centeredimage {
 	display:block;
@@ -469,7 +475,7 @@ fieldset{
 .Chaptertitle {
 	font-family: 'Alice', cursive;
 	position:relative;
-	left:36%;
+	left:38.375%;
     width:13.25%;
 	height:5%; 
 	margin:5%;
