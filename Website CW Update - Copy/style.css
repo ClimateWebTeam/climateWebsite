@@ -154,26 +154,45 @@ video{
 	left:0;
 }
 
-/* @media screen and (max-width: 2240px){ */
-	/* body{ */
-		/* background-image: url("WavesStatic.jpg");  */
-	/* } */
-	/* video{ */
-		/* display:none; */
-	/* } */
-	/* *{ */
-		/* /*font-size:10px !important;*/ */
-	/* }	 */
-/* } */
+@media screen and (max-width: 2240px){
+	body{
+		background-image: url("WavesStatic.jpg"); 
+	}
+	video{
+		display:none;
+	}
+}
 
 /*Home page text*/
+.hero-text {
+	text-align:left;
+	position:fixed;
+	color:white;
+	top:55%;
+	left:7%;
+}
+.hero-text h1{
+	font-size:60px;
+	line-height:50px;
+	animation-duration:3s;
+	animation-name:slideinr;
+	animation-iteration-count:1;
+	color:white;
+}
+.hero-text p{
+	font-size:30px;
+	text-align:center;
+	animation-duration:7s;
+	animation-name:slideinl;
+	animation-iteration-count:1;
+	color:white;
+}
 .homeIntro{
 	position:absolute;
 	top:71%;
 	left:7%;
 	width:30%;
 	height:20%;
-	/* background-color:rgba(255,255,255,0.5); */
 	border-radius:7px;
 	color:white;
 	border: 5px white solid;
@@ -185,8 +204,30 @@ video{
 	width:90%;
 	height:90%;
 	font-size:25px;
+	color:white;
 }
 
+/*Sliding Text*/
+@keyframes slideinl{
+	0%{
+		margin-left:-300%;
+		width:300%;
+	}
+	100%{
+		margin-left:0%;
+		width:100%;
+	}
+} 
+@keyframes slideinr{
+	0%{
+		margin-left:300%;
+		width:100%;
+	}
+	100%{
+		margin-left:0%;
+		width:100%;
+	}
+}
 /*Home Form*/
 form{
 	width:29%;
@@ -213,10 +254,10 @@ label{
 	bottom:-40px;
 }
 input{
-	width:50%;
+	width:100%;
 	height:7%;
 	position:relative;
-	left:25%;
+	/* left:25%; */
 	bottom:-16px;
 	border-color:#E0E0E0;
 	border-top-color:#E0E0E0;
@@ -415,6 +456,21 @@ h1{
 	}
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .paras {
          text-align: justify;
 		  color: #000000;
@@ -447,6 +503,10 @@ h1{
 	height:30%;
 	
 }
+
+
+
+
 
 legend{
 	text-align:left;
@@ -519,16 +579,9 @@ fieldset{
 }
 
 
-<<<<<<< HEAD
 
 
-
-
-
-
-
-=======
->>>>>>> 8d742bf138c0e97ad0c392cabed036d130cc17d0
+/*  style for reservations page  */ 
 
 
 .Chaptertitle {
@@ -546,13 +599,46 @@ fieldset{
 
 }
 
-<<<<<<< HEAD
 
 
 
 
-=======
->>>>>>> 8d742bf138c0e97ad0c392cabed036d130cc17d0
+.resunderline{
+	width:20%;
+	height:10%;
+	position: relative;
+	left:40%;
+	top:10px;
+}
+
+#firstname{
+	width:100%;
+}
+
+
+#message2{
+	width:100%;
+}
+.resbutton{
+
+	width:40%;
+	height:25%;
+	position: relative;
+	left:10%;
+	font-family: 'Alice', serif;
+}
+.ressubmitbutton{
+	width:40%;
+	height:25%;
+	position: relative;
+	left:30%;
+	font-family: 'Alice', serif;
+	
+
+	
+}
+
+
 .contactusbutton:hover{
 	transition-duration:0.7s;
 	background-color:rgba(255,255,255,0.5);
@@ -626,23 +712,29 @@ fieldset{
 	
 }
 .Chaptertitle {
-	font-family: 'Alice', cursive;
-	position:relative;
-	left:42.375%;
+font-family: 'Alice', cursive;
+position:relative;
+left:42.375%;
     width:13.25%;
-	height:5%;
-	margin:1%;
-	padding:0;
-	display:flex;
-	text-align:center;
-	text-decoration:underline overline;
-	font-size:30px;
+height:5%;
+margin:1%;
+padding:0;
+display:flex;
+text-align:center;
+text-decoration:underline overline;
+font-size:30px;
 
 }
 .chapterText h2{
 	text-align:center;
 	
 }
+
+
+
+
+
+
 
 
 /*  style for the map */ 
@@ -669,6 +761,18 @@ iframe{
 	height:500px;
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ::-webkit-scrollbar{
