@@ -154,26 +154,45 @@ video{
 	left:0;
 }
 
-/* @media screen and (max-width: 2240px){ */
-	/* body{ */
-		/* background-image: url("WavesStatic.jpg");  */
-	/* } */
-	/* video{ */
-		/* display:none; */
-	/* } */
-	/* *{ */
-		/* /*font-size:10px !important;*/ */
-	/* }	 */
-/* } */
+@media screen and (max-width: 2240px){
+	body{
+		background-image: url("WavesStatic.jpg"); 
+	}
+	video{
+		display:none;
+	}
+}
 
 /*Home page text*/
+.hero-text {
+	text-align:left;
+	position:fixed;
+	color:white;
+	top:55%;
+	left:7%;
+}
+.hero-text h1{
+	font-size:60px;
+	line-height:50px;
+	animation-duration:3s;
+	animation-name:slideinr;
+	animation-iteration-count:1;
+	color:white;
+}
+.hero-text p{
+	font-size:30px;
+	text-align:center;
+	animation-duration:7s;
+	animation-name:slideinl;
+	animation-iteration-count:1;
+	color:white;
+}
 .homeIntro{
 	position:absolute;
 	top:71%;
 	left:7%;
 	width:30%;
 	height:20%;
-	/* background-color:rgba(255,255,255,0.5); */
 	border-radius:7px;
 	color:white;
 	border: 5px white solid;
@@ -185,8 +204,30 @@ video{
 	width:90%;
 	height:90%;
 	font-size:25px;
+	color:white;
 }
 
+/*Sliding Text*/
+@keyframes slideinl{
+	0%{
+		margin-left:-300%;
+		width:300%;
+	}
+	100%{
+		margin-left:0%;
+		width:100%;
+	}
+} 
+@keyframes slideinr{
+	0%{
+		margin-left:300%;
+		width:100%;
+	}
+	100%{
+		margin-left:0%;
+		width:100%;
+	}
+}
 /*Home Form*/
 form{
 	width:29%;
@@ -213,10 +254,10 @@ label{
 	bottom:-40px;
 }
 input{
-	width:50%;
+	width:100%;
 	height:7%;
 	position:relative;
-	left:25%;
+	/* left:25%; */
 	bottom:-16px;
 	border-color:#E0E0E0;
 	border-top-color:#E0E0E0;
@@ -415,6 +456,21 @@ h1{
 	}
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .paras {
          text-align: justify;
 		  color: #000000;
@@ -447,6 +503,10 @@ h1{
 	height:30%;
 	
 }
+
+
+
+
 
 legend{
 	text-align:left;
@@ -535,6 +595,14 @@ fieldset{
 
 }
 
+
+
+
+
+
+
+
+
 .contactusbutton:hover{
 	transition-duration:0.7s;
 	background-color:rgba(255,255,255,0.5);
@@ -608,23 +676,29 @@ fieldset{
 	
 }
 .Chaptertitle {
-	font-family: 'Alice', cursive;
-	position:relative;
-	left:42.375%;
+font-family: 'Alice', cursive;
+position:relative;
+left:42.375%;
     width:13.25%;
-	height:5%;
-	margin:1%;
-	padding:0;
-	display:flex;
-	text-align:center;
-	text-decoration:underline overline;
-	font-size:30px;
+height:5%;
+margin:1%;
+padding:0;
+display:flex;
+text-align:center;
+text-decoration:underline overline;
+font-size:30px;
 
 }
 .chapterText h2{
 	text-align:center;
 	
 }
+
+
+
+
+
+
 
 
 /*  style for the map */ 
@@ -648,9 +722,21 @@ fieldset{
 
 iframe{
 	width:100%;
-	height:60%;
+	height:500px;
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ::-webkit-scrollbar{
@@ -685,7 +771,87 @@ iframe{
 	font-family: 'Bad Script', cursive;
 	font-size:1.5em;
 }
+.contact-Form input[type=text]{
+  width:100%;
+  padding:12px;
+  border:1px solid #ccc;
+  margin-top:6px;
+  margin-bottom:16px;
+  resize:vertical;
+  color:black;
+}
+textarea {
+  position:relative;
+	left:25%;
+}
+.contact-Form input[type=email]{
+  width:100%;
+  padding:12px;
+  border:1px solid #ccc;
+  margin-top:6px;
+  margin-bottom:16px;
+  resize:vertical;
+  color:black;
+}
+.contactForm button[type=submit] {
+	width:28%;
+	height:8%;
+	position: relative;
+	top:10px;
+	left:35%;
+	border-radius:15px;
+	font-size:14px;
+	margin:0 auto;
+	margin-top:60px;
+	padding:10px; 
+	background-color:black;
+	color:#FFFFFF;
+	border: 2px solid #4CAF50;  
+}
+.contactForm button[type=submit]:hover {
+	transition-duration:0.7s;
+	background-color:rgba(113, 218, 218,0.2);
+	color:#000000;
+	border-radius:10px;
+	border: 1px solid #000000;
+    cursor: pointer;	
+}
+.contactText{
+	float:left;
+	width:50%;
+	padding:10%;
+	height:100%;
+	color:white;
+	
+}
+.contentWrapper{
+	background-color:rgba(255,255,255,0.4);
+	border-radius:10px;
+	padding:4%;
+}
+.contactForm{
+	width:70%;
+	position:relative;
+	left:0%;
+}
+.contactFormDiv{
+    width:50%;
+	border-radius:0;
+	height:100%;
+	margin:0;
+	padding:0;
+	position:relative;
+	left:0%;
+	float:right;
+	padding:5%;
+}
 
+.contact-Form label{
+	color:black;
+	float:left;
+	font-size:20px;
+	/* font-family:FreightSansProBook-Regular; */
+}
 .contactlinks{
 	 position:relative;
 	 top:-50px;
