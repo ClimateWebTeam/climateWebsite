@@ -137,22 +137,19 @@ body {
 }
 
 
-
-.imgbg{
-	/* linear gradient is used to darken the image*/
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("homepage.jpg");
-	background-size:cover;
-	background-attachment:fixed;
-	background-position:center center;
-	background-repeat:no-repeat;
-	height:50%;
-	width:100%;
-}
-
-
 .Chapter2imgbg{
 	/* linear gradient is used to darken the image*/
 	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("aboutusbg.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:50% 100%;
+	background-repeat:no-repeat;
+	height:70%;
+	width:100%;
+}
+.Chapter4imgbg{
+	/* linear gradient is used to darken the image*/
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("chapter4.jpg");
 	background-size:cover;
 	background-attachment:fixed;
 	background-position:50% 100%;
@@ -251,11 +248,6 @@ h1{
 		  
 	
 }
-h2{
-	background-color:hotpink;
-}
-
-
 
 .centeredimage {
 	display:block;
@@ -477,17 +469,16 @@ fieldset{
 .Chaptertitle {
 	font-family: 'Alice', cursive;
 	position:relative;
-	left:30%;
-    width:50%;
+	left:36%;
+    width:13.25%;
 	height:5%; 
 	margin:5%;
 	padding:0;
 	display:flex;
-	
 	text-align:center;
-	font-size:2em;
 	text-decoration:underline overline;
 	font-size:30px;
+	background-color:red;
 }
 
 
