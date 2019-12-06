@@ -25,7 +25,7 @@ body {
 
 
 .articleContainer{
-	height:80%;
+	height:90%;
 	width:100%;
 	display:flex;
 	margin:0;
@@ -197,7 +197,7 @@ form{
 	top:50px;
 	background-color:rgba(255,255,255,0.7);
 }
-.home-form , h2{
+.home-form h2{
 	position:relative;
 	left:16%;
 	top:5%;
@@ -415,21 +415,6 @@ h1{
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .paras {
          text-align: justify;
 		  color: #000000;
@@ -445,12 +430,14 @@ h1{
 	font-family: 'Alice', serif;
 	display:flex;
 	padding:2%;
-
-
-		  
+	border-radius:10px;
 	
 }
 
+.card-2 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border:solid black 1px;
+}
 
 .centeredimage {
 	display:block;
@@ -460,10 +447,6 @@ h1{
 	height:30%;
 	
 }
-
-
-
-
 
 legend{
 	text-align:left;
@@ -536,6 +519,7 @@ fieldset{
 }
 
 
+<<<<<<< HEAD
 
 
 
@@ -543,6 +527,8 @@ fieldset{
 
 
 
+=======
+>>>>>>> 8d742bf138c0e97ad0c392cabed036d130cc17d0
 
 
 .Chaptertitle {
@@ -560,10 +546,13 @@ fieldset{
 
 }
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 8d742bf138c0e97ad0c392cabed036d130cc17d0
 .contactusbutton:hover{
 	transition-duration:0.7s;
 	background-color:rgba(255,255,255,0.5);
@@ -637,29 +626,23 @@ fieldset{
 	
 }
 .Chaptertitle {
-font-family: 'Alice', cursive;
-position:relative;
-left:42.375%;
+	font-family: 'Alice', cursive;
+	position:relative;
+	left:42.375%;
     width:13.25%;
-height:5%;
-margin:1%;
-padding:0;
-display:flex;
-text-align:center;
-text-decoration:underline overline;
-font-size:30px;
+	height:5%;
+	margin:1%;
+	padding:0;
+	display:flex;
+	text-align:center;
+	text-decoration:underline overline;
+	font-size:30px;
 
 }
 .chapterText h2{
 	text-align:center;
 	
 }
-
-
-
-
-
-
 
 
 /*  style for the map */ 
@@ -686,18 +669,6 @@ iframe{
 	height:60%;
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ::-webkit-scrollbar{
@@ -813,6 +784,5 @@ iframe{
 	left:19%;
 	top:-50px;
 }
-
 
 
