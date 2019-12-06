@@ -34,26 +34,17 @@ body {
 }
 .leftArticle{
 	height:90%;
-	width:30%;
+	width:43%;
 	display:flex;
 	padding:2%;
-	margin:1%;
-	
+	margin:5%;
 }
 .rightArticle{
 	height:90%;
-	width:30%;
+	width:43%;
 	display:flex;
 	padding:2%;
-	margin:1%;
-	
-}
-.middleArticle{
-	height:90%;
-	width:30%;
-	display:flex;
-	padding:2%;
-	margin:1%;
+	margin:5%;
 	
 }
 .mainArticle{
