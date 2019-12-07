@@ -49,6 +49,7 @@ body {
 }
 .mainArticle{
 	width:100%;
+	
 }
 @media only screen and (max-width: 900px) {
   .articleContainer{
@@ -155,10 +156,10 @@ video{
 }
 
 @media screen and (max-width: 2240px){
-	body{
+	#video-body{
 		background-image: url("WavesStatic.jpg"); 
 	}
-	video{
+	#video-img{
 		display:none;
 	}
 }
@@ -168,8 +169,8 @@ video{
 	text-align:left;
 	position:fixed;
 	color:white;
-	top:55%;
-	left:7%;
+	top:60%;
+	left:8%;
 }
 .hero-text h1{
 	font-size:60px;
@@ -178,6 +179,9 @@ video{
 	animation-name:slideinr;
 	animation-iteration-count:1;
 	color:white;
+	position:relative;
+	bottom:10%;
+	left:2%;
 }
 .hero-text p{
 	font-size:30px;
@@ -207,31 +211,10 @@ video{
 	color:white;
 }
 
-/*Sliding Text*/
-@keyframes slideinl{
-	0%{
-		margin-left:-300%;
-		width:300%;
-	}
-	100%{
-		margin-left:0%;
-		width:100%;
-	}
-} 
-@keyframes slideinr{
-	0%{
-		margin-left:300%;
-		width:100%;
-	}
-	100%{
-		margin-left:0%;
-		width:100%;
-	}
-}
 /*Home Form*/
 form{
 	width:29%;
-	height:830px;
+	height:75%;
 	position:relative;
 	left:65%;
 	border-radius:30px;
@@ -240,10 +223,11 @@ form{
 }
 .home-form h2{
 	position:relative;
-	left:16%;
-	top:5%;
-	width:94%;
-	height:10%;
+	left:25%;
+	top:20%;
+	width:100%;
+	height:auto;
+	padding-top:5%;
 }
 label{
 	display:block;
@@ -254,17 +238,17 @@ label{
 	bottom:-40px;
 }
 input{
-	width:100%;
+	width:50%;
 	height:7%;
 	position:relative;
-	/* left:25%; */
+	left:25%;
 	bottom:-16px;
 	border-color:#E0E0E0;
 	border-top-color:#E0E0E0;
 }
 #submitbutton{
 	width:28%;
-	height:8%;
+	height:5%;
 	position: relative;
 	top:10px;
 	left:18%;
@@ -276,6 +260,7 @@ input{
 	background-color:black;
 	color:#FFFFFF;
 	border: 2px solid #4CAF50;
+	text-align:center;
 }
 #submitbutton:hover{
 	transition-duration:0.7s;
@@ -287,7 +272,7 @@ input{
 }
 #resetbutton{
 	width:28%;
-	height:8%;
+	height:5%;
 	position: relative;
 	top:10px;
 	left:30%;
@@ -299,6 +284,7 @@ input{
 	background-color:black;
 	color:white;
 	border: 2px solid #4CAF50;
+		text-align:center;
 }
 #resetbutton:hover{
 	transition-duration:0.7s;
@@ -323,8 +309,6 @@ select{
 	width:100%;
 	font-size:15px;
 }
-
-
 .error {
 	position:relative;
 	top:5%;
@@ -346,6 +330,7 @@ select{
 	padding:2%;
 }
 
+
 .Aboutusimgbg{
 	/* linear gradient is used to darken the image*/
 	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("aboutusimage.jpg");
@@ -359,7 +344,7 @@ select{
 
 .Chapter1imgbg{
 	/* linear gradient is used to darken the image*/
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("chapter1img.jpg");
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("Chapter1.jpg");
 	background-size:cover;
 	background-attachment:fixed;
 	background-position:50% 100%;
@@ -717,6 +702,7 @@ font-size:30px;
 .Bio{
 	text-align:justify;
 	padding:5%;
+	height:300px;
 
 	
 }
@@ -804,9 +790,61 @@ font-size:30px;
 iframe{
 	width:100%;
 	height:500px;
-	
+	margin-top:10%;
 }
-
+.contact-Form input{
+	width:100%;
+	padding:12px;
+	border:1px solid #ccc;
+	margin-top:6px;
+	margin-bottom:16px;
+	resize:vertical;
+	color:black;
+}
+textarea {
+	position:relative;
+	left:25%;
+	width:50%;
+}
+.contactForm button[type=submit] {
+	width:28%;
+	height:8%;
+	position: relative;
+	top:10px;
+	left:35%;
+	border-radius:15px;
+	font-size:14px;
+	margin:0 auto;
+	margin-top:10px;
+	padding:10px; 
+	background-color:black;
+	color:#FFFFFF;
+	border: 2px solid #4CAF50;
+	text-align:center;  
+}
+.contactForm button[type=submit]:hover {
+	transition-duration:0.7s;
+	background-color:rgba(113, 218, 218,0.2);
+	color:#000000;
+	border-radius:10px;
+	border: 1px solid #000000;
+    cursor: pointer;	
+}
+.contentWrapper{
+	background-color:rgba(255,255,255,0.4);
+	border-radius:10px;
+	padding:4%;
+}
+.contactForm{
+	width:70%;
+	height:660px;
+	position:relative;
+	left:15%;
+}
+.contact-Form label{
+	color:black;
+	font-size:20px;
+}
 
 
 
@@ -841,97 +879,6 @@ iframe{
 	font-family: 'Alice', serif;
 	
 	
-}
-.contact{
-     float:left;
-     width:20%;
-     margin:0px;
-     padding:0px;
-} 
-.contact h4{
-	font-family: 'Bad Script', cursive;
-	font-size:1.5em;
-}
-.contact-Form input[type=text]{
-  width:100%;
-  padding:12px;
-  border:1px solid #ccc;
-  margin-top:6px;
-  margin-bottom:16px;
-  resize:vertical;
-  color:black;
-}
-textarea {
-  position:relative;
-	left:25%;
-}
-.contact-Form input[type=email]{
-  width:100%;
-  padding:12px;
-  border:1px solid #ccc;
-  margin-top:6px;
-  margin-bottom:16px;
-  resize:vertical;
-  color:black;
-}
-.contactForm button[type=submit] {
-	width:28%;
-	height:8%;
-	position: relative;
-	top:10px;
-	left:35%;
-	border-radius:15px;
-	font-size:14px;
-	margin:0 auto;
-	margin-top:60px;
-	padding:10px; 
-	background-color:black;
-	color:#FFFFFF;
-	border: 2px solid #4CAF50;  
-}
-.contactForm button[type=submit]:hover {
-	transition-duration:0.7s;
-	background-color:rgba(113, 218, 218,0.2);
-	color:#000000;
-	border-radius:10px;
-	border: 1px solid #000000;
-    cursor: pointer;	
-}
-.contactText{
-	float:left;
-	width:50%;
-	padding:10%;
-	height:100%;
-	color:white;
-	
-}
-.contentWrapper{
-	background-color:rgba(255,255,255,0.4);
-	border-radius:10px;
-	padding:4%;
-}
-.contactForm{
-	width:70%;
-	position:relative;
-	left:0%;
-}
-.contactFormDiv{
-    width:50%;
-	border-radius:0;
-	height:100%;
-	margin:0;
-	padding:0;
-	position:relative;
-	left:0%;
-	float:right;
-	padding:5%;
-}
-
-.contact-Form label{
-	color:black;
-	float:left;
-	font-size:20px;
-	/* font-family:FreightSansProBook-Regular; */
 }
 .contactlinks{
 	 position:relative;
