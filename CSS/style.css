@@ -51,9 +51,7 @@ body {
 	
 }
 .mainArticle{
-	width:100%;
-	margin-bottom: 10px;
-	
+	width:100%;	
 }
 @media only screen and (max-width: 900px) {
   .articleContainer{
@@ -259,7 +257,6 @@ input{
 	border-radius:15px;
 	font-size:14px;
 	margin:0 auto;
-
 	padding:10px; 
 	background-color:black;
 	color:#FFFFFF;
@@ -283,7 +280,6 @@ input{
 	border-radius:15px;
 	font-size:14px;
 	margin:0 auto;
-
 	padding:10px; 
 	background-color:black;
 	color:white;
