@@ -1017,4 +1017,58 @@ textarea {
 	top:-50px;
 }
 
-
+footer{
+	background-color:rgba(0,0,0,0.4);
+	position:relative;
+	bottom:-12%;
+	width:100%;
+}
+#footerHome{
+	position:fixed;
+	bottom:0;
+}
+footer a {
+	color:white;
+	font-size: 1em;
+	font-family:italic;
+	text-align:center;
+}
+footer p{
+	color:white;
+	font-size: 1em;
+	font-family:italic;
+	text-align:center;
+	
+}
+footer .footer-1{
+	margin-right:2%;
+	position:relative;
+	bottom:7px;
+}
+footer .footer-2{
+	margin-right:2%;
+	position:relative;
+	bottom:7px;
+}
+footer .footer-3{
+	margin-right:2%;
+	position:relative;
+	bottom:7px;
+}
+footer i{
+	color:white;
+	font-size: 1em;
+	font-family:italic;
+	text-align:center;
+	margin-right:2%;
+	position:relative;
+	bottom:7px;
+}
+.socialmedia{
+    width:1.5%;
+    height:1.5%;
+}
+.contact{
+    width:1.5%;
+    height:1.5%; 	
+}
