@@ -294,6 +294,12 @@ input{
 	border: 1px solid #000000;
     cursor: pointer;	
 }
+hr{
+	position:relative;
+	bottom:10%;
+	width:70%;
+	border-width:2px;
+}
 .genderSelect{
 	width:90%;
 	position:relative;
