@@ -3,15 +3,10 @@ function errorRemove(){
 var errorlist = document.getElementById('errorlist');
 errorlist.innerHTML = '';
 }
-<<<<<<< HEAD
-
-
 
 
 
 //define get the form values
-=======
->>>>>>> 5dae35660558ff7d86985964dd9ac61fee38989a
 
 var expView = document.getElementById("expView");
 var img = document.getElementById("expTarget");
@@ -85,13 +80,11 @@ function sendData(e){
 	.catch(err => console.log(err))
 }
 
-<<<<<<< HEAD
-=======
 let form = document.querySelector('form');
 try {
 	form.addEventListener("submit", (event) => {
 		event.preventDefault();
 		sendData();
 	})}
-catch(err) {console.log(err + "hi")};
->>>>>>> 5dae35660558ff7d86985964dd9ac61fee38989a
+catch(err) {console.log(err)};
+

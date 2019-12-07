@@ -595,7 +595,10 @@ fieldset{
 	font-size:30px;
 
 }
-
+#ch3{
+	position:relative;
+	top:50%;
+}
 
 .pagebuttons {
 	width:30%;
