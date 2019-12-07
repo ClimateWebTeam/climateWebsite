@@ -587,22 +587,6 @@ fieldset{
 }
 
 
-
-
-
-
-
-
-
-.contactusbutton:hover{
-	transition-duration:0.7s;
-	background-color:rgba(255,255,255,0.5);
-	color:#000000;
-	border-radius:35px;
-	border: 1px solid #000000;
-    cursor: pointer;	
-	
-}
 .pagebuttons {
 	width:30%;
 	height:10%;
@@ -691,6 +675,7 @@ font-size:30px;
 .imagerow{
   position: relative;
   width: 100%;
+  margin-top:10%;
 } 
 .imagecolumn {
   float:left;
@@ -708,6 +693,8 @@ font-size:30px;
 
 .imagecard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  border-radius:10px;
+
    
 }
 
@@ -729,6 +716,7 @@ font-size:30px;
 
 .Bio{
 	text-align:justify;
+	padding:5%;
 
 	
 }
@@ -737,15 +725,15 @@ font-size:30px;
 	height:auto;
 	position:relative;
     display: block;
+	border-radius:10px;
+	border-bottom-right-radius:0;
+	border-bottom-left-radius:0;
 
 }
 .name{
 	float:center;
     color:#000000;
-	text-decoration-line: underline;
-/* 	width:40%; */
-	
-
+	text-decoration-line:underline;
 }
 
 .contactusbutton{
@@ -764,7 +752,7 @@ font-size:30px;
 	text-align:center;
 	position:relative;
 	left:40%;
-	
+    margin-bottom:10%;
 }
 
 .contactusbutton:hover{
