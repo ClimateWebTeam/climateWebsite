@@ -362,6 +362,16 @@ select{
 	height:70%;
 	width:100%;
 }
+.Chapter3imgbg{
+	/* linear gradient is used to darken the image*/
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("chapter3.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:50% 100%;
+	background-repeat:no-repeat;
+	height:70%;
+	width:100%;
+}
 .Chapter4imgbg{
 	/* linear gradient is used to darken the image*/
 	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("chapter4.jpg");
