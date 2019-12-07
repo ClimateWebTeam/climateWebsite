@@ -649,6 +649,15 @@ fieldset{
     cursor: pointer;	
 	
 }
+.nextbuttonc:hover{
+	transition-duration:0.7s;
+	background-color:rgba(255,255,255,0.5);
+	color:#000000;
+	border-radius:35px;
+	border: 1px solid #000000;
+    cursor: pointer;	
+	
+}
 .previousbutton{
 	width:40%;
 	height:auto;
@@ -687,6 +696,15 @@ fieldset{
 	
 }
 .previousbutton:hover{
+	transition-duration:0.7s;
+	background-color:rgba(255,255,255,0.5);
+	color:#000000;
+	border-radius:35px;
+	border: 1px solid #000000;
+    cursor: pointer;	
+	
+}
+.previousbuttonc:hover{
 	transition-duration:0.7s;
 	background-color:rgba(255,255,255,0.5);
 	color:#000000;
