@@ -51,6 +51,7 @@ body {
 }
 .mainArticle{
 	width:100%;
+	margin-bottom: 10px;
 	
 }
 @media only screen and (max-width: 900px) {
@@ -706,8 +707,8 @@ display:flex;
 text-align:center;
 text-decoration:underline overline;
 font-size:30px;
-
 }
+
 .chapterText h2{
 	text-align:center;
 	
