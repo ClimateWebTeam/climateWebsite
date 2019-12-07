@@ -896,8 +896,13 @@ textarea {
 	color:black;
 	font-size:20px;
 }
-
-
+.Bio-C{
+	list-style: none;
+}
+.social{
+	height:auto;
+	width:1%;
+}
 
 
 
