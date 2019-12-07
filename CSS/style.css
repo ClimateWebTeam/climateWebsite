@@ -295,9 +295,9 @@ input{
     cursor: pointer;	
 }
 .genderSelect{
-	width:95%;
+	width:90%;
 	position:relative;
-	left:2.5%;
+	left:4%;
 	top:5%;
 }
 fieldset{
