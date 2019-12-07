@@ -462,15 +462,6 @@ h1{
 
 
 
-
-
-
-
-
-
-
-
-
 .paras {
          text-align: justify;
 		  color: #000000;
@@ -693,6 +684,108 @@ font-size:30px;
 	text-align:center;
 	
 }
+
+
+
+/* ABOUT US PAGE  */
+.imagerow{
+  position: relative;
+  width: 100%;
+} 
+.imagecolumn {
+  float:left;
+  width:45%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .imagecolumn {
+    width: 100%;
+    display: block;
+  }
+}
+
+.imagecard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+   
+}
+
+.titlecontainer {
+  padding: 0 16px;
+   
+}
+
+.titlecontainer::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.role {
+  color: grey;
+  text-align:center;
+}
+
+.Bio{
+	text-align:justify;
+
+	
+}
+.memberimages{
+	width:100%;
+	height:auto;
+	position:relative;
+    display: block;
+
+}
+.name{
+	float:center;
+    color:#000000;
+	text-decoration-line: underline;
+/* 	width:40%; */
+	
+
+}
+
+.contactusbutton{
+	width:20%;
+	height:auto;
+	border-radius:35px;
+	font-size:25px;
+	padding:20px; 
+	text-decoration:none;
+    background-color:rgba(0,0,0,0.7); 
+	color:#FFFFFF;
+	border: 2px solid #FFFFFF;
+	cursor: pointer;
+	display:inline-block;
+	position:relative;
+	text-align:center;
+	position:relative;
+	left:40%;
+	
+}
+
+.contactusbutton:hover{
+	transition-duration:0.7s;
+	background-color:rgba(255,255,255,0.5);
+	color:#000000;
+	border-radius:35px;
+	border: 1px solid #000000;
+    cursor: pointer;		
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
