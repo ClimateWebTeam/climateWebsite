@@ -91,7 +91,7 @@ body {
 }
 .drop-down ul li a{
 	text-decoration: none;
-	color: #fff;
+	color: #ffffff;
 	padding: 15px 25px;
 	display: block;
 	z-index:100;
@@ -103,7 +103,7 @@ body {
 }
 .drop-down ul li:hover a{
 	border-bottom:2px solid white;
-	color:grey;	
+	color:	#20B2AA;
 	z-index:100;
 }
 .drop-down ul ul{
@@ -819,6 +819,7 @@ font-size:30px;
 	position:relative;
 	top:-11%;
 	left:20%;
+	display:flex;
 	
 	
 }
@@ -840,7 +841,7 @@ font-size:30px;
 	width:10%;
 	height:10%;
 	position:relative;
-	left:40%;
+	left:36%;
     
 
 	
@@ -849,76 +850,47 @@ font-size:30px;
 	width:10%;
 	height:10%;
 	position:relative;
-	left:55%;
-
- 
+	left:45%;
 	
 }
-/* .skillstitle {
-	font-family: 'Alice', cursive;
-	position:relative;
-	left:5%; 
-	margin:1%;
-	padding:0;
-	display:flex;
-	text-align:center;
-
-
-} */
-/* 
 .skillstitle {
 	font-family: 'Alice', cursive;
 	position:relative;
-	left:42.375%;
-    width:13.25%;
-	height:5%; 
-	margin:1%;
+	left:-4.5%; 
+	margin-top:11%;
 	padding:0;
 	display:flex;
 	text-align:center;
-	text-decoration:underline overline;
-
-
 }
-.skillstitle {
+
+.skillstitle2 {
 	font-family: 'Alice', cursive;
 	position:relative;
-	left:42.375%;
-    width:13.25%;
-	height:5%; 
-	margin:1%;
+	left:9%; 
+	margin-top:11%;
 	padding:0;
 	display:flex;
 	text-align:center;
-	text-decoration:underline overline;
-
-
 }
-.skillstitle {
+.skillstitle3 {
 	font-family: 'Alice', cursive;
 	position:relative;
-	left:42.375%;
-    width:13.25%;
-	height:5%; 
-	margin:1%;
+	left:28.5%; 
+	margin-top:11%;
 	padding:0;
 	display:flex;
 	text-align:center;
-	text-decoration:underline overline;
 
 }
- */
-
-
-
-
-
-
-
-
-
-
-
+.skillstitle4 {
+	font-family: 'Alice', cursive;
+	position:relative;
+	left:38.5%; 
+	margin-top:11%;
+	padding:0;
+	display:flex;
+	text-align:center;
+}
 
 
 
