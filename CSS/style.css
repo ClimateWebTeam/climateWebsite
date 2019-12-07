@@ -717,6 +717,28 @@ font-size:30px;
 	width: 100%;
 }
 
+#expView {
+	display: none;
+	position: fixed;
+	padding-top: 100px;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.9);
+}
+
+#expImg {
+	margin: auto;
+	display: block;
+}
+
+.enlargeText {
+	text-align: center;
+	margin: 0;
+}
+
 /* ABOUT US PAGE  */
 .imagerow{
   position: relative;
