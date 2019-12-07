@@ -223,7 +223,7 @@ form{
 }
 .home-form h2{
 	position:relative;
-	left:25%;
+	left:30%;
 	top:20%;
 	width:100%;
 	height:auto;
@@ -239,10 +239,10 @@ label{
 }
 input{
 	width:50%;
-	height:7%;
+	height:5%;
 	position:relative;
 	left:25%;
-	bottom:-16px;
+	bottom:0px;
 	border-color:#E0E0E0;
 	border-top-color:#E0E0E0;
 }
@@ -355,6 +355,16 @@ select{
 .Chapter2imgbg{
 	/* linear gradient is used to darken the image*/
 	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("chapter2bg.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:50% 100%;
+	background-repeat:no-repeat;
+	height:70%;
+	width:100%;
+}
+.Chapter3imgbg{
+	/* linear gradient is used to darken the image*/
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("chapter3.jpg");
 	background-size:cover;
 	background-attachment:fixed;
 	background-position:50% 100%;
@@ -597,7 +607,24 @@ fieldset{
 	text-align:center;
 	
 }
-
+.nextbuttonc{
+	width:40%;
+	height:auto;
+	border-radius:35px;
+	font-size:25px;
+	padding:20px; 
+	text-decoration:none;
+    background-color:rgba(0,0,0,0.7); 
+	color:#FFFFFF;
+	border: 2px solid #FFFFFF;
+	cursor: pointer;
+	display:inline-block;
+	position:relative;
+	right:30%;
+	float:right;
+	text-align:center;
+	
+}
 .nextbutton:hover{
 	transition-duration:0.7s;
 	background-color:rgba(255,255,255,0.5);
@@ -625,7 +652,25 @@ fieldset{
 	
 	
 }
-
+.previousbuttonc{
+	width:40%;
+	height:auto;
+	border-radius:35px;
+	font-size:25px;
+	padding:20px; 
+	text-decoration:none;
+    background-color:rgba(0,0,0,0.7); 
+	color:#FFFFFF;
+	border: 2px solid #FFFFFF;
+	cursor: pointer;
+	display:inline-block;
+	position:relative;
+	float:left;
+	left:30%;
+	text-align:center;
+	
+	
+}
 .previousbutton:hover{
 	transition-duration:0.7s;
 	background-color:rgba(255,255,255,0.5);
@@ -702,6 +747,7 @@ font-size:30px;
 .Bio{
 	text-align:justify;
 	padding:5%;
+	height:300px;
 
 	
 }
@@ -737,7 +783,7 @@ font-size:30px;
 	text-align:center;
 	position:relative;
 	left:40%;
-    margin-bottom:10%;
+	top:-50px;
 }
 
 .contactusbutton:hover{
