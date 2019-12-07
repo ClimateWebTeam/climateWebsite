@@ -50,8 +50,9 @@ body {
 	
 }
 .mainArticle{
-	width:100%;
-	
+	width:100%;	
+	margin-right:10px;
+
 }
 @media only screen and (max-width: 900px) {
   .articleContainer{
@@ -706,8 +707,8 @@ display:flex;
 text-align:center;
 text-decoration:underline overline;
 font-size:30px;
-
 }
+
 .chapterText h2{
 	text-align:center;
 	
@@ -715,6 +716,28 @@ font-size:30px;
 
 .figure-img {
 	width: 100%;
+}
+
+#expView {
+	display: none;
+	position: fixed;
+	padding-top: 100px;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.9);
+}
+
+#expImg {
+	margin: auto;
+	display: block;
+}
+
+.enlargeText {
+	text-align: center;
+	margin: 0;
 }
 
 /* ABOUT US PAGE  */
@@ -861,17 +884,22 @@ font-size:30px;
 	padding:0;
 	display:flex;
 	text-align:center;
+	
 }
 
 .skillstitle2 {
 	font-family: 'Alice', cursive;
 	position:relative;
-	left:9%; 
+	left:9.2%; 
 	margin-top:11%;
 	padding:0;
 	display:flex;
 	text-align:center;
+	
 }
+
+ 
+
 .skillstitle3 {
 	font-family: 'Alice', cursive;
 	position:relative;
@@ -880,8 +908,8 @@ font-size:30px;
 	padding:0;
 	display:flex;
 	text-align:center;
-
 }
+
 .skillstitle4 {
 	font-family: 'Alice', cursive;
 	position:relative;
@@ -890,6 +918,7 @@ font-size:30px;
 	padding:0;
 	display:flex;
 	text-align:center;
+
 }
 
 
