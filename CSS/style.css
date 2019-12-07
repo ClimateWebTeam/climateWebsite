@@ -52,6 +52,7 @@ body {
 }
 .mainArticle{
 	width:100%;	
+	margin-right:10px;
 }
 @media only screen and (max-width: 900px) {
   .articleContainer{
