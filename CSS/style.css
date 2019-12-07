@@ -705,7 +705,9 @@ font-size:30px;
 	
 }
 
-
+.figure-img {
+	width: 100%;
+}
 
 /* ABOUT US PAGE  */
 .imagerow{
