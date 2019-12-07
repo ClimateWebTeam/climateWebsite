@@ -214,7 +214,7 @@ video{
 /*Home Form*/
 form{
 	width:29%;
-	height:75%;
+	height:70%;
 	position:relative;
 	left:65%;
 	border-radius:30px;
@@ -294,9 +294,15 @@ input{
 	border: 1px solid #000000;
     cursor: pointer;	
 }
+.genderSelect{
+	width:95%;
+	position:relative;
+	left:2.5%;
+	top:5%;
+}
 fieldset{
 	border-radius:19px;
-	width:45%;
+	width:90%;
 	position:relative;
 	top:9%;
 	left:25%;
