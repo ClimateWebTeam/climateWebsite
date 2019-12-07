@@ -899,11 +899,21 @@ textarea {
 .Bio-C{
 	list-style: none;
 }
-.social{
-	height:auto;
-	width:1%;
+.Bio-C img{
+	width:8%;
+	height:8%;
+	position:relative;
+	left:30%;
+	padding-top:2%;
 }
+.articleContainer-Contact{
+	height:50%;
+	width:100%;
+	display:flex;
+	margin:0;
+	padding:0;
 
+}
 
 
 
