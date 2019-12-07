@@ -157,7 +157,7 @@ video{
 
 @media screen and (max-width: 2240px){
 	#video-body{
-		background-image: url("WavesStatic.jpg"); 
+		background-image: url("../WavesStatic.jpg"); 
 	}
 	#video-img{
 		display:none;
@@ -339,7 +339,7 @@ select{
 
 .Aboutusimgbg{
 	/* linear gradient is used to darken the image*/
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("aboutusimage.jpg");
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../aboutusimage.jpg");
 	background-size:cover;
 	background-attachment:fixed;
 	background-position:50% 100%;
@@ -350,7 +350,7 @@ select{
 
 .Chapter1imgbg{
 	/* linear gradient is used to darken the image*/
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("Chapter1.jpg");
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../Chapter1.jpg");
 	background-size:cover;
 	background-attachment:fixed;
 	background-position:50% 100%;
@@ -360,7 +360,7 @@ select{
 }
 .Chapter2imgbg{
 	/* linear gradient is used to darken the image*/
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("chapter2bg.jpg");
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../chapter2bg.jpg");
 	background-size:cover;
 	background-attachment:fixed;
 	background-position:50% 100%;
@@ -370,7 +370,7 @@ select{
 }
 .Chapter3imgbg{
 	/* linear gradient is used to darken the image*/
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("chapter3.jpg");
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../chapter3.jpg");
 	background-size:cover;
 	background-attachment:fixed;
 	background-position:50% 100%;
@@ -380,7 +380,7 @@ select{
 }
 .Chapter4imgbg{
 	/* linear gradient is used to darken the image*/
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("chapter4.jpg");
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../chapter4.jpg");
 	background-size:cover;
 	background-attachment:fixed;
 	background-position:50% 100%;
@@ -391,7 +391,7 @@ select{
 
 .ContactUsimgbg {
 	/* linear gradient is used to darken the image*/
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("contactusbg.jpg");
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../contactusbg.jpg");
 	background-size:cover;
 	background-attachment:fixed;
 	background-position:50% 100%;
