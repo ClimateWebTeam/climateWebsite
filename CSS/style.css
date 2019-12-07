@@ -38,6 +38,7 @@ body {
 	display:flex;
 	padding:2%;
 	margin-left:15%;
+	
 }
 .rightArticle{
 	height:90%;
@@ -45,6 +46,7 @@ body {
 	display:flex;
 	padding:2%;
 	margin-right:15%;
+	
 	
 }
 .mainArticle{
@@ -296,7 +298,7 @@ input{
 }
 hr{
 	position:relative;
-	bottom:10%;
+	bottom:15%;
 	width:70%;
 	border-width:2px;
 }
@@ -715,6 +717,28 @@ font-size:30px;
 	width: 100%;
 }
 
+#expView {
+	display: none;
+	position: fixed;
+	padding-top: 100px;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.9);
+}
+
+#expImg {
+	margin: auto;
+	display: block;
+}
+
+.enlargeText {
+	text-align: center;
+	margin: 0;
+}
+
 /* ABOUT US PAGE  */
 .imagerow{
   position: relative;
@@ -810,8 +834,102 @@ font-size:30px;
 }
 
 
+.skillsimages {
+
+	width:60%;
+	height:auto;
+	position:relative;
+	top:-11%;
+	left:20%;
+	
+	
+}
+
+.skills {
+	width:10%;
+	height:10%;
+	position:relative;
+	left:2%;
+}
+ .skills2 {
+	width:10%;
+	height:10%;
+	position:relative;
+	left:15%;
+
+}
+.skills3 {
+	width:10%;
+	height:10%;
+	position:relative;
+	left:40%;
+    
+
+	
+}
+.skills4 {
+	width:10%;
+	height:10%;
+	position:relative;
+	left:55%;
+
+ 
+	
+}
+/* .skillstitle {
+	font-family: 'Alice', cursive;
+	position:relative;
+	left:5%; 
+	margin:1%;
+	padding:0;
+	display:flex;
+	text-align:center;
 
 
+} */
+/* 
+.skillstitle {
+	font-family: 'Alice', cursive;
+	position:relative;
+	left:42.375%;
+    width:13.25%;
+	height:5%; 
+	margin:1%;
+	padding:0;
+	display:flex;
+	text-align:center;
+	text-decoration:underline overline;
+
+
+}
+.skillstitle {
+	font-family: 'Alice', cursive;
+	position:relative;
+	left:42.375%;
+    width:13.25%;
+	height:5%; 
+	margin:1%;
+	padding:0;
+	display:flex;
+	text-align:center;
+	text-decoration:underline overline;
+
+
+}
+.skillstitle {
+	font-family: 'Alice', cursive;
+	position:relative;
+	left:42.375%;
+    width:13.25%;
+	height:5%; 
+	margin:1%;
+	padding:0;
+	display:flex;
+	text-align:center;
+	text-decoration:underline overline;
+
+}
+ */
 
 
 
