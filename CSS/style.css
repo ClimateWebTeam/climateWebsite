@@ -461,10 +461,6 @@ h1{
 
 
 
-
-
-
-
 .paras {
          text-align: justify;
 		  color: #000000;
@@ -554,7 +550,7 @@ fieldset{
   background-color: #ded3d3;
 }
 
-.contactusbutton{
+/* .contactusbutton{
 	width:50%;
 	height:auto;
 	border-radius:35px;
@@ -568,7 +564,7 @@ fieldset{
 
 
 }
-
+ */
 
 
 .Chaptertitle {
@@ -759,6 +755,8 @@ font-size:30px;
 	margin: 0;
 }
 
+
+
 /* ABOUT US PAGE  */
 .imagerow{
   position: relative;
@@ -782,8 +780,6 @@ font-size:30px;
 .imagecard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   border-radius:10px;
-
-   
 }
 
 .titlecontainer {
@@ -839,8 +835,8 @@ font-size:30px;
 	position:relative;
 	text-align:center;
 	position:relative;
-	left:40%;
-	top:-50px;
+	left:39%;
+	margin-top:5%;
 }
 
 .contactusbutton:hover{
@@ -938,6 +934,48 @@ font-size:30px;
 	text-align:center;
 
 }
+
+.cccreport{
+    width:10%;
+	height:auto;
+	position:relative;
+    left:44.5%;
+    margin-top:-13%;
+    display: block;
+	border-radius:15px;
+	border-bottom-right-radius:0;
+	border-bottom-left-radius:0;
+
+    
+}
+.imagecard2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  border-radius:10px;
+  border:solid black 1px;
+}
+.reporttitle {
+	font-family: 'Alice', cursive;
+	position:relative;
+    left:46.3%;
+	margin-top:1.2%;
+	padding:0;
+	display:flex;
+	text-align:center;
+    color:#000000;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
