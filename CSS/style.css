@@ -5,11 +5,8 @@
 
 body { 
    margin:0;
-   /* width: 100vh; */
    height:100vh;
    background-color:#F0F0F0;
-  
-  
 }
 .bodycolor{
 	background-color:#F0F0F0;
@@ -23,7 +20,6 @@ body {
 	display:flex;
 	margin:0;
 	padding:0;
-
 }
 .leftArticle{
 	height:90%;
@@ -31,7 +27,6 @@ body {
 	display:flex;
 	padding:2%;
 	margin-left:15%;
-	
 }
 .rightArticle{
 	height:90%;
@@ -39,13 +34,10 @@ body {
 	display:flex;
 	padding:2%;
 	margin-right:15%;
-	
-	
 }
 .mainArticle{
 	width:100%;	
 	margin-right:10px;
-
 }
 @media only screen and (max-width: 900px) {
   .articleContainer{
@@ -76,7 +68,6 @@ body {
 .drop-down ul{
 	list-style: none;
 	z-index:100;
-
 }
 .drop-down > ul > li{
 	float:left;
@@ -97,7 +88,7 @@ body {
 }
 .drop-down ul li:hover a{
 	border-bottom:2px solid white;
-	color:	#20B2AA;
+	color:#20B2AA;
 	z-index:100;
 }
 .drop-down ul ul{
@@ -130,8 +121,6 @@ body {
 	position: relative;
 	z-index:100;
 }
-
-
 /*Logo*/
 .logo{
 	height:auto;
@@ -150,7 +139,6 @@ video{
 	top:0;
 	left:0;
 }
-
 @media screen and (max-width: 2240px){
 	#video-body{
 		background-image: url("../WavesStatic.jpg"); 
@@ -159,7 +147,6 @@ video{
 		display:none;
 	}
 }
-
 /*Home page text*/
 .hero-text {
 	text-align:left;
@@ -206,7 +193,6 @@ video{
 	font-size:25px;
 	color:white;
 }
-
 /*Home Form*/
 form{
 	width:29%;
@@ -280,7 +266,7 @@ input{
 	background-color:black;
 	color:white;
 	border: 2px solid #4CAF50;
-		text-align:center;
+	text-align:center;
 }
 #resetbutton:hover{
 	transition-duration:0.7s;
@@ -328,19 +314,16 @@ select{
 	
 }
 .errormessage{
-	/* background-color:#E57373; */
 	color:#B71C1C;
 	padding:2%;
 }
 .errormessagesuccess{
-	/* background-color:#A5D6A7; */
 	color:#388E3C;
 	padding:2%;
 }
 
 
 .Aboutusimgbg{
-	/* linear gradient is used to darken the image*/
 	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../aboutusimage.jpg");
 	background-size:cover;
 	background-attachment:fixed;
@@ -351,7 +334,6 @@ select{
 }
 
 .Chapter1imgbg{
-	/* linear gradient is used to darken the image*/
 	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../Chapter1.jpg");
 	background-size:cover;
 	background-attachment:fixed;
@@ -361,7 +343,6 @@ select{
 	width:100%;
 }
 .Chapter2imgbg{
-	/* linear gradient is used to darken the image*/
 	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../chapter2bg.jpg");
 	background-size:cover;
 	background-attachment:fixed;
@@ -371,7 +352,6 @@ select{
 	width:100%;
 }
 .Chapter3imgbg{
-	/* linear gradient is used to darken the image*/
 	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../chapter3.jpg");
 	background-size:cover;
 	background-attachment:fixed;
@@ -381,7 +361,6 @@ select{
 	width:100%;
 }
 .Chapter4imgbg{
-	/* linear gradient is used to darken the image*/
 	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../chapter4.jpg");
 	background-size:cover;
 	background-attachment:fixed;
@@ -392,7 +371,6 @@ select{
 }
 
 .ContactUsimgbg {
-	/* linear gradient is used to darken the image*/
 	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../contactusbg.jpg");
 	background-size:cover;
 	background-attachment:fixed;
@@ -400,11 +378,7 @@ select{
 	background-repeat:no-repeat;
 	height:70%;
 	width:100%;
-	
-	
-	
 }
-
 h1{
     font-size:4em;
 	margin-top:0;
@@ -416,9 +390,6 @@ h1{
 	position:relative;
 	bottom: -300px;
 }
-
-
-
 .hero-text2 {
 	text-align:center;
 	position:relative;
@@ -427,9 +398,7 @@ h1{
 	left:50%;
 	transform: translate(-50%, -50%);
 	width:70%;
-	
 }
-
 .hero-text2 h1{
 	font-size:60px;
 	line-height:50px;
@@ -458,17 +427,11 @@ h1{
 		width:100%;
 	}
 }
-
-
-
 .paras {
-         text-align: justify;
-		  color: #000000;
-		  font-family: 'Alice', serif;
-		 
+    text-align: justify;
+	color: #000000;
+	font-family: 'Alice', serif;
 }
-
-
 .paragraphs {
 	position:relative;
 	left:24%;
@@ -477,34 +440,23 @@ h1{
 	display:flex;
 	padding:2%;
 	border-radius:10px;
-	
 }
-
 .card-2 {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   border:solid black 1px;
 }
-
 .centeredimage {
 	display:block;
 	margin-right:auto;
 	margin-left:auto;
 	width:50%;
 	height:30%;
-	
 }
-
-
-
-
-
 legend{
 	text-align:left;
 	font-family: 'Alice', serif;
 	font-size:15px;
-	
 }
-
 fieldset{
 	width:48.5%;
 	border: 1px solid #B0B0B0;
@@ -519,7 +471,6 @@ fieldset{
   font-size:15px;
   font-family: 'Alice', serif;
 }
-
 /* Hide the browser's default radio button */
 .container input {
   position: absolute;
@@ -528,7 +479,6 @@ fieldset{
   height: 0;
   width: 0;
 }
-
 /* Create a custom radio button */
 .checkmark {
   position: absolute;
@@ -539,34 +489,14 @@ fieldset{
   background-color: #000000;
   border-radius:70%;
 }
-
 /* On mouse-over, add a grey background color */
 .container:hover input ~ .checkmark {
   background-color:#000000;
 }
-
 /* When the radio button is checked, add a blue background */
 .container input:checked ~ .checkmark {
   background-color: #ded3d3;
 }
-
-/* .contactusbutton{
-	width:50%;
-	height:auto;
-	border-radius:35px;
-	font-size:25px;
-	padding:20px; 
-	text-decoration:none;
-    background-color:rgba(0,0,0,0.7); 
-	color:#FFFFFF;
-	border: 2px solid #FFFFFF;
-	cursor: pointer;
-
-
-}
- */
-
-
 .Chaptertitle {
 	font-family: 'Alice', cursive;
 	position:relative;
@@ -579,20 +509,17 @@ fieldset{
 	text-align:center;
 	text-decoration:underline overline;
 	font-size:30px;
-
 }
 #ch3{
 	position:relative;
 	top:50%;
 }
-
 .pagebuttons {
 	width:30%;
 	height:10%;
 	position:relative;
 	left:35%;
 	top:15%;
-	
 }
 .pagebuttonss {
 	width:30%;
@@ -600,7 +527,6 @@ fieldset{
 	position:relative;
 	left:35%;
 	top:50%;
-	
 }
 .nextbutton{
 	width:40%;
@@ -617,7 +543,6 @@ fieldset{
 	position:relative;
 	float:right;
 	text-align:center;
-	
 }
 .nextbuttonc{
 	width:40%;
@@ -635,7 +560,6 @@ fieldset{
 	right:30%;
 	float:right;
 	text-align:center;
-	
 }
 .nextbutton:hover{
 	transition-duration:0.7s;
@@ -643,8 +567,7 @@ fieldset{
 	color:#000000;
 	border-radius:35px;
 	border: 1px solid #000000;
-    cursor: pointer;	
-	
+    cursor: pointer;
 }
 .nextbuttonc:hover{
 	transition-duration:0.7s;
@@ -652,8 +575,7 @@ fieldset{
 	color:#000000;
 	border-radius:35px;
 	border: 1px solid #000000;
-    cursor: pointer;	
-	
+    cursor: pointer;
 }
 .previousbutton{
 	width:40%;
@@ -670,8 +592,6 @@ fieldset{
 	position:relative;
 	float:left;
 	text-align:center;
-	
-	
 }
 .previousbuttonc{
 	width:40%;
@@ -689,8 +609,6 @@ fieldset{
 	float:left;
 	left:30%;
 	text-align:center;
-	
-	
 }
 .previousbutton:hover{
 	transition-duration:0.7s;
@@ -698,8 +616,7 @@ fieldset{
 	color:#000000;
 	border-radius:35px;
 	border: 1px solid #000000;
-    cursor: pointer;	
-	
+    cursor: pointer;
 }
 .previousbuttonc:hover{
 	transition-duration:0.7s;
@@ -707,32 +624,27 @@ fieldset{
 	color:#000000;
 	border-radius:35px;
 	border: 1px solid #000000;
-    cursor: pointer;	
-	
+    cursor: pointer;
 }
 .Chaptertitle {
-font-family: 'Alice', cursive;
-position:relative;
-left:42.375%;
+	font-family: 'Alice', cursive;
+	position:relative;
+	left:42.375%;
     width:13.25%;
-height:5%;
-margin:1%;
-padding:0;
-display:flex;
-text-align:center;
-text-decoration:underline overline;
-font-size:30px;
+	height:5%;
+	margin:1%;
+	padding:0;
+	display:flex;
+	text-align:center;
+	text-decoration:underline overline;
+	font-size:30px;
 }
-
 .chapterText h2{
 	text-align:center;
-	
 }
-
 .figure-img {
 	width: 100%;
 }
-
 #expView {
 	display: none;
 	position: fixed;
@@ -744,19 +656,14 @@ font-size:30px;
 	height: 100%;
 	background-color: rgba(0,0,0,0.9);
 }
-
 #expImg {
 	margin: auto;
 	display: block;
 }
-
 .enlargeText {
 	text-align: center;
 	margin: 0;
 }
-
-
-
 /* ABOUT US PAGE  */
 .imagerow{
   position: relative;
@@ -769,41 +676,33 @@ font-size:30px;
   margin-bottom: 16px;
   padding: 0 8px;
 }
-
 @media screen and (max-width: 650px) {
   .imagecolumn {
     width: 100%;
     display: block;
   }
 }
-
 .imagecard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   border-radius:10px;
 }
-
 .titlecontainer {
   padding: 0 16px;
    
 }
-
 .titlecontainer::after, .row::after {
   content: "";
   clear: both;
   display: table;
 }
-
 .role {
   color: grey;
   text-align:center;
 }
-
 .Bio{
 	text-align:justify;
 	padding:5%;
 	height:250px;
-
-	
 }
 .memberimages{
 	width:100%;
@@ -813,13 +712,11 @@ font-size:30px;
 	border-radius:10px;
 	border-bottom-right-radius:0;
 	border-bottom-left-radius:0;
-
 }
 .name{
     color:#000000;
 	text-decoration-line:underline;
 }
-
 .contactusbutton{
 	width:20%;
 	height:auto;
@@ -838,7 +735,6 @@ font-size:30px;
 	left:39%;
 	margin-top:5%;
 }
-
 .contactusbutton:hover{
 	transition-duration:0.7s;
 	background-color:rgba(255,255,255,0.5);
@@ -847,20 +743,14 @@ font-size:30px;
 	border: 1px solid #000000;
     cursor: pointer;		
 }
-
-
 .skillsimages {
-
 	width:60%;
 	height:auto;
 	position:relative;
 	top:-11%;
 	left:20%;
 	display:flex;
-	
-	
 }
-
 .skills {
 	width:10%;
 	height:10%;
@@ -872,23 +762,18 @@ font-size:30px;
 	height:10%;
 	position:relative;
 	left:15%;
-
 }
 .skills3 {
 	width:10%;
 	height:10%;
 	position:relative;
 	left:36%;
-    
-
-	
 }
 .skills4 {
 	width:10%;
 	height:10%;
 	position:relative;
 	left:45%;
-	
 }
 .skillstitle {
 	font-family: 'Alice', cursive;
@@ -898,7 +783,6 @@ font-size:30px;
 	padding:0;
 	display:flex;
 	text-align:center;
-	
 }
 
 .skillstitle2 {
@@ -909,11 +793,7 @@ font-size:30px;
 	padding:0;
 	display:flex;
 	text-align:center;
-	
 }
-
- 
-
 .skillstitle3 {
 	font-family: 'Alice', cursive;
 	position:relative;
@@ -923,7 +803,6 @@ font-size:30px;
 	display:flex;
 	text-align:center;
 }
-
 .skillstitle4 {
 	font-family: 'Alice', cursive;
 	position:relative;
@@ -932,9 +811,7 @@ font-size:30px;
 	padding:0;
 	display:flex;
 	text-align:center;
-
 }
-
 .cccreport{
     width:10%;
 	height:auto;
@@ -945,8 +822,6 @@ font-size:30px;
 	border-radius:15px;
 	border-bottom-right-radius:0;
 	border-bottom-left-radius:0;
-
-    
 }
 .imagecard2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
@@ -962,24 +837,7 @@ font-size:30px;
 	display:flex;
 	text-align:center;
     color:#000000;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*  style for the map */ 
  .gmap_canvas {
      overflow: hidden; 
@@ -989,7 +847,6 @@ font-size:30px;
  .mapouter {
      text-align: right;
      width: 70%;
-
  }
  .map {
      position: relative;
@@ -997,8 +854,6 @@ font-size:30px;
 	 bottom:500px;
 	 height:300px;
  }
-
-
 iframe{
 	width:100%;
 	height:500px;
@@ -1073,10 +928,7 @@ textarea {
 	display:flex;
 	margin:0;
 	padding:0;
-
 }
-
-
 .footer {
    position:relative;
    width:100%;
@@ -1084,15 +936,12 @@ textarea {
    background-color:#ded3d3;
    color:#000000;
    text-align:center;
-}	
-
+}
 .footerp{
 	position: relative;
 	top:80%;
 	right:20%;
 	font-family: 'Alice', serif;
-	
-	
 }
 .contactlinks{
 	 position:relative;
@@ -1101,15 +950,11 @@ textarea {
 	 font-family: 'Alice', serif;
 	 color:#000000;
 }
-
 .linkcontainer{
      width:60%;
      position: relative;
 	 left: 30%;
-	 
-	 
  } 
-
 .icon{
      width:10%;
 	 height:40%;
@@ -1123,35 +968,28 @@ textarea {
 	 height:20%; 
 	 margin:0px;
      padding:0px;
-
 }
- 
  .stayconnected h4{
 	font-family: 'Bad Script', cursive;
 	font-size:1.5em;
 }
-
  .quicklinks{
      float:left;
      width:20%;
      margin:0px;
      padding:0px;
 	 font-family: 'Alice', serif;
-	 
  }
- 
  .quicklinks h4 {
 	 font-family: 'Bad Script', cursive;
 	 font-size:1.5em;
  }
-
 .footerunderline{
 	width:50%;
 	height:10%;
 	position:relative;
 	left:1%;
 	top:-50px;
-
 }
 .footerunderlinetwo{
 	width:50%;
@@ -1159,7 +997,6 @@ textarea {
 	position: relative;
 	left:2%;
 	top:-50px;
-	
 }
 .footerunderlinethree{
 	width:50%;
@@ -1168,7 +1005,6 @@ textarea {
 	left:19%;
 	top:-50px;
 }
-
 footer{
 	background-color:rgba(0,0,0,0.4);
 	position:relative;
@@ -1190,7 +1026,6 @@ footer p{
 	font-size: 1em;
 	font-family:italic;
 	text-align:center;
-	
 }
 footer .footer-1{
 	margin-right:2%;
@@ -1226,8 +1061,6 @@ footer i{
 }
 #mobile {display:none;}
 #desktop {display:inline;}
-
-
 @media only screen and (max-width:768px){
 
 	h1 { font-size:2em; top-padding:2.25em, left-padding:1.5em; width:85%; text-align:center;}
@@ -1239,5 +1072,4 @@ footer i{
 	#desktop {display:none}
 	#overlay { display:none}
 	p {display:block;}
-
  }
