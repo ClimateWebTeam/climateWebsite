@@ -8,21 +8,11 @@ body {
    /* width: 100vh; */
    height:100vh;
    background-color:#F0F0F0;
+   overflow: hidden;
 }
 .bodycolor{
 	background-color:#F0F0F0;
 }
-
-/* * {
-  box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
-} */
-
-/* body{
-	margin: 0;
-	padding: 0;
-} */
-
 
 .articleContainer{
 	height:90%;
@@ -529,9 +519,6 @@ fieldset{
   cursor: pointer;
   font-size:15px;
   font-family: 'Alice', serif;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
 }
 
 /* Hide the browser's default radio button */
@@ -830,7 +817,6 @@ font-size:30px;
 
 }
 .name{
-	float:center;
     color:#000000;
 	text-decoration-line:underline;
 }
@@ -1047,19 +1033,6 @@ textarea {
 	margin:0;
 	padding:0;
 
-}
-
-
-
-
-
-
-
-
-
-
-::-webkit-scrollbar{
-	display:none;
 }
 
 
