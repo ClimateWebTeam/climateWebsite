@@ -8,12 +8,15 @@ body {
    /* width: 100vh; */
    height:100vh;
    background-color:#F0F0F0;
-   overflow: hidden;
+  
+  
 }
 .bodycolor{
 	background-color:#F0F0F0;
 }
-
+::-webkit-scrollbar {
+    display: none;
+}
 .articleContainer{
 	height:90%;
 	width:100%;
