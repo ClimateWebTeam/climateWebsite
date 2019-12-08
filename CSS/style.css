@@ -929,6 +929,7 @@ textarea {
 	margin:0;
 	padding:0;
 }
+
 .footer {
    position:relative;
    width:100%;
@@ -1059,17 +1060,4 @@ footer i{
     width:1.5%;
     height:1.5%; 	
 }
-#mobile {display:none;}
-#desktop {display:inline;}
-@media only screen and (max-width:768px){
 
-	h1 { font-size:2em; top-padding:2.25em, left-padding:1.5em; width:85%; text-align:center;}
-	nav a { padding:0.5em; left-margin:0.5em; float:left; width:45%; min-width:6em;}
-	main { padding:0; border-radius: 1px; }
-	#hero {display:none}
-	footer {padding:0.5em; margin:0}
-	#mobile{ display:inline;}
-	#desktop {display:none}
-	#overlay { display:none}
-	p {display:block;}
- }
