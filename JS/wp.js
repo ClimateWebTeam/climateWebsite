@@ -1,16 +1,14 @@
 function errorRemove(){
-
 var errorlist = document.getElementById('errorlist');
 errorlist.innerHTML = '';
 }
-
-
 
 //define get the form values
 
 var expView = document.getElementById("expView");
 var img = document.getElementById("expTarget");
 var expImg = document.getElementById("expImg");
+
 function expand() {
 	console.log("Onclick event active")
 	expView.style.display = "block";
